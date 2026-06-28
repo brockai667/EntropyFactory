@@ -1,0 +1,17 @@
+{
+  "sim": "lorenz_swarm",
+  "onscreen": "Simple rules create infinite chaos.",
+  "title": "Simple Rules Create Infinite Chaos",
+  "description": "Three simple equations draw the famous Lorenz butterfly, never repeating. Like + comment if you want part 2.",
+  "hashtags": [
+    "#science",
+    "#physics",
+    "#chaos",
+    "#mathematics",
+    "#simulation",
+    "#oddlysatisfying",
+    "#shorts",
+    "#fyp"
+  ],
+  "seed": 3
+}

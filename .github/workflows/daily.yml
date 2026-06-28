@@ -1,0 +1,57 @@
+name: Entropy (Simulations) Daily
+
+on:
+  schedule:
+    - cron: "30 1 * * *"   # 01:30 UTC (~03:30 Bratislava) - skoro, videa naplanovane na 8/15/20
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  models: read
+
+concurrency:
+  group: daily
+  cancel-in-progress: false
+
+jobs:
+  generate-and-post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install FFmpeg + fonts
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg fonts-dejavu-core
+
+      - name: Install Python deps
+        run: pip install numpy pillow requests
+
+      - name: Prepare config
+        run: cp config.example.json config.json
+
+      - name: Top up specs (GitHub Models, free)
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python generate_topics.py
+
+      - name: Render 3 simulations + upload to YouTube (Shorts, scheduled 8/15/20)
+        env:
+          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+        run: |
+          python generate_batch.py 3
+          python push_to_youtube.py 3
+
+      - name: Persist state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          rm -f config.json
+          git add used_topics.json uploaded.json topics_bank.json scripts/ 2>/dev/null || true
+          git commit -m "state: daily run $(date -u +%F)" || echo "no changes to commit"
+          git push || echo "nothing to push"

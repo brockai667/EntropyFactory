@@ -1,0 +1,20 @@
+Hudba v tomto priecinku
+========================
+
+Vsetky tracky: Kevin MacLeod (incompetech.com)
+Licencia: Creative Commons Attribution 4.0 (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/
+
+Tracky:
+- heartbreaking.mp3        (Heartbreaking)
+- ascending_the_vale.mp3   (Ascending the Vale)
+- crossing_the_chasm.mp3   (Crossing the Chasm)
+- beauty_flow.mp3          (Beauty Flow)
+- inner_light.mp3          (Inner Light)
+
+Atribucia sa automaticky pridava do popisu kazdeho videa cez config "music_credit".
+CC BY 4.0 vyzaduje uvedenie autora -> preto je credit v kazdom popise. Tym je pouzitie v poriadku.
+
+POZN.: bg_coag.bak = povodny CO.AG track, odlozeny mimo rotacie (ina licencia). Nepouziva sa.
+Ak chces uplne BEZ atribucie a s minimalnym rizikom Content-ID, stiahni si tracky z
+Pixabay Music (pixabay.com/music, Pixabay licencia) a hod ich sem - fabrika ich striedа automaticky.

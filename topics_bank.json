@@ -1,0 +1,50 @@
+[
+  {
+    "sim": "stream_sphere",
+    "onscreen": "Order is just chaos waiting to happen.",
+    "title": "Order Is Just Chaos Waiting to Happen",
+    "description": "Particles fall into a sphere and bounce into beautiful chaos. Like + comment if you want part 2. 🌀",
+    "hashtags": ["#science", "#physics", "#chaos", "#simulation", "#oddlysatisfying", "#shorts", "#fyp"],
+    "seed": 7
+  },
+  {
+    "sim": "lorenz_swarm",
+    "onscreen": "Simple rules create infinite chaos.",
+    "title": "Simple Rules Create Infinite Chaos",
+    "description": "Three simple equations draw the famous Lorenz butterfly, never repeating. Like + comment if you want part 2.",
+    "hashtags": ["#science", "#physics", "#chaos", "#mathematics", "#simulation", "#oddlysatisfying", "#shorts", "#fyp"],
+    "seed": 3
+  },
+  {
+    "sim": "particles_in_circle",
+    "onscreen": "Everything drifts toward chaos.",
+    "title": "Everything Drifts Toward Chaos",
+    "description": "Thousands of particles dissolve from order into a hypnotic web. Like + comment if you want part 2. ⚛️",
+    "hashtags": ["#science", "#physics", "#entropy", "#simulation", "#oddlysatisfying", "#shorts", "#fyp"],
+    "seed": 21
+  },
+  {
+    "sim": "stream_sphere",
+    "onscreen": "Chaos always hides a pattern.",
+    "title": "Chaos Always Hides a Pattern",
+    "description": "Watch random motion settle into perfect symmetry inside a sphere. Like + comment if you want part 2.",
+    "hashtags": ["#science", "#physics", "#chaos", "#simulation", "#satisfying", "#shorts", "#fyp"],
+    "seed": 44
+  },
+  {
+    "sim": "lorenz_swarm",
+    "onscreen": "Even chaos has a shape.",
+    "title": "Even Chaos Has a Shape",
+    "description": "A swarm of particles traces the strange attractor that lives inside chaos itself. Like + comment if you want part 2. 🔭",
+    "hashtags": ["#science", "#physics", "#chaos", "#mathematics", "#simulation", "#oddlysatisfying", "#shorts", "#fyp"],
+    "seed": 88
+  },
+  {
+    "sim": "particles_in_circle",
+    "onscreen": "Beauty is organized chaos.",
+    "title": "Beauty Is Organized Chaos",
+    "description": "Five thousand particles weave a glowing mandala from pure physics. Like + comment if you want part 2.",
+    "hashtags": ["#science", "#physics", "#simulation", "#oddlysatisfying", "#art", "#shorts", "#fyp"],
+    "seed": 101
+  }
+]

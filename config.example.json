@@ -1,0 +1,24 @@
+{
+  "ffmpeg": "ffmpeg",
+  "ffprobe": "ffprobe",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "duration": 18,
+  "music_volume": 1.0,
+  "audio_fade": 1.8,
+  "music_credit": "Music by Kevin MacLeod (incompetech.com) - CC BY 4.0: creativecommons.org/licenses/by/4.0/",
+  "buffer_token": "",
+  "buffer_channels": [
+    {"id": "REPLACE_YOUTUBE_CHANNEL_ID", "service": "youtube", "name": "Entropy"},
+    {"id": "REPLACE_INSTAGRAM_CHANNEL_ID", "service": "instagram", "name": "entropy667"}
+  ],
+  "cloudinary_cloud_name": "",
+  "cloudinary_api_key": "",
+  "cloudinary_api_secret": "",
+  "youtube_client_id": "",
+  "youtube_client_secret": "",
+  "youtube_refresh_token": "",
+  "brand_name": "Entropy",
+  "brand_hashtags": ["#science", "#physics", "#chaos", "#simulation", "#oddlysatisfying", "#shorts", "#fyp"]
+}

@@ -76,7 +76,8 @@ def main(spec_path):
     p = subprocess.Popen(cmd, stdin=subprocess.PIPE)
     n = 0
     try:
-        for frame in S.SIMS[sim](W=W, H=H, fps=fps, duration=dur, seed=int(spec.get("seed", 7))):
+        for frame in S.SIMS[sim](W=W, H=H, fps=fps, duration=dur,
+                                  seed=int(spec.get("seed", 7)), scheme=spec.get("scheme", "cool_warm")):
             if has_txt:
                 frame = np.maximum(frame, overlay)
             p.stdin.write(frame.tobytes()); n += 1

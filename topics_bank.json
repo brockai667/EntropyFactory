@@ -304,5 +304,69 @@
     ],
     "sim": "stream_sphere",
     "seed": 52248
+  },
+  {
+    "onscreen": "Chaos is the mother of order.",
+    "title": "Chaos Is The Mother Of Order",
+    "description": "Watch 6000 particles collide, forming ephemeral harmony. Like + comment if you want part 2. 🌌",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "sim": "lorenz_swarm",
+    "seed": 38868
+  },
+  {
+    "onscreen": "In chaos, we find hidden truths.",
+    "title": "In Chaos, We Find Hidden Truths",
+    "description": "Observe 4000 particles swirling into mesmerizing patterns. Like + comment if you want part 2. 🌠",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "sim": "stream_sphere",
+    "seed": 66074
+  },
+  {
+    "onscreen": "Entropy fuels the dance of existence.",
+    "title": "Entropy Fuels The Dance Of Existence",
+    "description": "Experience 7500 particles shift and transform, showcasing universal beauty. Like + comment if you want part 2. 🔮",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "sim": "lorenz_swarm",
+    "seed": 20101
+  },
+  {
+    "onscreen": "The universe thrives on chaos.",
+    "title": "The Universe Thrives On Chaos",
+    "description": "Dive into 5000 particles creating chaotic symphony of colors. Like + comment if you want part 2. ✨",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "sim": "stream_sphere",
+    "seed": 8726
   }
 ]

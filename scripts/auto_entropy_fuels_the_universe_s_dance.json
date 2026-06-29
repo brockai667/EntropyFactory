@@ -1,0 +1,17 @@
+{
+  "onscreen": "Entropy fuels the universe's dance.",
+  "title": "Entropy Fuels The Universe's Dance",
+  "description": "Watch as 10,000 particles swirl into mesmerizing patterns. Like + comment if you want part 2. ✨",
+  "hashtags": [
+    "#science",
+    "#physics",
+    "#chaos",
+    "#simulation",
+    "#oddlysatisfying",
+    "#shorts",
+    "#fyp"
+  ],
+  "seed": 68986,
+  "sim": "rossler_attractor",
+  "scheme": "ice"
+}

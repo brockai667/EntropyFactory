@@ -99,5 +99,294 @@
     ],
     "seed": 101,
     "scheme": "ice"
+  },
+  {
+    "onscreen": "Entropy fuels the universe's dance.",
+    "title": "Entropy Fuels The Universe's Dance",
+    "description": "Watch as 10,000 particles swirl into mesmerizing patterns. Like + comment if you want part 2. ✨",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 68986,
+    "sim": "rossler_attractor",
+    "scheme": "ice"
+  },
+  {
+    "onscreen": "Chaos sparks the birth of cosmos.",
+    "title": "Chaos Sparks The Birth Of Cosmos",
+    "description": "Witness the explosion of particles forming new structures. Like + comment if you want part 2. 🔭",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 36776,
+    "sim": "lorenz_swarm",
+    "scheme": "ice"
+  },
+  {
+    "onscreen": "From chaos, order emerges anew.",
+    "title": "From Chaos, Order Emerges Anew",
+    "description": "Observe particles rebounding to create stunning symmetry. Like + comment if you want part 2. 🌀",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 1688,
+    "sim": "aizawa_attractor",
+    "scheme": "cool_warm"
+  },
+  {
+    "onscreen": "Patterns hide in chaotic motions.",
+    "title": "Patterns Hide In Chaotic Motions",
+    "description": "Unlock the beauty within each particle's unpredictable path. Like + comment if you want part 2. ⚛️",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 77858,
+    "sim": "stream_sphere",
+    "scheme": "ice"
+  },
+  {
+    "onscreen": "Systems thrive on entropy's rhythm.",
+    "title": "Systems Thrive On Entropy's Rhythm",
+    "description": "Gaze into the ebb and flow of chaotic interactions. Like + comment if you want part 2. ✨",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 65894,
+    "sim": "rossler_attractor",
+    "scheme": "cool_warm"
+  },
+  {
+    "onscreen": "Entropy is nature's hidden architect.",
+    "title": "Entropy Is Nature's Hidden Architect",
+    "description": "Experience how disorder shapes structures in real-time. Like + comment if you want part 2. 🔭",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 81834,
+    "sim": "lorenz_swarm",
+    "scheme": "ice"
+  },
+  {
+    "onscreen": "Order thrives in chaos' embrace.",
+    "title": "Order Thrives In Chaos' Embrace",
+    "description": "See how chaotic collisions form stunning formations. Like + comment if you want part 2. 🌀",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 20684,
+    "sim": "aizawa_attractor",
+    "scheme": "ice"
+  },
+  {
+    "onscreen": "The universe dances on chaos's edge.",
+    "title": "The Universe Dances On Chaos's Edge",
+    "description": "Watch the mesmerizing interplay of particles unfolding. Like + comment if you want part 2. ⚛️",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 44407,
+    "sim": "stream_sphere",
+    "scheme": "ice"
+  },
+  {
+    "onscreen": "Order is chaos dressed in simplicity.",
+    "title": "Order Is Chaos Dressed In Simplicity",
+    "description": "Marvel at the simple rules leading to complex forms. Like + comment if you want part 2. ✨",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 38862,
+    "sim": "rossler_attractor",
+    "scheme": "ice"
+  },
+  {
+    "onscreen": "In chaos, lies the essence of creation.",
+    "title": "In Chaos, Lies The Essence Of Creation",
+    "description": "Discover how disorder fosters breathtaking phenomena. Like + comment if you want part 2. 🔭",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 8725,
+    "sim": "lorenz_swarm",
+    "scheme": "ember"
+  },
+  {
+    "onscreen": "Entropy spins the wheel of time.",
+    "title": "Entropy Spins The Wheel Of Time",
+    "description": "Witness the unfolding dance of particles through time. Like + comment if you want part 2. 🌀",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 6278,
+    "sim": "aizawa_attractor",
+    "scheme": "neon"
+  },
+  {
+    "onscreen": "Amidst chaos, unity finds its way.",
+    "title": "Amidst Chaos, Unity Finds Its Way",
+    "description": "Experience the formation of stunning clusters amidst the chaos. Like + comment if you want part 2. ⚛️",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 44783,
+    "sim": "stream_sphere",
+    "scheme": "cool_warm"
+  },
+  {
+    "onscreen": "The dance of particles reveals secrets.",
+    "title": "The Dance Of Particles Reveals Secrets",
+    "description": "Dive deep into mesmerizing interactions of particles. Like + comment if you want part 2. ✨",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 2139,
+    "sim": "rossler_attractor",
+    "scheme": "neon"
+  },
+  {
+    "onscreen": "Cosmic harmony born from chaos.",
+    "title": "Cosmic Harmony Born From Chaos",
+    "description": "Observe how chaotic forces bring about cosmic beauty. Like + comment if you want part 2. 🔭",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 9397,
+    "sim": "lorenz_swarm",
+    "scheme": "ember"
+  },
+  {
+    "onscreen": "Infinite complexity springs from simple rules.",
+    "title": "Infinite Complexity Springs From Simple Rules",
+    "description": "Explore the fascinating outcomes of basic interactions. Like + comment if you want part 2. 🌀",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 93881,
+    "sim": "aizawa_attractor",
+    "scheme": "cool_warm"
+  },
+  {
+    "onscreen": "Chaos is order in disguise.",
+    "title": "Chaos Is Order In Disguise",
+    "description": "Marvel at how shapes emerge from turbulent flows. Like + comment if you want part 2. ⚛️",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 18425,
+    "sim": "stream_sphere",
+    "scheme": "ember"
+  },
+  {
+    "onscreen": "Nature thrives on entropy's edge.",
+    "title": "Nature Thrives On Entropy's Edge",
+    "description": "Witness nature creating beauty in chaotic formations. Like + comment if you want part 2. ✨",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 77533,
+    "sim": "rossler_attractor",
+    "scheme": "ice"
   }
 ]

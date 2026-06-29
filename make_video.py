@@ -100,7 +100,7 @@ def main(spec_path):
         track = random.choice(musics)                 # nahodny track -> variabilita hudby
         r = subprocess.run([ff, "-y", "-i", silent, "-stream_loop", "-1", "-i", track,
                             "-c:v", "copy", "-map", "0:v", "-map", "1:a",
-                            "-af", af, "-c:a", "aac", "-b:a", "160k", "-shortest", out])
+                            "-af", af, "-c:a", "aac", "-ar", "48000", "-b:a", "160k", "-shortest", out])
         if r.returncode != 0:
             os.replace(silent, out)
     else:

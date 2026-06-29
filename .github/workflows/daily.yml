@@ -2,7 +2,7 @@ name: Entropy (Simulations) Daily
 
 on:
   schedule:
-    - cron: "30 1 * * *"   # 01:30 UTC (~03:30 Bratislava) - skoro, videa naplanovane na 8/15/20
+    - cron: "30 20 * * *"   # 01:30 UTC (~03:30 Bratislava) - skoro, videa naplanovane na 8/15/20
   workflow_dispatch: {}
 
 permissions:

@@ -36,7 +36,7 @@ def _ring(cen, R, W, H):
     return rx[ok], ry[ok]
 
 
-def stream_sphere(W=1080, H=1920, fps=30, duration=18, n=5000, seed=7):
+def stream_sphere(W=1080, H=1920, fps=30, duration=18, n=5000, seed=7, **_kw):
     """Pyrotas styl: gulicky padaju zhora (NIZKA poc. rychlost + gravitacia = na zaciatku vidno PADANIE),
     od stredu vejara von (zaciatok = tenka ciara), koherentny vejar -> intrikatna symetricka siet.
     Lava=tepla oranzova, prava=studena modra, biele jadro."""
@@ -90,7 +90,7 @@ def stream_sphere(W=1080, H=1920, fps=30, duration=18, n=5000, seed=7):
         yield _tonemap(canvas)
 
 
-def particles_in_circle(W=1080, H=1920, fps=30, duration=18, n=5000, seed=7):
+def particles_in_circle(W=1080, H=1920, fps=30, duration=18, n=5000, seed=7, **_kw):
     """Castice vychadzaju z vrchu, symetricky vejar nadol, odraza sa v kruhu -> symetricka siet."""
     cen = np.array([W / 2.0, H / 2.0])
     R = min(W, H) * 0.46
@@ -116,7 +116,7 @@ def particles_in_circle(W=1080, H=1920, fps=30, duration=18, n=5000, seed=7):
         yield _tonemap(canvas)
 
 
-def lorenz_swarm(W=1080, H=1920, fps=30, duration=18, n=4000, seed=3):
+def lorenz_swarm(W=1080, H=1920, fps=30, duration=18, n=4000, seed=3, **_kw):
     """Lorenzov atraktor: roj castic z jedneho bodu sa rozvinie do slavneho 'motyla' chaosu.
     Klasicky priklad ako z jednoduchych pravidiel vznika nekonecna nepredvidatelnost."""
     rng = np.random.default_rng(seed)
@@ -149,8 +149,121 @@ def lorenz_swarm(W=1080, H=1920, fps=30, duration=18, n=4000, seed=3):
         yield _tonemap(canvas)
 
 
+# ---------------------------------------------------------------- farebne schemy (variabilita)
+def _scheme(n, name="cool_warm"):
+    t = np.abs(np.linspace(-1, 1, n))
+    if name == "ember":      # tepla: oranzova/zlta/cervena
+        return np.clip(np.stack([1.0 - 0.10 * t, 0.42 - 0.28 * t, 0.10 + 0.04 * t], 1), 0.08, 1.0)
+    if name == "ice":        # studena: cyan/modra/biela
+        return np.clip(np.stack([0.28 + 0.55 * t, 0.66 - 0.08 * t, 1.0 - 0.28 * t], 1), 0.10, 1.0)
+    if name == "neon":       # magenta/fialova/zelena
+        return np.clip(np.stack([0.95 - 0.55 * t, 0.18 + 0.62 * t, 1.0 - 0.30 * t], 1), 0.08, 1.0)
+    return _cool_warm(n)
+
+
+SCHEMES = ["cool_warm", "ember", "ice", "neon"]
+
+
+# ---------------------------------------------------------------- strange attractory (kazdy iny tvar)
+def _attractor(deriv, dt, seed_state, proj=(0, 1), substeps=2, decay=0.965,
+               intensity=0.32, sc_frac=0.40, settle=800, n=3800):
+    """Vseobecny renderer pre 3D strange attractor: roj castic, projekcia do 2D, auto-fit do ramca."""
+    def sim(W=1080, H=1920, fps=30, duration=18, seed=7, scheme="cool_warm", **_kw):
+        rng = np.random.default_rng(seed)
+        s = np.array(seed_state, dtype=np.float64)
+        for _ in range(settle):
+            s = s + deriv(s) * dt
+        # castice startuju ako TESNY ZHLUK pri jednom bode -> chaos ich postupne rozkvitne do tvaru
+        # (jasny ZACIATOK: bod sa objavi a rozvinie do atraktora) + postupny nabeh poctu castic
+        p = s + rng.uniform(-0.25, 0.25, (n, 3))
+        col = _scheme(n, scheme)
+        a0, a1 = proj
+        ref = np.empty((4000, 3)); cur = s.copy()
+        for i in range(4000):
+            cur = cur + deriv(cur) * dt; ref[i] = cur
+        rx, ry = ref[:, a0], ref[:, a1]
+        cx0 = (rx.min() + rx.max()) / 2.0; cy0 = (ry.min() + ry.max()) / 2.0
+        span = max(rx.max() - rx.min(), ry.max() - ry.min()) + 1e-9
+        sc = min(W, H) * sc_frac * 2.0 / span
+        cx, cy = W / 2.0, H / 2.0
+        nf = int(fps * duration)
+        active = np.zeros(n, bool); spawn = max(1, int(nf * 0.28)); cnt = 0
+        canvas = np.zeros((H, W, 3), np.float64)
+        for f in range(nf):
+            canvas *= decay
+            if cnt < n:        # nabeh: castice sa postupne objavuju (od 1 -> vsetky) = viditelny start
+                target = n if f >= spawn else min(n, max(cnt + 1, int(n * (f / spawn) ** 1.4)))
+                active[cnt:target] = True; cnt = target
+            for _ in range(substeps):
+                p[active] = p[active] + deriv(p[active]) * dt
+                sx = (cx + (p[active, a0] - cx0) * sc).astype(np.int32)
+                sy = (cy + (p[active, a1] - cy0) * sc).astype(np.int32)
+                ok = (sx >= 0) & (sx < W) & (sy >= 0) & (sy < H)
+                cc = col[active]
+                np.add.at(canvas, (sy[ok], sx[ok]), cc[ok] * intensity)
+            yield _tonemap(canvas)
+    return sim
+
+
+def _d_aizawa(s):
+    x, y, z = s[..., 0], s[..., 1], s[..., 2]
+    a, b, c, d, e, ff = 0.95, 0.7, 0.6, 3.5, 0.25, 0.1
+    return np.stack([(z - b) * x - d * y, d * x + (z - b) * y,
+                     c + a * z - z**3 / 3.0 - (x * x + y * y) * (1 + e * z) + ff * z * x**3], axis=-1)
+
+
+def _d_thomas(s):
+    b = 0.208; x, y, z = s[..., 0], s[..., 1], s[..., 2]
+    return np.stack([np.sin(y) - b * x, np.sin(z) - b * y, np.sin(x) - b * z], axis=-1)
+
+
+def _d_halvorsen(s):
+    a = 1.89; x, y, z = s[..., 0], s[..., 1], s[..., 2]
+    return np.stack([-a * x - 4 * y - 4 * z - y * y, -a * y - 4 * z - 4 * x - z * z,
+                     -a * z - 4 * x - 4 * y - x * x], axis=-1)
+
+
+def _d_rossler(s):
+    a, b, c = 0.2, 0.2, 5.7; x, y, z = s[..., 0], s[..., 1], s[..., 2]
+    return np.stack([-(y + z), x + a * y, b + z * (x - c)], axis=-1)
+
+
+aizawa_attractor = _attractor(_d_aizawa, 0.01, [0.1, 0.0, 0.0], proj=(0, 2), settle=1200, sc_frac=0.40, intensity=0.34)
+thomas_attractor = _attractor(_d_thomas, 0.06, [0.1, 0.12, 0.08], proj=(0, 1), settle=600, sc_frac=0.42, intensity=0.30, decay=0.97)
+halvorsen_attractor = _attractor(_d_halvorsen, 0.0065, [-1.48, -1.51, 2.04], proj=(0, 1), settle=900, substeps=3, sc_frac=0.40, intensity=0.30)
+rossler_attractor = _attractor(_d_rossler, 0.03, [0.1, 0.1, 0.1], proj=(0, 1), settle=900, sc_frac=0.40, intensity=0.30, decay=0.97)
+
+
+# ---------------------------------------------------------------- flow field (plynule prudy castic)
+def flow_field(W=1080, H=1920, fps=30, duration=18, seed=7, scheme="ice", n=16000, **_kw):
+    """Castice tecu pozdlz hladkeho silopolia -> ziarive prudy/ribbons (uplne iny vzhlad).
+    Dlhsie stopy (mensi decay) + vela castic -> husta sietova struktura prudov."""
+    rng = np.random.default_rng(seed)
+    pos = np.stack([rng.uniform(0, W, n), rng.uniform(0, H, n)], 1)
+    ang0 = rng.uniform(0, 2 * np.pi)
+    col = _scheme(n, scheme)
+    canvas = np.zeros((H, W, 3), np.float64)
+    sc = 2.6 / min(W, H); spd = min(W, H) * 0.0030
+    for f in range(int(fps * duration)):
+        canvas *= 0.968
+        tt = ang0 + f * 0.010
+        for _ in range(2):
+            xx, yy = pos[:, 0] * sc, pos[:, 1] * sc
+            a = (np.sin(xx * 1.2 + tt) + np.cos(yy * 1.2 - tt * 0.7) + 0.6 * np.sin((xx + yy) * 0.6 + tt)) * np.pi
+            pos[:, 0] = (pos[:, 0] + np.cos(a) * spd) % W
+            pos[:, 1] = (pos[:, 1] + np.sin(a) * spd) % H
+            x = pos[:, 0].astype(np.int32); y = pos[:, 1].astype(np.int32)
+            np.add.at(canvas, (y, x), col * 0.16)
+        yield _tonemap(canvas, exposure=1.35)
+
+
 SIMS = {
     "stream_sphere": stream_sphere,
     "particles_in_circle": particles_in_circle,
     "lorenz_swarm": lorenz_swarm,
+    "aizawa_attractor": aizawa_attractor,
+    "thomas_attractor": thomas_attractor,
+    "halvorsen_attractor": halvorsen_attractor,
+    "rossler_attractor": rossler_attractor,
+    "flow_field": flow_field,
 }

@@ -8,7 +8,9 @@ import requests
 ROOT = os.path.dirname(os.path.abspath(__file__))
 BANK = os.path.join(ROOT, "topics_bank.json")
 STATE = os.path.join(ROOT, "used_topics.json")
-SIMS = ["stream_sphere", "particles_in_circle", "lorenz_swarm"]   # nahodne sa strieda -> variabilita
+# vizualne ODLISNE, OVERENE simulacie (kazda iny tvar: gula / motyl / orb+vir / spirala)
+SIMS = ["stream_sphere", "lorenz_swarm", "aizawa_attractor", "rossler_attractor"]
+SCHEMES = ["cool_warm", "ember", "ice", "neon"]   # farebne variacie -> ani rovnaka sim nevyzera rovnako
 
 TARGET = int(os.environ.get("TOPICS_TARGET", "15"))
 MODEL = os.environ.get("MODELS_MODEL", "openai/gpt-4o-mini")
@@ -85,17 +87,35 @@ def main():
     seen = {t["onscreen"] for t in bank}
     unused = [t for t in bank if t["onscreen"] not in used]
     need = TARGET - len(unused)
-    if need <= 0:
-        print(f"Banka OK: {len(unused)} nepouzitych."); return
-    print(f"Generujem ~{need} novych cez {MODEL}...")
     added = 0
-    for t in extract_json(call_model(build_prompt(need + 3, sorted(seen)))):
-        if valid(t) and t["onscreen"] not in seen:
-            t["sim"] = random.choice(SIMS)            # nahodna simulacia -> variabilita
-            t["seed"] = random.randint(1, 99999)
-            bank.append(t); seen.add(t["onscreen"]); added += 1
+    if need > 0:
+        print(f"Generujem ~{need} novych cez {MODEL}...")
+        for t in extract_json(call_model(build_prompt(need + 3, sorted(seen)))):
+            if valid(t) and t["onscreen"] not in seen:
+                t["seed"] = random.randint(1, 99999)
+                bank.append(t); seen.add(t["onscreen"]); added += 1
+    else:
+        print(f"Banka OK: {len(unused)} nepouzitych (len premiesam simulacie).")
+    rebalance(bank, set(used))                        # vzdy: rozhod sim tak, aby sa NEopakovali za sebou
     json.dump(bank, open(BANK, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
-    print(f"Pridanych {added}. Banka ma {len(bank)}.")
+    print(f"Pridanych {added}. Banka ma {len(bank)}. Simulacie premiesane (ziadne 2 rovnake za sebou).")
+
+
+def rebalance(bank, used):
+    """Priradi NEPOUZITYM specom simulacie po kruhu (ziadne 2 rovnake za sebou) + nahodnu schemu.
+    Pouzite (uz publikovane) ostavaju nezmenene."""
+    order = SIMS[:]; random.shuffle(order)
+    i, prev = 0, None
+    for t in bank:
+        if t.get("onscreen") in used:
+            prev = t.get("sim"); continue
+        sim = order[i % len(order)]
+        if sim == prev and len(order) > 1:
+            i += 1; sim = order[i % len(order)]
+        t["sim"] = sim
+        t["scheme"] = random.choice(SCHEMES)
+        t.setdefault("seed", random.randint(1, 99999))
+        prev = sim; i += 1
 
 
 if __name__ == "__main__":

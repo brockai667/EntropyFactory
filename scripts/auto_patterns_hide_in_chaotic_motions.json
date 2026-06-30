@@ -1,0 +1,17 @@
+{
+  "onscreen": "Patterns hide in chaotic motions.",
+  "title": "Patterns Hide In Chaotic Motions",
+  "description": "Unlock the beauty within each particle's unpredictable path. Like + comment if you want part 2. ⚛️",
+  "hashtags": [
+    "#science",
+    "#physics",
+    "#chaos",
+    "#simulation",
+    "#oddlysatisfying",
+    "#shorts",
+    "#fyp"
+  ],
+  "seed": 77858,
+  "sim": "lorenz_swarm",
+  "scheme": "neon"
+}

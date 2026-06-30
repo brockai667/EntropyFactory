@@ -165,8 +165,8 @@
       "#fyp"
     ],
     "seed": 77858,
-    "sim": "stream_sphere",
-    "scheme": "ice"
+    "sim": "lorenz_swarm",
+    "scheme": "neon"
   },
   {
     "onscreen": "Systems thrive on entropy's rhythm.",
@@ -182,8 +182,8 @@
       "#fyp"
     ],
     "seed": 65894,
-    "sim": "rossler_attractor",
-    "scheme": "cool_warm"
+    "sim": "stream_sphere",
+    "scheme": "neon"
   },
   {
     "onscreen": "Entropy is nature's hidden architect.",
@@ -199,8 +199,8 @@
       "#fyp"
     ],
     "seed": 81834,
-    "sim": "lorenz_swarm",
-    "scheme": "ice"
+    "sim": "aizawa_attractor",
+    "scheme": "ember"
   },
   {
     "onscreen": "Order thrives in chaos' embrace.",
@@ -216,7 +216,7 @@
       "#fyp"
     ],
     "seed": 20684,
-    "sim": "aizawa_attractor",
+    "sim": "rossler_attractor",
     "scheme": "ice"
   },
   {
@@ -233,7 +233,7 @@
       "#fyp"
     ],
     "seed": 44407,
-    "sim": "stream_sphere",
+    "sim": "lorenz_swarm",
     "scheme": "ice"
   },
   {
@@ -250,8 +250,8 @@
       "#fyp"
     ],
     "seed": 38862,
-    "sim": "rossler_attractor",
-    "scheme": "ice"
+    "sim": "stream_sphere",
+    "scheme": "ember"
   },
   {
     "onscreen": "In chaos, lies the essence of creation.",
@@ -267,7 +267,7 @@
       "#fyp"
     ],
     "seed": 8725,
-    "sim": "lorenz_swarm",
+    "sim": "aizawa_attractor",
     "scheme": "ember"
   },
   {
@@ -284,8 +284,8 @@
       "#fyp"
     ],
     "seed": 6278,
-    "sim": "aizawa_attractor",
-    "scheme": "neon"
+    "sim": "rossler_attractor",
+    "scheme": "ice"
   },
   {
     "onscreen": "Amidst chaos, unity finds its way.",
@@ -301,7 +301,7 @@
       "#fyp"
     ],
     "seed": 44783,
-    "sim": "stream_sphere",
+    "sim": "lorenz_swarm",
     "scheme": "cool_warm"
   },
   {
@@ -318,8 +318,8 @@
       "#fyp"
     ],
     "seed": 2139,
-    "sim": "rossler_attractor",
-    "scheme": "neon"
+    "sim": "stream_sphere",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Cosmic harmony born from chaos.",
@@ -335,8 +335,8 @@
       "#fyp"
     ],
     "seed": 9397,
-    "sim": "lorenz_swarm",
-    "scheme": "ember"
+    "sim": "aizawa_attractor",
+    "scheme": "ice"
   },
   {
     "onscreen": "Infinite complexity springs from simple rules.",
@@ -352,8 +352,8 @@
       "#fyp"
     ],
     "seed": 93881,
-    "sim": "aizawa_attractor",
-    "scheme": "cool_warm"
+    "sim": "rossler_attractor",
+    "scheme": "ice"
   },
   {
     "onscreen": "Chaos is order in disguise.",
@@ -369,7 +369,7 @@
       "#fyp"
     ],
     "seed": 18425,
-    "sim": "stream_sphere",
+    "sim": "lorenz_swarm",
     "scheme": "ember"
   },
   {
@@ -386,7 +386,75 @@
       "#fyp"
     ],
     "seed": 77533,
-    "sim": "rossler_attractor",
+    "sim": "stream_sphere",
+    "scheme": "ember"
+  },
+  {
+    "onscreen": "Order emerges from chaotic beginnings.",
+    "title": "Order Emerges From Chaotic Beginnings",
+    "description": "5000 particles collide and scatter into mesmerizing patterns. Like + comment if you want part 2. ✨",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 21262,
+    "sim": "aizawa_attractor",
     "scheme": "ice"
+  },
+  {
+    "onscreen": "Chaos weaves the fabric of reality.",
+    "title": "Chaos Weaves The Fabric Of Reality",
+    "description": "Watch as particles swirl and interlock, creating stunning visuals. Like + comment if you want part 2. ⚛️",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 40128,
+    "sim": "rossler_attractor",
+    "scheme": "cool_warm"
+  },
+  {
+    "onscreen": "Every atom dances to entropy's tune.",
+    "title": "Every Atom Dances To Entropy's Tune",
+    "description": "Observe the mesmerizing dance of particles as they drift and collide. Like + comment if you want part 2. 🌀",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 94754,
+    "sim": "lorenz_swarm",
+    "scheme": "neon"
+  },
+  {
+    "onscreen": "In chaos, simplicity finds its path.",
+    "title": "In Chaos, Simplicity Finds Its Path",
+    "description": "5000 particles create stunning visuals through their chaotic interactions. Like + comment if you want part 2. 🔭",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 32110,
+    "sim": "stream_sphere",
+    "scheme": "cool_warm"
   }
 ]

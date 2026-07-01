@@ -216,8 +216,8 @@
       "#fyp"
     ],
     "seed": 20684,
-    "sim": "rossler_attractor",
-    "scheme": "ice"
+    "sim": "stream_sphere",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "The universe dances on chaos's edge.",
@@ -233,8 +233,8 @@
       "#fyp"
     ],
     "seed": 44407,
-    "sim": "lorenz_swarm",
-    "scheme": "ice"
+    "sim": "rossler_attractor",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Order is chaos dressed in simplicity.",
@@ -250,7 +250,7 @@
       "#fyp"
     ],
     "seed": 38862,
-    "sim": "stream_sphere",
+    "sim": "aizawa_attractor",
     "scheme": "ember"
   },
   {
@@ -267,8 +267,8 @@
       "#fyp"
     ],
     "seed": 8725,
-    "sim": "aizawa_attractor",
-    "scheme": "ember"
+    "sim": "lorenz_swarm",
+    "scheme": "ice"
   },
   {
     "onscreen": "Entropy spins the wheel of time.",
@@ -284,8 +284,8 @@
       "#fyp"
     ],
     "seed": 6278,
-    "sim": "rossler_attractor",
-    "scheme": "ice"
+    "sim": "stream_sphere",
+    "scheme": "ember"
   },
   {
     "onscreen": "Amidst chaos, unity finds its way.",
@@ -301,8 +301,8 @@
       "#fyp"
     ],
     "seed": 44783,
-    "sim": "lorenz_swarm",
-    "scheme": "cool_warm"
+    "sim": "rossler_attractor",
+    "scheme": "ice"
   },
   {
     "onscreen": "The dance of particles reveals secrets.",
@@ -318,8 +318,8 @@
       "#fyp"
     ],
     "seed": 2139,
-    "sim": "stream_sphere",
-    "scheme": "cool_warm"
+    "sim": "aizawa_attractor",
+    "scheme": "ember"
   },
   {
     "onscreen": "Cosmic harmony born from chaos.",
@@ -335,8 +335,8 @@
       "#fyp"
     ],
     "seed": 9397,
-    "sim": "aizawa_attractor",
-    "scheme": "ice"
+    "sim": "lorenz_swarm",
+    "scheme": "neon"
   },
   {
     "onscreen": "Infinite complexity springs from simple rules.",
@@ -352,8 +352,8 @@
       "#fyp"
     ],
     "seed": 93881,
-    "sim": "rossler_attractor",
-    "scheme": "ice"
+    "sim": "stream_sphere",
+    "scheme": "ember"
   },
   {
     "onscreen": "Chaos is order in disguise.",
@@ -369,7 +369,7 @@
       "#fyp"
     ],
     "seed": 18425,
-    "sim": "lorenz_swarm",
+    "sim": "rossler_attractor",
     "scheme": "ember"
   },
   {
@@ -386,7 +386,7 @@
       "#fyp"
     ],
     "seed": 77533,
-    "sim": "stream_sphere",
+    "sim": "aizawa_attractor",
     "scheme": "ember"
   },
   {
@@ -403,8 +403,8 @@
       "#fyp"
     ],
     "seed": 21262,
-    "sim": "aizawa_attractor",
-    "scheme": "ice"
+    "sim": "lorenz_swarm",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Chaos weaves the fabric of reality.",
@@ -420,8 +420,8 @@
       "#fyp"
     ],
     "seed": 40128,
-    "sim": "rossler_attractor",
-    "scheme": "cool_warm"
+    "sim": "stream_sphere",
+    "scheme": "neon"
   },
   {
     "onscreen": "Every atom dances to entropy's tune.",
@@ -437,8 +437,8 @@
       "#fyp"
     ],
     "seed": 94754,
-    "sim": "lorenz_swarm",
-    "scheme": "neon"
+    "sim": "rossler_attractor",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "In chaos, simplicity finds its path.",
@@ -454,7 +454,7 @@
       "#fyp"
     ],
     "seed": 32110,
-    "sim": "stream_sphere",
-    "scheme": "cool_warm"
+    "sim": "aizawa_attractor",
+    "scheme": "ice"
   }
 ]

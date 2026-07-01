@@ -1,0 +1,17 @@
+{
+  "onscreen": "The universe dances on chaos's edge.",
+  "title": "The Universe Dances On Chaos's Edge",
+  "description": "Watch the mesmerizing interplay of particles unfolding. Like + comment if you want part 2. ⚛️",
+  "hashtags": [
+    "#science",
+    "#physics",
+    "#chaos",
+    "#simulation",
+    "#oddlysatisfying",
+    "#shorts",
+    "#fyp"
+  ],
+  "seed": 44407,
+  "sim": "rossler_attractor",
+  "scheme": "cool_warm"
+}

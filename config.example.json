@@ -10,8 +10,16 @@
   "music_credit": "Music by Kevin MacLeod (incompetech.com) - CC BY 4.0: creativecommons.org/licenses/by/4.0/",
   "buffer_token": "",
   "buffer_channels": [
-    {"id": "REPLACE_YOUTUBE_CHANNEL_ID", "service": "youtube", "name": "Entropy"},
-    {"id": "REPLACE_INSTAGRAM_CHANNEL_ID", "service": "instagram", "name": "entropy667"}
+    {
+      "id": "REPLACE_YOUTUBE_CHANNEL_ID",
+      "service": "youtube",
+      "name": "Entropy"
+    },
+    {
+      "id": "REPLACE_INSTAGRAM_CHANNEL_ID",
+      "service": "instagram",
+      "name": "entropy667"
+    }
   ],
   "cloudinary_cloud_name": "",
   "cloudinary_api_key": "",
@@ -20,5 +28,14 @@
   "youtube_client_secret": "",
   "youtube_refresh_token": "",
   "brand_name": "Entropy",
-  "brand_hashtags": ["#science", "#physics", "#chaos", "#simulation", "#oddlysatisfying", "#shorts", "#fyp"]
+  "brand_hashtags": [
+    "#science",
+    "#physics",
+    "#chaos",
+    "#simulation",
+    "#oddlysatisfying",
+    "#shorts",
+    "#fyp"
+  ],
+  "broll_fallback_query": "abstract particles motion"
 }

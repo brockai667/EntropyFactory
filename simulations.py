@@ -394,9 +394,118 @@ def weaving_pens(W=1080, H=1920, fps=30, duration=18, seed=7, scheme="cool_warm"
         yield _tonemap(canvas, exposure=1.5, bloom=3.2)
 
 
+_OFF = np.array([[0, 0], [1, 0], [0, 1], [-1, 0], [0, -1]])
+
+
+def _draw_seg(canvas, x0, y0, x1, y1, W, H, color):
+    """Hruba (2px) ziariva ciara medzi dvoma bodmi (aditivne do canvasu)."""
+    steps = int(max(2, min(70, np.hypot(x1 - x0, y1 - y0))))
+    xs = np.linspace(x0, x1, steps); ys = np.linspace(y0, y1, steps)
+    for dx, dy in _OFF:
+        xi = (xs + dx).astype(np.int32); yi = (ys + dy).astype(np.int32)
+        ok = (xi >= 0) & (xi < W) & (yi >= 0) & (yi < H)
+        w = 0.62 if not (dx or dy) else 0.42
+        np.add.at(canvas, (yi[ok], xi[ok]), color * w)
+
+
+def spirograph(W=1080, H=1920, fps=30, duration=18, seed=7, scheme="neon", **_kw):
+    """Perá kreslia SYMETRICKE rozety (hypotrochoidy s nahodnymi prevodmi) co sa preplietaju.
+    Kazde pero iny prevod -> iny pocet listkov; jemna precesia -> stale sa dotvara."""
+    rng = np.random.default_rng(seed)
+    n_pens = int(rng.integers(2, 4))
+    cen = np.array([W / 2.0, H / 2.0]); cols = _scheme(max(3, n_pens), scheme)[:n_pens]
+    from math import gcd
+    pens = []
+    for _ in range(n_pens):
+        Rr = int(rng.integers(7, 13)); rr = int(rng.integers(2, Rr - 1))
+        while gcd(Rr, rr) != 1:                             # NESUDELITELNE -> max listkov = vzdy bohata rozeta
+            rr = int(rng.integers(2, Rr - 1))
+        k = (Rr - rr) / rr + rng.uniform(-0.015, 0.015)     # jemna odchylka -> precesia
+        d = rng.uniform(0.55, 1.25)
+        amp = (Rr - rr) + d * rr
+        pens.append((Rr - rr, rr, k, d, rng.uniform(0, 2 * np.pi), amp))
+    Sc = min(W, H) * 0.44 / (max(p[5] for p in pens) + 1e-9)
+    canvas = np.zeros((H, W, 3), np.float64)
+    speed = 2 * np.pi / (fps * 3.2); prev = [None] * n_pens   # rychlejsie -> rozeta sa cela dokresli
+    for f in range(int(fps * duration)):
+        canvas *= 0.9945
+        for sub in range(6):
+            t = (f + sub / 6.0) * speed
+            for i, (Rr, rr, k, d, ph, _amp) in enumerate(pens):
+                x = cen[0] + Sc * (Rr * np.cos(t + ph) + d * rr * np.cos(k * t + ph))
+                y = cen[1] + Sc * (Rr * np.sin(t + ph) - d * rr * np.sin(k * t + ph))
+                if prev[i] is not None:
+                    _draw_seg(canvas, prev[i][0], prev[i][1], x, y, W, H, cols[i])
+                prev[i] = (x, y)
+        yield _tonemap(canvas, exposure=1.5, bloom=3.2)
+
+
+def harmonograph(W=1080, H=1920, fps=30, duration=18, seed=7, scheme="ember", **_kw):
+    """Kyvadlove pero: sucet 2 tlmenych sinusoid na kazdu os -> organicka rozeta co sa
+    postupne 'nakresli' a jemne dosadne. Nahodne frekvencie -> vzdy iny tvar."""
+    rng = np.random.default_rng(seed)
+    n_pens = int(rng.integers(1, 3))                        # 1-2 kyvadla
+    cen = np.array([W / 2.0, H / 2.0]); cols = _scheme(max(3, n_pens), scheme)[:n_pens]
+    Sc = min(W, H) * 0.40
+    pens = []
+    for _ in range(n_pens):
+        base = rng.uniform(1.6, 3.2)
+        fx = np.array([base, base + rng.choice([-2, -1, 1, 2]) + rng.uniform(-0.02, 0.02)])
+        fy = np.array([base + rng.uniform(-0.02, 0.02), base + rng.choice([-2, -1, 1, 2]) + rng.uniform(-0.02, 0.02)])
+        px = rng.uniform(0, 2 * np.pi, 2); py = rng.uniform(0, 2 * np.pi, 2)
+        dmp = rng.uniform(0.010, 0.020)
+        pens.append((fx, fy, px, py, dmp))
+    canvas = np.zeros((H, W, 3), np.float64)
+    speed = 2 * np.pi / (fps * 2.0); prev = [None] * n_pens
+    for f in range(int(fps * duration)):
+        canvas *= 0.9945
+        for sub in range(6):
+            t = (f + sub / 6.0) * speed
+            for i, (fx, fy, px, py, dmp) in enumerate(pens):
+                e = np.exp(-dmp * t)
+                x = cen[0] + Sc * 0.5 * e * np.sum(np.sin(fx * t + px))
+                y = cen[1] + Sc * 0.5 * e * np.sum(np.sin(fy * t + py))
+                if prev[i] is not None:
+                    _draw_seg(canvas, prev[i][0], prev[i][1], x, y, W, H, cols[i])
+                prev[i] = (x, y)
+        yield _tonemap(canvas, exposure=1.5, bloom=3.2)
+
+
+def wander_ribbons(W=1080, H=1920, fps=30, duration=18, seed=7, scheme="aurora", **_kw):
+    """Perá NAHODNE bludia (hladke plynule zatacanie) a nechavaju preplietene ziarive stuhy.
+    Uplne nahodne cesty (nie periodicke) -> zakazdym iny organicky obrazec."""
+    rng = np.random.default_rng(seed)
+    n = int(rng.integers(3, 6))                             # 3-5 stuh (hustejsie preplietanie)
+    cols = _scheme(max(3, n), scheme)[:n]
+    pos = np.stack([rng.uniform(W * 0.35, W * 0.65, n), rng.uniform(H * 0.4, H * 0.6, n)], 1)
+    ang = rng.uniform(0, 2 * np.pi, n)
+    fx = rng.uniform(1.5, 3.0, n); fy = rng.uniform(1.5, 3.0, n); ph = rng.uniform(0, 6.28, n)
+    spd = min(W, H) * 0.0058; fld = 2.4 / min(W, H)
+    canvas = np.zeros((H, W, 3), np.float64)
+    for f in range(int(fps * duration)):
+        canvas *= 0.9915                                    # dlhsia perzistencia -> hustejsie stuhy
+        for sub in range(4):
+            t = (f + sub / 4.0) / fps
+            xx = pos[:, 0] * fld; yy = pos[:, 1] * fld
+            turn = 0.16 * (np.sin(xx * fx + t * 0.7 + ph) + np.cos(yy * fy - t * 0.5))
+            ang = ang + turn + rng.uniform(-0.04, 0.04, n)   # hladke zatacanie + stipka nahody
+            nx = pos[:, 0] + np.cos(ang) * spd; ny = pos[:, 1] + np.sin(ang) * spd
+            # odraz od okrajov (drz stuhy v ramci)
+            hit = (nx < 6) | (nx > W - 6); ang = np.where(hit, np.pi - ang, ang)
+            hit2 = (ny < 6) | (ny > H - 6); ang = np.where(hit2, -ang, ang)
+            nx = np.clip(nx, 6, W - 6); ny = np.clip(ny, 6, H - 6)
+            for i in range(n):
+                _draw_seg(canvas, pos[i, 0], pos[i, 1], nx[i], ny[i], W, H, cols[i])
+            pos[:, 0] = nx; pos[:, 1] = ny
+        yield _tonemap(canvas, exposure=1.4, bloom=3.0)
+
+
 SIMS = {
     "stream_sphere": stream_sphere,
     "weaving_pens": weaving_pens,
+    "spirograph": spirograph,
+    "harmonograph": harmonograph,
+    "wander_ribbons": wander_ribbons,
     "particles_in_circle": particles_in_circle,
     "lorenz_swarm": lorenz_swarm,
     "aizawa_attractor": aizawa_attractor,

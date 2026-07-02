@@ -317,9 +317,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 2139,
+    "seed": 98884,
     "sim": "double_pendulum",
-    "scheme": "ice"
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Cosmic harmony born from chaos.",
@@ -334,26 +334,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 9397,
-    "sim": "weaving_pens",
+    "seed": 96154,
+    "sim": "rossler_attractor",
     "scheme": "neon"
-  },
-  {
-    "onscreen": "Infinite complexity springs from simple rules.",
-    "title": "Infinite Complexity Springs From Simple Rules",
-    "description": "Explore the fascinating outcomes of basic interactions. Like + comment if you want part 2. 🌀",
-    "hashtags": [
-      "#science",
-      "#physics",
-      "#chaos",
-      "#simulation",
-      "#oddlysatisfying",
-      "#shorts",
-      "#fyp"
-    ],
-    "seed": 93881,
-    "sim": "wander_ribbons",
-    "scheme": "aurora"
   },
   {
     "onscreen": "Chaos is order in disguise.",
@@ -368,9 +351,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 18425,
-    "sim": "lorenz_swarm",
-    "scheme": "ember"
+    "seed": 53243,
+    "sim": "harmonograph",
+    "scheme": "aurora"
   },
   {
     "onscreen": "Nature thrives on entropy's edge.",
@@ -385,9 +368,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 77533,
-    "sim": "halvorsen_attractor",
-    "scheme": "ember"
+    "seed": 13018,
+    "sim": "clifford_morph",
+    "scheme": "ice"
   },
   {
     "onscreen": "Order emerges from chaotic beginnings.",
@@ -402,8 +385,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 21262,
-    "sim": "harmonograph",
+    "seed": 35598,
+    "sim": "spirograph",
     "scheme": "ember"
   },
   {
@@ -419,9 +402,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 40128,
+    "seed": 90791,
     "sim": "galaxy_spiral",
-    "scheme": "aurora"
+    "scheme": "sunset"
   },
   {
     "onscreen": "Every atom dances to entropy's tune.",
@@ -436,9 +419,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 94754,
-    "sim": "stream_sphere",
-    "scheme": "cool_warm"
+    "seed": 75229,
+    "sim": "lorenz_swarm",
+    "scheme": "ember"
   },
   {
     "onscreen": "In chaos, simplicity finds its path.",
@@ -453,9 +436,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 32110,
-    "sim": "spirograph",
-    "scheme": "sunset"
+    "seed": 48745,
+    "sim": "flow_field",
+    "scheme": "neon"
   },
   {
     "onscreen": "Chaos births complexity from simplicity.",
@@ -470,9 +453,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 36029,
+    "seed": 98132,
     "sim": "rossler_attractor",
-    "scheme": "sunset"
+    "scheme": "ember"
   },
   {
     "onscreen": "Order is the illusion of control.",
@@ -487,9 +470,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 47529,
-    "sim": "clifford_morph",
-    "scheme": "cool_warm"
+    "seed": 9242,
+    "sim": "double_pendulum",
+    "scheme": "ice"
   },
   {
     "onscreen": "In chaos, we find the unexpected.",
@@ -504,26 +487,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 15053,
+    "seed": 25289,
     "sim": "aizawa_attractor",
-    "scheme": "ember"
-  },
-  {
-    "onscreen": "Infinite patterns emerge from simple rules.",
-    "title": "Infinite Patterns Emerge From Simple Rules",
-    "description": "Delve into an ocean of particles that twist and turn into beautiful designs. Like + comment if you want part 2.",
-    "hashtags": [
-      "#science",
-      "#physics",
-      "#chaos",
-      "#simulation",
-      "#oddlysatisfying",
-      "#shorts",
-      "#fyp"
-    ],
-    "seed": 32541,
-    "sim": "flow_field",
-    "scheme": "sunset"
+    "scheme": "neon"
   },
   {
     "onscreen": "Underlying patterns pulse beneath chaos.",
@@ -538,9 +504,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 31357,
-    "sim": "double_pendulum",
-    "scheme": "ice"
+    "seed": 30457,
+    "sim": "harmonograph",
+    "scheme": "sunset"
   },
   {
     "onscreen": "The universe thrives on chaotic creation.",
@@ -555,8 +521,93 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 95964,
-    "sim": "weaving_pens",
+    "seed": 1621,
+    "sim": "clifford_morph",
     "scheme": "neon"
+  },
+  {
+    "onscreen": "What if the universe is a game?",
+    "title": "What If The Universe Is A Game?",
+    "description": "Explore the concept of reality as an intricate play of chance and rules. Like + comment if you want part 2. 🌀",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 33798,
+    "sim": "wander_ribbons",
+    "scheme": "ember"
+  },
+  {
+    "onscreen": "Feedback loops shape our world.",
+    "title": "Feedback Loops Shape Our World",
+    "description": "See how tiny influences create massive shifts in behavior over time. Like + comment if you want part 2. ⚛️",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#selforganization",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 96640,
+    "sim": "flow_field",
+    "scheme": "cool_warm"
+  },
+  {
+    "onscreen": "Infinity dances in fractal patterns.",
+    "title": "Infinity Dances In Fractal Patterns",
+    "description": "Dive into endless repetitions unveiling nature’s intricate beauty. Like + comment if you want part 2. ✨",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#fractals",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 49661,
+    "sim": "stream_sphere",
+    "scheme": "ice"
+  },
+  {
+    "onscreen": "Hidden structures influence our fate.",
+    "title": "Hidden Structures Influence Our Fate",
+    "description": "Uncover the unseen connections that weave reality together. Like + comment if you want part 2. 🌌",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#emergence",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 42406,
+    "sim": "galaxy_spiral",
+    "scheme": "ember"
+  },
+  {
+    "onscreen": "What if chaos is creative force?",
+    "title": "What If Chaos Is Creative Force?",
+    "description": "Experience the artistic side of disorder through captivating simulations. Like + comment if you want part 2. ✨",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 16298,
+    "sim": "halvorsen_attractor",
+    "scheme": "ice"
   }
 ]

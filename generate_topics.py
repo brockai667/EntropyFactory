@@ -9,8 +9,9 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 BANK = os.path.join(ROOT, "topics_bank.json")
 STATE = os.path.join(ROOT, "used_topics.json")
 # vizualne ODLISNE, OVERENE simulacie (kazda iny tvar: gula / motyl / orb+vir / spirala)
-SIMS = ["stream_sphere", "lorenz_swarm", "aizawa_attractor", "rossler_attractor"]
-SCHEMES = ["cool_warm", "ember", "ice", "neon"]   # farebne variacie -> ani rovnaka sim nevyzera rovnako
+SIMS = ["stream_sphere", "lorenz_swarm", "aizawa_attractor", "halvorsen_attractor",
+        "rossler_attractor", "double_pendulum", "clifford_morph", "galaxy_spiral", "flow_field"]
+SCHEMES = ["cool_warm", "ember", "ice", "neon", "aurora", "sunset"]   # farebne variacie -> ani rovnaka sim nevyzera rovnako
 
 TARGET = int(os.environ.get("TOPICS_TARGET", "15"))
 MODEL = os.environ.get("MODELS_MODEL", "openai/gpt-4o-mini")

@@ -346,8 +346,57 @@ def galaxy_spiral(W=1080, H=1920, fps=30, duration=18, n=15000, seed=7, scheme="
         yield _tonemap(canvas)
 
 
+def weaving_pens(W=1080, H=1920, fps=30, duration=18, seed=7, scheme="cool_warm", **_kw):
+    """Jedno alebo viac 'pier' kresli plynule NAHODNE krivky (superpozicia kruhov = epicykle/Fourier)
+    co sa PREPLIETAJU do nahodnych obrazcov. Kazde pero ma vlastne nahodne kruhy (radius/rychlost/faza)
+    -> iny tvar; dlha perzistencia -> obrazec sa postupne 'nakresli' a stale sa jemne pretvara."""
+    rng = np.random.default_rng(seed)
+    n_pens = int(rng.integers(2, 5))                    # 2-4 pier ('jedna alebo viacej')
+    cen = np.array([W / 2.0, H / 2.0])
+    Sc = min(W, H) * 0.40
+    cols = _scheme(max(3, n_pens), scheme)[:n_pens]     # kazde pero ina farba
+    pens = []
+    for _ in range(n_pens):
+        K = int(rng.integers(3, 6))                     # 3-5 kruhov = zlozitost tvaru
+        w = rng.integers(1, 6, K).astype(float) * rng.choice([-1.0, 1.0], K)  # celociselne -> uzatvorene krivky
+        w += rng.uniform(-0.03, 0.03, K)                # mikro-odchylka -> tvar sa pomaly pretvara (nikdy nezastane)
+        r = rng.uniform(0.2, 1.0, K); r /= r.sum()      # radiusy (normalizovane, sum=1)
+        p = rng.uniform(0, 2 * np.pi, K)
+        pens.append((w, r, p))
+    canvas = np.zeros((H, W, 3), np.float64)
+    speed = 2 * np.pi / (fps * 6.0)                     # ~6s na zakladny obeh
+
+    def pos(pen, t):
+        w, r, p = pen
+        ang = w * t + p
+        return cen[0] + Sc * float(np.sum(r * np.cos(ang))), cen[1] + Sc * float(np.sum(r * np.sin(ang)))
+
+    prev = [None] * n_pens
+    nf = int(fps * duration)
+    # ofsety pre hrubsiu (2px) ziarivu ciaru
+    OFF = np.array([[0, 0], [1, 0], [0, 1], [-1, 0], [0, -1]])
+    for f in range(nf):
+        canvas *= 0.9925                                # dlha perzistencia -> obrazec sa 'nakresli'
+        for sub in range(6):                            # 6 substepov = hladka ciara
+            t = (f + sub / 6.0) * speed
+            for i, pen in enumerate(pens):
+                x, y = pos(pen, t)
+                if prev[i] is not None:
+                    x0, y0 = prev[i]
+                    steps = int(max(2, min(64, np.hypot(x - x0, y - y0))))
+                    xs = np.linspace(x0, x, steps); ys = np.linspace(y0, y, steps)
+                    for dx, dy in OFF:
+                        xi = (xs + dx).astype(np.int32); yi = (ys + dy).astype(np.int32)
+                        ok = (xi >= 0) & (xi < W) & (yi >= 0) & (yi < H)
+                        w = 0.42 if (dx or dy) else 0.62         # jadro jasnejsie, okraj slabsie
+                        np.add.at(canvas, (yi[ok], xi[ok]), cols[i] * w)
+                prev[i] = (x, y)
+        yield _tonemap(canvas, exposure=1.5, bloom=3.2)
+
+
 SIMS = {
     "stream_sphere": stream_sphere,
+    "weaving_pens": weaving_pens,
     "particles_in_circle": particles_in_circle,
     "lorenz_swarm": lorenz_swarm,
     "aizawa_attractor": aizawa_attractor,

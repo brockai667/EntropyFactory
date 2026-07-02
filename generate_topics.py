@@ -9,7 +9,7 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 BANK = os.path.join(ROOT, "topics_bank.json")
 STATE = os.path.join(ROOT, "used_topics.json")
 # vizualne ODLISNE, OVERENE simulacie (kazda iny tvar: gula / motyl / orb+vir / spirala)
-SIMS = ["stream_sphere", "weaving_pens", "lorenz_swarm", "aizawa_attractor", "halvorsen_attractor",
+SIMS = ["stream_sphere", "weaving_pens", "spirograph", "harmonograph", "wander_ribbons", "lorenz_swarm", "aizawa_attractor", "halvorsen_attractor",
         "rossler_attractor", "double_pendulum", "clifford_morph", "galaxy_spiral", "flow_field"]
 SCHEMES = ["cool_warm", "ember", "ice", "neon", "aurora", "sunset"]   # farebne variacie -> ani rovnaka sim nevyzera rovnako
 

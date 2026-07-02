@@ -267,8 +267,8 @@
       "#fyp"
     ],
     "seed": 8725,
-    "sim": "lorenz_swarm",
-    "scheme": "ice"
+    "sim": "clifford_morph",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Entropy spins the wheel of time.",
@@ -284,8 +284,8 @@
       "#fyp"
     ],
     "seed": 6278,
-    "sim": "stream_sphere",
-    "scheme": "ember"
+    "sim": "aizawa_attractor",
+    "scheme": "aurora"
   },
   {
     "onscreen": "Amidst chaos, unity finds its way.",
@@ -301,8 +301,8 @@
       "#fyp"
     ],
     "seed": 44783,
-    "sim": "rossler_attractor",
-    "scheme": "ice"
+    "sim": "flow_field",
+    "scheme": "sunset"
   },
   {
     "onscreen": "The dance of particles reveals secrets.",
@@ -318,8 +318,8 @@
       "#fyp"
     ],
     "seed": 2139,
-    "sim": "aizawa_attractor",
-    "scheme": "ember"
+    "sim": "double_pendulum",
+    "scheme": "ice"
   },
   {
     "onscreen": "Cosmic harmony born from chaos.",
@@ -335,7 +335,7 @@
       "#fyp"
     ],
     "seed": 9397,
-    "sim": "lorenz_swarm",
+    "sim": "weaving_pens",
     "scheme": "neon"
   },
   {
@@ -352,8 +352,8 @@
       "#fyp"
     ],
     "seed": 93881,
-    "sim": "stream_sphere",
-    "scheme": "ember"
+    "sim": "wander_ribbons",
+    "scheme": "aurora"
   },
   {
     "onscreen": "Chaos is order in disguise.",
@@ -369,7 +369,7 @@
       "#fyp"
     ],
     "seed": 18425,
-    "sim": "rossler_attractor",
+    "sim": "lorenz_swarm",
     "scheme": "ember"
   },
   {
@@ -386,7 +386,7 @@
       "#fyp"
     ],
     "seed": 77533,
-    "sim": "aizawa_attractor",
+    "sim": "halvorsen_attractor",
     "scheme": "ember"
   },
   {
@@ -403,8 +403,8 @@
       "#fyp"
     ],
     "seed": 21262,
-    "sim": "lorenz_swarm",
-    "scheme": "cool_warm"
+    "sim": "harmonograph",
+    "scheme": "ember"
   },
   {
     "onscreen": "Chaos weaves the fabric of reality.",
@@ -420,8 +420,8 @@
       "#fyp"
     ],
     "seed": 40128,
-    "sim": "stream_sphere",
-    "scheme": "neon"
+    "sim": "galaxy_spiral",
+    "scheme": "aurora"
   },
   {
     "onscreen": "Every atom dances to entropy's tune.",
@@ -437,7 +437,7 @@
       "#fyp"
     ],
     "seed": 94754,
-    "sim": "rossler_attractor",
+    "sim": "stream_sphere",
     "scheme": "cool_warm"
   },
   {
@@ -454,7 +454,109 @@
       "#fyp"
     ],
     "seed": 32110,
+    "sim": "spirograph",
+    "scheme": "sunset"
+  },
+  {
+    "onscreen": "Chaos births complexity from simplicity.",
+    "title": "Chaos Births Complexity From Simplicity",
+    "description": "Watch as particles weave intricate patterns from pure chaos. Like + comment if you want part 2. 🌀",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 36029,
+    "sim": "rossler_attractor",
+    "scheme": "sunset"
+  },
+  {
+    "onscreen": "Order is the illusion of control.",
+    "title": "Order Is The Illusion Of Control",
+    "description": "Experience the mesmerizing dance of particles as they defy structure. Like + comment if you want part 2.",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 47529,
+    "sim": "clifford_morph",
+    "scheme": "cool_warm"
+  },
+  {
+    "onscreen": "In chaos, we find the unexpected.",
+    "title": "In Chaos, We Find The Unexpected",
+    "description": "Trail along as particles collide and create stunning visuals. Like + comment if you want part 2. ✨",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 15053,
     "sim": "aizawa_attractor",
+    "scheme": "ember"
+  },
+  {
+    "onscreen": "Infinite patterns emerge from simple rules.",
+    "title": "Infinite Patterns Emerge From Simple Rules",
+    "description": "Delve into an ocean of particles that twist and turn into beautiful designs. Like + comment if you want part 2.",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 32541,
+    "sim": "flow_field",
+    "scheme": "sunset"
+  },
+  {
+    "onscreen": "Underlying patterns pulse beneath chaos.",
+    "title": "Underlying Patterns Pulse Beneath Chaos",
+    "description": "Witness particles creating mesmerizing structures from chaotic energies. Like + comment if you want part 2. ⚛️",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 31357,
+    "sim": "double_pendulum",
     "scheme": "ice"
+  },
+  {
+    "onscreen": "The universe thrives on chaotic creation.",
+    "title": "The Universe Thrives On Chaotic Creation",
+    "description": "Explore the vibrant life of particles igniting infinite possibilities. Like + comment if you want part 2.",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 95964,
+    "sim": "weaving_pens",
+    "scheme": "neon"
   }
 ]

@@ -1,7 +1,10 @@
 # -*- coding: utf-8 -*-
 """Entropy - hypnoticke fyzikalne/matematicke simulacie renderovane na cierno so ziarivymi stopami.
 Kazda sim je generator co yielduje uint8 RGB framy (H x W x 3): aditivny canvas + decay = ziarive
-stopy, lahky bloom cez PIL (glow). Klucom ku krase je KOHERENTNY symetricky pohyb (vlny, nie sum)."""
+stopy, lahky bloom cez PIL (glow). Klucom ku krase je KOHERENTNY symetricky pohyb (vlny, nie sum).
+
+UPGRADE: 3D atraktory sa TOCIA (turntable) + dychaju (zoom) + hlbkove tienovanie -> stale sa nieco
+deje; nove simy double_pendulum (butterfly effect), clifford_morph (morfujuci tvar), galaxy_spiral."""
 import numpy as np
 
 try:
@@ -116,39 +119,6 @@ def particles_in_circle(W=1080, H=1920, fps=30, duration=18, n=5000, seed=7, **_
         yield _tonemap(canvas)
 
 
-def lorenz_swarm(W=1080, H=1920, fps=30, duration=18, n=4000, seed=3, **_kw):
-    """Lorenzov atraktor: roj castic z jedneho bodu sa rozvinie do slavneho 'motyla' chaosu.
-    Klasicky priklad ako z jednoduchych pravidiel vznika nekonecna nepredvidatelnost."""
-    rng = np.random.default_rng(seed)
-    sig, rho, beta = 10.0, 28.0, 8.0 / 3.0
-    dt = 0.005
-    # naseeduj castice po CELOM atraktore (jedna trajektoria -> rozlozenie) = hned cely motyl
-    s = np.array([0.1, 0.1, 25.0]); pts = np.empty((n, 3))
-    for _ in range(800):
-        x, y, z = s; s = s + np.array([sig * (y - x), x * (rho - z) - y, x * y - beta * z]) * dt
-    for i in range(n):
-        for _ in range(3):
-            x, y, z = s; s = s + np.array([sig * (y - x), x * (rho - z) - y, x * y - beta * z]) * dt
-        pts[i] = s
-    p = pts + rng.uniform(-0.02, 0.02, (n, 3))
-    col = _cool_warm(n)
-    cx, cy = W / 2.0, H / 2.0
-    sc = min(W, H) * 0.017
-    canvas = np.zeros((H, W, 3), np.float64)
-    for f in range(int(fps * duration)):
-        canvas *= 0.965
-        for _ in range(2):
-            x, y, z = p[:, 0].copy(), p[:, 1].copy(), p[:, 2].copy()
-            p[:, 0] += sig * (y - x) * dt
-            p[:, 1] += (x * (rho - z) - y) * dt
-            p[:, 2] += (x * y - beta * z) * dt
-            sx = (cx + p[:, 0] * sc).astype(np.int32)
-            sy = (cy + (p[:, 2] - 25.0) * sc).astype(np.int32)
-            ok = (sx >= 0) & (sx < W) & (sy >= 0) & (sy < H)
-            np.add.at(canvas, (sy[ok], sx[ok]), col[ok] * 0.32)
-        yield _tonemap(canvas)
-
-
 # ---------------------------------------------------------------- farebne schemy (variabilita)
 def _scheme(n, name="cool_warm"):
     t = np.abs(np.linspace(-1, 1, n))
@@ -158,33 +128,42 @@ def _scheme(n, name="cool_warm"):
         return np.clip(np.stack([0.28 + 0.55 * t, 0.66 - 0.08 * t, 1.0 - 0.28 * t], 1), 0.10, 1.0)
     if name == "neon":       # magenta/fialova/zelena
         return np.clip(np.stack([0.95 - 0.55 * t, 0.18 + 0.62 * t, 1.0 - 0.30 * t], 1), 0.08, 1.0)
+    if name == "aurora":     # polarna ziara: zelena/tyrkys/fialova
+        return np.clip(np.stack([0.25 + 0.50 * t, 0.95 - 0.35 * t, 0.50 + 0.42 * t], 1), 0.08, 1.0)
+    if name == "sunset":     # zapad slnka: ruzova/oranzova/fialova
+        return np.clip(np.stack([1.00 - 0.12 * t, 0.38 + 0.22 * t, 0.52 + 0.40 * t], 1), 0.08, 1.0)
     return _cool_warm(n)
 
 
-SCHEMES = ["cool_warm", "ember", "ice", "neon"]
+SCHEMES = ["cool_warm", "ember", "ice", "neon", "aurora", "sunset"]
 
 
 # ---------------------------------------------------------------- strange attractory (kazdy iny tvar)
 def _attractor(deriv, dt, seed_state, proj=(0, 1), substeps=2, decay=0.965,
-               intensity=0.32, sc_frac=0.40, settle=800, n=3800):
-    """Vseobecny renderer pre 3D strange attractor: roj castic, projekcia do 2D, auto-fit do ramca."""
+               intensity=0.32, sc_frac=0.40, settle=800, n=3800, spin_s=26.0, breath_s=11.0):
+    """Vseobecny renderer pre 3D strange attractor: roj castic, TURNTABLE 3D rotacia (tvar sa
+    stale toci) + jemne zoom-dychanie + hlbkove tienovanie (blizsie castice jasnejsie) -> zive 3D."""
     def sim(W=1080, H=1920, fps=30, duration=18, seed=7, scheme="cool_warm", **_kw):
         rng = np.random.default_rng(seed)
         s = np.array(seed_state, dtype=np.float64)
         for _ in range(settle):
             s = s + deriv(s) * dt
         # castice startuju ako TESNY ZHLUK pri jednom bode -> chaos ich postupne rozkvitne do tvaru
-        # (jasny ZACIATOK: bod sa objavi a rozvinie do atraktora) + postupny nabeh poctu castic
         p = s + rng.uniform(-0.25, 0.25, (n, 3))
         col = _scheme(n, scheme)
         a0, a1 = proj
+        a2 = ({0, 1, 2} - {a0, a1}).pop()                 # tretia os -> hlbka pre rotaciu
         ref = np.empty((4000, 3)); cur = s.copy()
         for i in range(4000):
             cur = cur + deriv(cur) * dt; ref[i] = cur
-        rx, ry = ref[:, a0], ref[:, a1]
-        cx0 = (rx.min() + rx.max()) / 2.0; cy0 = (ry.min() + ry.max()) / 2.0
-        span = max(rx.max() - rx.min(), ry.max() - ry.min()) + 1e-9
-        sc = min(W, H) * sc_frac * 2.0 / span
+        c3 = (ref.min(0) + ref.max(0)) / 2.0              # 3D stred
+        rxz = np.sqrt((ref[:, a0] - c3[a0]) ** 2 + (ref[:, a2] - c3[a2]) ** 2)
+        # naklonena kamera (tilt ~22 stupnov): aj ked sa tvar otoci "hranou", stale vidno objem
+        ct, st = 0.93, 0.37
+        rad_y = ct * np.abs(ref[:, a1] - c3[a1]).max() + st * rxz.max()
+        span = max(2 * rxz.max(), 2 * rad_y) + 1e-9
+        sc0 = min(W, H) * sc_frac * 2.0 / span
+        rad = rxz.max() + 1e-9
         cx, cy = W / 2.0, H / 2.0
         nf = int(fps * duration)
         active = np.zeros(n, bool); spawn = max(1, int(nf * 0.28)); cnt = 0
@@ -194,15 +173,30 @@ def _attractor(deriv, dt, seed_state, proj=(0, 1), substeps=2, decay=0.965,
             if cnt < n:        # nabeh: castice sa postupne objavuju (od 1 -> vsetky) = viditelny start
                 target = n if f >= spawn else min(n, max(cnt + 1, int(n * (f / spawn) ** 1.4)))
                 active[cnt:target] = True; cnt = target
+            th = np.deg2rad(52) * np.sin(2 * np.pi * f / (fps * spin_s))  # KOLISANIE (rock), nie plna
+            th += np.deg2rad(18)                          # +offset -> nikdy presne "na hranu" (ploche atraktory)
+            co, si = np.cos(th), np.sin(th)
+            sc = sc0 * (1.0 + 0.06 * np.sin(2 * np.pi * f / (fps * breath_s)))  # jemne dychanie
             for _ in range(substeps):
                 p[active] = p[active] + deriv(p[active]) * dt
-                sx = (cx + (p[active, a0] - cx0) * sc).astype(np.int32)
-                sy = (cy + (p[active, a1] - cy0) * sc).astype(np.int32)
+                px = p[active, a0] - c3[a0]; pz = p[active, a2] - c3[a2]
+                X = px * co + pz * si                     # rotovana projekcia
+                Zr = -px * si + pz * co                   # hlbkova os po rotacii
+                Zd = Zr / rad                             # -1..1 (blizsie = jasnejsie)
+                sx = (cx + X * sc).astype(np.int32)
+                sy = (cy + ((p[active, a1] - c3[a1]) * ct + Zr * st) * sc).astype(np.int32)
                 ok = (sx >= 0) & (sx < W) & (sy >= 0) & (sy < H)
-                cc = col[active]
+                w = (0.72 + 0.38 * np.clip(Zd, -1, 1))[:, None]   # hlbkove tienovanie
+                cc = col[active] * w
                 np.add.at(canvas, (sy[ok], sx[ok]), cc[ok] * intensity)
             yield _tonemap(canvas)
     return sim
+
+
+def _d_lorenz(s):
+    sig, rho, beta = 10.0, 28.0, 8.0 / 3.0
+    x, y, z = s[..., 0], s[..., 1], s[..., 2]
+    return np.stack([sig * (y - x), x * (rho - z) - y, x * y - beta * z], axis=-1)
 
 
 def _d_aizawa(s):
@@ -228,6 +222,8 @@ def _d_rossler(s):
     return np.stack([-(y + z), x + a * y, b + z * (x - c)], axis=-1)
 
 
+# lorenz_swarm = Lorenzov motyl, teraz s 3D rotaciou (meno ostava kvoli starym specom v banke)
+lorenz_swarm = _attractor(_d_lorenz, 0.005, [0.1, 0.1, 25.0], proj=(0, 2), settle=900, sc_frac=0.40, intensity=0.30)
 aizawa_attractor = _attractor(_d_aizawa, 0.01, [0.1, 0.0, 0.0], proj=(0, 2), settle=1200, sc_frac=0.40, intensity=0.34)
 thomas_attractor = _attractor(_d_thomas, 0.06, [0.1, 0.12, 0.08], proj=(0, 1), settle=600, sc_frac=0.42, intensity=0.30, decay=0.97)
 halvorsen_attractor = _attractor(_d_halvorsen, 0.0065, [-1.48, -1.51, 2.04], proj=(0, 1), settle=900, substeps=3, sc_frac=0.40, intensity=0.30)
@@ -257,6 +253,99 @@ def flow_field(W=1080, H=1920, fps=30, duration=18, seed=7, scheme="ice", n=1600
         yield _tonemap(canvas, exposure=1.35)
 
 
+# ---------------------------------------------------------------- NOVE SIMULACIE (upgrade)
+def double_pendulum(W=1080, H=1920, fps=30, duration=18, n=700, seed=7, scheme="cool_warm", **_kw):
+    """BUTTERFLY EFFECT nazivo: stovky dvojitych kyvadiel s TAKMER rovnakym startom (rozdiel
+    0.0001 stupna). Prvych par sekund sa hybu ako jedno -> potom sa rozdelia do dahoveho vejara.
+    Najlepsia vizualizacia chaosu aka existuje."""
+    rng = np.random.default_rng(seed)
+    g, L1, L2, m1, m2 = 9.81, 1.0, 1.0, 1.0, 1.0
+    th1 = np.full(n, 2.094) + np.linspace(0, 1, n) * 1e-4     # ~120 stupnov + mikroskopicky rozdiel
+    th2 = np.full(n, 2.094) + rng.uniform(-1e-6, 1e-6, n)
+    w1 = np.zeros(n); w2 = np.zeros(n)
+    col = _scheme(n, scheme)
+    px0, py0 = W / 2.0, H * 0.40
+    sc = min(W, H) * 0.215
+    dt = 1.0 / (fps * 3)
+    canvas = np.zeros((H, W, 3), np.float64)
+    for f in range(int(fps * duration)):
+        canvas *= 0.94
+        for _ in range(3):
+            d = th1 - th2
+            den = 2 * m1 + m2 - m2 * np.cos(2 * d)
+            a1 = (-g * (2 * m1 + m2) * np.sin(th1) - m2 * g * np.sin(th1 - 2 * th2)
+                  - 2 * np.sin(d) * m2 * (w2 * w2 * L2 + w1 * w1 * L1 * np.cos(d))) / (L1 * den)
+            a2 = (2 * np.sin(d) * (w1 * w1 * L1 * (m1 + m2) + g * (m1 + m2) * np.cos(th1)
+                  + w2 * w2 * L2 * m2 * np.cos(d))) / (L2 * den)
+            w1 = np.clip(w1 + a1 * dt, -25, 25); w2 = np.clip(w2 + a2 * dt, -25, 25)
+            th1 += w1 * dt; th2 += w2 * dt
+            x1 = px0 + np.sin(th1) * L1 * sc; y1 = py0 + np.cos(th1) * L1 * sc
+            x2 = x1 + np.sin(th2) * L2 * sc; y2 = y1 + np.cos(th2) * L2 * sc
+            xi = x2.astype(np.int32); yi = y2.astype(np.int32)
+            ok = (xi >= 0) & (xi < W) & (yi >= 0) & (yi < H)
+            np.add.at(canvas, (yi[ok], xi[ok]), col[ok] * 0.62)        # koncovy bod jasny
+            xj = x1.astype(np.int32); yj = y1.astype(np.int32)
+            ok1 = (xj >= 0) & (xj < W) & (yj >= 0) & (yj < H)
+            np.add.at(canvas, (yj[ok1], xj[ok1]), col[ok1] * 0.10)     # kib jemne
+        canvas[int(py0) - 2:int(py0) + 3, int(px0) - 2:int(px0) + 3] += 0.6   # pivot bodka
+        yield _tonemap(canvas)
+
+
+def clifford_morph(W=1080, H=1920, fps=30, duration=18, n=9000, seed=7, scheme="neon", **_kw):
+    """Cliffordov atraktor co sa MORFUJE: parametre sa pomaly vlnia -> organicky atramentovy
+    tvar sa cely cas preliewa do novych foriem (nikdy nestoji). Uplne iny vzhlad nez roje bodiek."""
+    rng = np.random.default_rng(seed)
+    a0, b0, c0, d0 = -1.4, 1.6, 1.0, 0.7
+    x = rng.uniform(-1, 1, n); y = rng.uniform(-1, 1, n)
+    col = _scheme(n, scheme)
+    cx, cy = W / 2.0, H / 2.0
+    sc = min(W, H) * 0.44 / 2.05
+    canvas = np.zeros((H, W, 3), np.float64)
+    for f in range(int(fps * duration)):
+        canvas *= 0.90
+        at = a0 + 0.16 * np.sin(2 * np.pi * f / (fps * 17.0))       # pomale morfovanie tvaru
+        dt_ = d0 + 0.14 * np.cos(2 * np.pi * f / (fps * 12.0))
+        for _ in range(3):
+            xn = np.sin(at * y) + c0 * np.cos(at * x)
+            y = np.sin(b0 * x) + dt_ * np.cos(b0 * y)
+            x = xn
+            sx = (cx + x * sc).astype(np.int32)
+            sy = (cy + y * sc * 1.35).astype(np.int32)               # vertikalne roztiahnute (9:16)
+            ok = (sx >= 0) & (sx < W) & (sy >= 0) & (sy < H)
+            np.add.at(canvas, (sy[ok], sx[ok]), col[ok] * 0.22)
+        yield _tonemap(canvas)
+
+
+def galaxy_spiral(W=1080, H=1920, fps=30, duration=18, n=15000, seed=7, scheme="ice", **_kw):
+    """Rotujuca galaxia: disk hviezd s diferencialnou rotaciou (vnutro rychlejsie) -> spiralove
+    ramena sa naturalne stacaju. Teple jadro, chladne okraje, stale v pohybe."""
+    rng = np.random.default_rng(seed)
+    R = min(W, H) * 0.47
+    r = R * np.sqrt(rng.uniform(0.015, 1.0, n))
+    th = rng.uniform(0, 2 * np.pi, n)
+    th += 0.55 * np.sin(2 * th + r / R * 3.0)                        # 2-ramenna nehomogenita
+    tnorm = np.clip(r / R, 0, 1)
+    base = _scheme(n, scheme)
+    warm = np.array([1.0, 0.75, 0.45])
+    col = warm[None, :] * (1 - tnorm[:, None]) ** 1.5 * 0.9 + base * (0.35 + 0.65 * tnorm[:, None])
+    w0 = 0.062                                                       # uhlova rychlost jadra (rad/frame)
+    om = w0 * (R * 0.16) / (r + R * 0.16)                            # plocha rotacna krivka
+    cx, cy = W / 2.0, H / 2.0
+    tilt = 0.60                                                      # naklon disku (elipsa)
+    canvas = np.zeros((H, W, 3), np.float64)
+    for f in range(int(fps * duration)):
+        canvas *= 0.90
+        for _ in range(2):
+            th += om * 0.5
+            x = (cx + r * np.cos(th)).astype(np.int32)
+            y = (cy + r * np.sin(th) * tilt).astype(np.int32)
+            ok = (x >= 0) & (x < W) & (y >= 0) & (y < H)
+            np.add.at(canvas, (y[ok], x[ok]), col[ok] * 0.28)
+        yy, xx = int(cy), int(cx)
+        canvas[yy - 3:yy + 4, xx - 3:xx + 4] += np.array([0.5, 0.38, 0.22])   # ziarive jadro
+        yield _tonemap(canvas)
+
+
 SIMS = {
     "stream_sphere": stream_sphere,
     "particles_in_circle": particles_in_circle,
@@ -266,4 +355,7 @@ SIMS = {
     "halvorsen_attractor": halvorsen_attractor,
     "rossler_attractor": rossler_attractor,
     "flow_field": flow_field,
+    "double_pendulum": double_pendulum,
+    "clifford_morph": clifford_morph,
+    "galaxy_spiral": galaxy_spiral,
 }

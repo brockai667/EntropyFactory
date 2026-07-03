@@ -368,9 +368,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 13018,
-    "sim": "clifford_morph",
-    "scheme": "ice"
+    "seed": 39614,
+    "sim": "halvorsen_attractor",
+    "scheme": "sunset"
   },
   {
     "onscreen": "Order emerges from chaotic beginnings.",
@@ -385,8 +385,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 35598,
-    "sim": "spirograph",
+    "seed": 42918,
+    "sim": "galaxy_spiral",
     "scheme": "ember"
   },
   {
@@ -402,9 +402,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 90791,
-    "sim": "galaxy_spiral",
-    "scheme": "sunset"
+    "seed": 20607,
+    "sim": "weaving_pens",
+    "scheme": "neon"
   },
   {
     "onscreen": "Every atom dances to entropy's tune.",
@@ -419,9 +419,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 75229,
+    "seed": 57203,
     "sim": "lorenz_swarm",
-    "scheme": "ember"
+    "scheme": "sunset"
   },
   {
     "onscreen": "In chaos, simplicity finds its path.",
@@ -436,9 +436,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 48745,
-    "sim": "flow_field",
-    "scheme": "neon"
+    "seed": 43063,
+    "sim": "spirograph",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Chaos births complexity from simplicity.",
@@ -453,8 +453,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 98132,
-    "sim": "rossler_attractor",
+    "seed": 88695,
+    "sim": "double_pendulum",
     "scheme": "ember"
   },
   {
@@ -470,9 +470,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 9242,
-    "sim": "double_pendulum",
-    "scheme": "ice"
+    "seed": 76596,
+    "sim": "harmonograph",
+    "scheme": "neon"
   },
   {
     "onscreen": "In chaos, we find the unexpected.",
@@ -487,9 +487,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 25289,
-    "sim": "aizawa_attractor",
-    "scheme": "neon"
+    "seed": 73961,
+    "sim": "clifford_morph",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Underlying patterns pulse beneath chaos.",
@@ -504,9 +504,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 30457,
-    "sim": "harmonograph",
-    "scheme": "sunset"
+    "seed": 84962,
+    "sim": "rossler_attractor",
+    "scheme": "aurora"
   },
   {
     "onscreen": "The universe thrives on chaotic creation.",
@@ -521,9 +521,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 1621,
-    "sim": "clifford_morph",
-    "scheme": "neon"
+    "seed": 24456,
+    "sim": "wander_ribbons",
+    "scheme": "ember"
   },
   {
     "onscreen": "What if the universe is a game?",
@@ -538,9 +538,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 33798,
-    "sim": "wander_ribbons",
-    "scheme": "ember"
+    "seed": 10985,
+    "sim": "aizawa_attractor",
+    "scheme": "neon"
   },
   {
     "onscreen": "Feedback loops shape our world.",
@@ -555,9 +555,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 96640,
-    "sim": "flow_field",
-    "scheme": "cool_warm"
+    "seed": 34765,
+    "sim": "weaving_pens",
+    "scheme": "ice"
   },
   {
     "onscreen": "Infinity dances in fractal patterns.",
@@ -572,9 +572,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 49661,
+    "seed": 8773,
     "sim": "stream_sphere",
-    "scheme": "ice"
+    "scheme": "aurora"
   },
   {
     "onscreen": "Hidden structures influence our fate.",
@@ -589,9 +589,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 42406,
-    "sim": "galaxy_spiral",
-    "scheme": "ember"
+    "seed": 83895,
+    "sim": "clifford_morph",
+    "scheme": "ice"
   },
   {
     "onscreen": "What if chaos is creative force?",
@@ -606,8 +606,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 16298,
-    "sim": "halvorsen_attractor",
-    "scheme": "ice"
+    "seed": 25527,
+    "sim": "spirograph",
+    "scheme": "neon"
   }
 ]

@@ -1,0 +1,17 @@
+{
+  "onscreen": "Every atom dances to entropy's tune.",
+  "title": "Every Atom Dances To Entropy's Tune",
+  "description": "Observe the mesmerizing dance of particles as they drift and collide. Like + comment if you want part 2. 🌀",
+  "hashtags": [
+    "#science",
+    "#physics",
+    "#chaos",
+    "#simulation",
+    "#oddlysatisfying",
+    "#shorts",
+    "#fyp"
+  ],
+  "seed": 87368,
+  "sim": "lorenz_swarm",
+  "scheme": "aurora"
+}

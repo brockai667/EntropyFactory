@@ -419,9 +419,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 57203,
+    "seed": 87368,
     "sim": "lorenz_swarm",
-    "scheme": "sunset"
+    "scheme": "aurora"
   },
   {
     "onscreen": "In chaos, simplicity finds its path.",
@@ -436,9 +436,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 43063,
-    "sim": "spirograph",
-    "scheme": "cool_warm"
+    "seed": 1593,
+    "sim": "stream_sphere",
+    "scheme": "ember"
   },
   {
     "onscreen": "Chaos births complexity from simplicity.",
@@ -453,9 +453,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 88695,
-    "sim": "double_pendulum",
-    "scheme": "ember"
+    "seed": 98252,
+    "sim": "flow_field",
+    "scheme": "sunset"
   },
   {
     "onscreen": "Order is the illusion of control.",
@@ -470,9 +470,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 76596,
-    "sim": "harmonograph",
-    "scheme": "neon"
+    "seed": 44631,
+    "sim": "halvorsen_attractor",
+    "scheme": "ember"
   },
   {
     "onscreen": "In chaos, we find the unexpected.",
@@ -487,9 +487,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 73961,
-    "sim": "clifford_morph",
-    "scheme": "cool_warm"
+    "seed": 35542,
+    "sim": "double_pendulum",
+    "scheme": "aurora"
   },
   {
     "onscreen": "Underlying patterns pulse beneath chaos.",
@@ -504,9 +504,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 84962,
-    "sim": "rossler_attractor",
-    "scheme": "aurora"
+    "seed": 15932,
+    "sim": "clifford_morph",
+    "scheme": "ice"
   },
   {
     "onscreen": "The universe thrives on chaotic creation.",
@@ -521,9 +521,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 24456,
+    "seed": 39347,
     "sim": "wander_ribbons",
-    "scheme": "ember"
+    "scheme": "aurora"
   },
   {
     "onscreen": "What if the universe is a game?",
@@ -538,9 +538,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 10985,
-    "sim": "aizawa_attractor",
-    "scheme": "neon"
+    "seed": 74270,
+    "sim": "rossler_attractor",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Feedback loops shape our world.",
@@ -555,9 +555,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 34765,
-    "sim": "weaving_pens",
-    "scheme": "ice"
+    "seed": 66445,
+    "sim": "galaxy_spiral",
+    "scheme": "ember"
   },
   {
     "onscreen": "Infinity dances in fractal patterns.",
@@ -572,7 +572,7 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 8773,
+    "seed": 88541,
     "sim": "stream_sphere",
     "scheme": "aurora"
   },
@@ -589,9 +589,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 83895,
-    "sim": "clifford_morph",
-    "scheme": "ice"
+    "seed": 79110,
+    "sim": "weaving_pens",
+    "scheme": "ember"
   },
   {
     "onscreen": "What if chaos is creative force?",
@@ -606,8 +606,127 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 25527,
+    "seed": 3327,
+    "sim": "aizawa_attractor",
+    "scheme": "aurora"
+  },
+  {
+    "onscreen": "From tiny sparks, worlds ignite.",
+    "title": "From Tiny Sparks, Worlds Ignite",
+    "description": "Watch as minuscule interactions spiral into vast systems. Like + comment if you want part 2. 🔭",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 83411,
+    "sim": "harmonograph",
+    "scheme": "ice"
+  },
+  {
+    "onscreen": "Infinite patterns in finite space.",
+    "title": "Infinite Patterns In Finite Space",
+    "description": "Experience the boundless potential of shapes emerging from confinements. Like + comment if you want part 2.",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 28583,
+    "sim": "halvorsen_attractor",
+    "scheme": "aurora"
+  },
+  {
+    "onscreen": "Symmetry hides in chaotic design.",
+    "title": "Symmetry Hides In Chaotic Design",
+    "description": "Unravel the hidden beauty of symmetry emerging from disorder. Like + comment if you want part 2. ✨",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 52238,
     "sim": "spirograph",
+    "scheme": "ember"
+  },
+  {
+    "onscreen": "Waves break in perfect harmony.",
+    "title": "Waves Break In Perfect Harmony",
+    "description": "Witness how chaotic waves can create stunningly ordered patterns. Like + comment if you want part 2.",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 61882,
+    "sim": "rossler_attractor",
+    "scheme": "aurora"
+  },
+  {
+    "onscreen": "Beneath chaos lies hidden magic.",
+    "title": "Beneath Chaos Lies Hidden Magic",
+    "description": "Explore the enchanting transformations within chaotic realms. Like + comment if you want part 2. 🌀",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 99702,
+    "sim": "wander_ribbons",
     "scheme": "neon"
+  },
+  {
+    "onscreen": "Every choice crafts a new reality.",
+    "title": "Every Choice Crafts A New Reality",
+    "description": "Delve into the intricate web of choices and their chaotic consequences. Like + comment if you want part 2.",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 46958,
+    "sim": "double_pendulum",
+    "scheme": "ember"
+  },
+  {
+    "onscreen": "Patterns emerge from chaotic whispers.",
+    "title": "Patterns Emerge From Chaotic Whispers",
+    "description": "Discover how soft murmurs of chaos reveal elegant structures. Like + comment if you want part 2. ⚛️",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 85966,
+    "sim": "galaxy_spiral",
+    "scheme": "cool_warm"
   }
 ]

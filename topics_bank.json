@@ -470,9 +470,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 44631,
-    "sim": "halvorsen_attractor",
-    "scheme": "ember"
+    "seed": 47800,
+    "sim": "harmonograph",
+    "scheme": "neon"
   },
   {
     "onscreen": "In chaos, we find the unexpected.",
@@ -487,9 +487,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 35542,
-    "sim": "double_pendulum",
-    "scheme": "aurora"
+    "seed": 38446,
+    "sim": "aizawa_attractor",
+    "scheme": "ember"
   },
   {
     "onscreen": "Underlying patterns pulse beneath chaos.",
@@ -504,9 +504,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 15932,
-    "sim": "clifford_morph",
-    "scheme": "ice"
+    "seed": 50617,
+    "sim": "double_pendulum",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "The universe thrives on chaotic creation.",
@@ -521,9 +521,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 39347,
-    "sim": "wander_ribbons",
-    "scheme": "aurora"
+    "seed": 5890,
+    "sim": "lorenz_swarm",
+    "scheme": "ember"
   },
   {
     "onscreen": "What if the universe is a game?",
@@ -538,8 +538,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 74270,
-    "sim": "rossler_attractor",
+    "seed": 20122,
+    "sim": "galaxy_spiral",
     "scheme": "cool_warm"
   },
   {
@@ -555,9 +555,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 66445,
-    "sim": "galaxy_spiral",
-    "scheme": "ember"
+    "seed": 33026,
+    "sim": "stream_sphere",
+    "scheme": "aurora"
   },
   {
     "onscreen": "Infinity dances in fractal patterns.",
@@ -572,9 +572,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 88541,
-    "sim": "stream_sphere",
-    "scheme": "aurora"
+    "seed": 25758,
+    "sim": "halvorsen_attractor",
+    "scheme": "neon"
   },
   {
     "onscreen": "Hidden structures influence our fate.",
@@ -589,9 +589,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 79110,
-    "sim": "weaving_pens",
-    "scheme": "ember"
+    "seed": 56311,
+    "sim": "flow_field",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "What if chaos is creative force?",
@@ -606,9 +606,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 3327,
-    "sim": "aizawa_attractor",
-    "scheme": "aurora"
+    "seed": 12850,
+    "sim": "double_pendulum",
+    "scheme": "ember"
   },
   {
     "onscreen": "From tiny sparks, worlds ignite.",
@@ -623,9 +623,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 83411,
+    "seed": 40302,
     "sim": "harmonograph",
-    "scheme": "ice"
+    "scheme": "neon"
   },
   {
     "onscreen": "Infinite patterns in finite space.",
@@ -640,9 +640,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 28583,
-    "sim": "halvorsen_attractor",
-    "scheme": "aurora"
+    "seed": 83239,
+    "sim": "aizawa_attractor",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Symmetry hides in chaotic design.",
@@ -657,9 +657,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 52238,
-    "sim": "spirograph",
-    "scheme": "ember"
+    "seed": 29914,
+    "sim": "clifford_morph",
+    "scheme": "ice"
   },
   {
     "onscreen": "Waves break in perfect harmony.",
@@ -674,9 +674,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 61882,
-    "sim": "rossler_attractor",
-    "scheme": "aurora"
+    "seed": 86923,
+    "sim": "wander_ribbons",
+    "scheme": "sunset"
   },
   {
     "onscreen": "Beneath chaos lies hidden magic.",
@@ -691,9 +691,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 99702,
-    "sim": "wander_ribbons",
-    "scheme": "neon"
+    "seed": 40875,
+    "sim": "lorenz_swarm",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Every choice crafts a new reality.",
@@ -708,9 +708,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 46958,
-    "sim": "double_pendulum",
-    "scheme": "ember"
+    "seed": 50435,
+    "sim": "spirograph",
+    "scheme": "neon"
   },
   {
     "onscreen": "Patterns emerge from chaotic whispers.",
@@ -725,8 +725,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 85966,
-    "sim": "galaxy_spiral",
+    "seed": 73326,
+    "sim": "halvorsen_attractor",
     "scheme": "cool_warm"
   }
 ]

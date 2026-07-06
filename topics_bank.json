@@ -521,8 +521,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 5890,
-    "sim": "lorenz_swarm",
+    "seed": 98332,
+    "sim": "wander_ribbons",
     "scheme": "ember"
   },
   {
@@ -538,9 +538,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 20122,
-    "sim": "galaxy_spiral",
-    "scheme": "cool_warm"
+    "seed": 53291,
+    "sim": "stream_sphere",
+    "scheme": "ice"
   },
   {
     "onscreen": "Feedback loops shape our world.",
@@ -555,9 +555,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 33026,
-    "sim": "stream_sphere",
-    "scheme": "aurora"
+    "seed": 51115,
+    "sim": "galaxy_spiral",
+    "scheme": "ember"
   },
   {
     "onscreen": "Infinity dances in fractal patterns.",
@@ -572,9 +572,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 25758,
+    "seed": 10395,
     "sim": "halvorsen_attractor",
-    "scheme": "neon"
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Hidden structures influence our fate.",
@@ -589,9 +589,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 56311,
-    "sim": "flow_field",
-    "scheme": "cool_warm"
+    "seed": 64589,
+    "sim": "clifford_morph",
+    "scheme": "sunset"
   },
   {
     "onscreen": "What if chaos is creative force?",
@@ -606,9 +606,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 12850,
-    "sim": "double_pendulum",
-    "scheme": "ember"
+    "seed": 86911,
+    "sim": "harmonograph",
+    "scheme": "aurora"
   },
   {
     "onscreen": "From tiny sparks, worlds ignite.",
@@ -623,9 +623,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 40302,
-    "sim": "harmonograph",
-    "scheme": "neon"
+    "seed": 23763,
+    "sim": "double_pendulum",
+    "scheme": "ice"
   },
   {
     "onscreen": "Infinite patterns in finite space.",
@@ -640,9 +640,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 83239,
-    "sim": "aizawa_attractor",
-    "scheme": "cool_warm"
+    "seed": 24942,
+    "sim": "weaving_pens",
+    "scheme": "aurora"
   },
   {
     "onscreen": "Symmetry hides in chaotic design.",
@@ -657,9 +657,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 29914,
-    "sim": "clifford_morph",
-    "scheme": "ice"
+    "seed": 88418,
+    "sim": "stream_sphere",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Waves break in perfect harmony.",
@@ -674,8 +674,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 86923,
-    "sim": "wander_ribbons",
+    "seed": 89372,
+    "sim": "spirograph",
     "scheme": "sunset"
   },
   {
@@ -691,9 +691,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 40875,
-    "sim": "lorenz_swarm",
-    "scheme": "cool_warm"
+    "seed": 52221,
+    "sim": "flow_field",
+    "scheme": "neon"
   },
   {
     "onscreen": "Every choice crafts a new reality.",
@@ -708,9 +708,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 50435,
-    "sim": "spirograph",
-    "scheme": "neon"
+    "seed": 93171,
+    "sim": "harmonograph",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Patterns emerge from chaotic whispers.",
@@ -725,8 +725,110 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 73326,
-    "sim": "halvorsen_attractor",
+    "seed": 45709,
+    "sim": "rossler_attractor",
+    "scheme": "sunset"
+  },
+  {
+    "onscreen": "Fractals reveal the secrets of infinity.",
+    "title": "Fractals Reveal The Secrets Of Infinity",
+    "description": "Dive into mesmerizing fractal forms that develop endlessly. Like + comment if you want part 2. 🌀",
+    "hashtags": [
+      "#science",
+      "#fractal",
+      "#infinity",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 31854,
+    "sim": "weaving_pens",
     "scheme": "cool_warm"
+  },
+  {
+    "onscreen": "Symmetry emerges from chaotic roots.",
+    "title": "Symmetry Emerges From Chaotic Roots",
+    "description": "Witness how chaos transforms into stunning symmetric designs. Like + comment if you want part 2. ✨",
+    "hashtags": [
+      "#science",
+      "#symmetry",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 44865,
+    "sim": "double_pendulum",
+    "scheme": "neon"
+  },
+  {
+    "onscreen": "Every moment ripples through time.",
+    "title": "Every Moment Ripples Through Time",
+    "description": "See how small actions create waves of change across the cosmos. Like + comment if you want part 2.",
+    "hashtags": [
+      "#science",
+      "#butterflyeffect",
+      "#time",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 7461,
+    "sim": "aizawa_attractor",
+    "scheme": "ice"
+  },
+  {
+    "onscreen": "Patterns woven from randomness.",
+    "title": "Patterns Woven From Randomness",
+    "description": "Unravel the beautiful connections formed from seemingly chaotic movements. Like + comment if you want part 2. ⚛️",
+    "hashtags": [
+      "#science",
+      "#randomness",
+      "#patterns",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 68320,
+    "sim": "flow_field",
+    "scheme": "neon"
+  },
+  {
+    "onscreen": "Order hides in the dance of chaos.",
+    "title": "Order Hides In The Dance Of Chaos",
+    "description": "Experience the enchanting ways order manifests within chaotic systems. Like + comment if you want part 2.",
+    "hashtags": [
+      "#science",
+      "#chaos",
+      "#order",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 30380,
+    "sim": "halvorsen_attractor",
+    "scheme": "aurora"
+  },
+  {
+    "onscreen": "Each wave carries the weight of history.",
+    "title": "Each Wave Carries The Weight Of History",
+    "description": "Observe how every ripple tells a tale of past upheavals and movements. Like + comment if you want part 2. 🔭",
+    "hashtags": [
+      "#science",
+      "#waves",
+      "#history",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 46285,
+    "sim": "spirograph",
+    "scheme": "sunset"
   }
 ]

@@ -572,9 +572,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 10395,
-    "sim": "halvorsen_attractor",
-    "scheme": "cool_warm"
+    "seed": 92169,
+    "sim": "harmonograph",
+    "scheme": "neon"
   },
   {
     "onscreen": "Hidden structures influence our fate.",
@@ -589,9 +589,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 64589,
-    "sim": "clifford_morph",
-    "scheme": "sunset"
+    "seed": 37492,
+    "sim": "lorenz_swarm",
+    "scheme": "ember"
   },
   {
     "onscreen": "What if chaos is creative force?",
@@ -606,9 +606,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 86911,
-    "sim": "harmonograph",
-    "scheme": "aurora"
+    "seed": 14410,
+    "sim": "weaving_pens",
+    "scheme": "sunset"
   },
   {
     "onscreen": "From tiny sparks, worlds ignite.",
@@ -623,9 +623,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 23763,
-    "sim": "double_pendulum",
-    "scheme": "ice"
+    "seed": 16094,
+    "sim": "aizawa_attractor",
+    "scheme": "ember"
   },
   {
     "onscreen": "Infinite patterns in finite space.",
@@ -640,8 +640,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 24942,
-    "sim": "weaving_pens",
+    "seed": 49494,
+    "sim": "spirograph",
     "scheme": "aurora"
   },
   {
@@ -657,9 +657,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 88418,
-    "sim": "stream_sphere",
-    "scheme": "cool_warm"
+    "seed": 96157,
+    "sim": "flow_field",
+    "scheme": "ember"
   },
   {
     "onscreen": "Waves break in perfect harmony.",
@@ -674,9 +674,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 89372,
-    "sim": "spirograph",
-    "scheme": "sunset"
+    "seed": 14586,
+    "sim": "harmonograph",
+    "scheme": "neon"
   },
   {
     "onscreen": "Beneath chaos lies hidden magic.",
@@ -691,9 +691,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 52221,
-    "sim": "flow_field",
-    "scheme": "neon"
+    "seed": 57747,
+    "sim": "rossler_attractor",
+    "scheme": "aurora"
   },
   {
     "onscreen": "Every choice crafts a new reality.",
@@ -708,9 +708,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 93171,
-    "sim": "harmonograph",
-    "scheme": "cool_warm"
+    "seed": 32531,
+    "sim": "double_pendulum",
+    "scheme": "neon"
   },
   {
     "onscreen": "Patterns emerge from chaotic whispers.",
@@ -725,8 +725,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 45709,
-    "sim": "rossler_attractor",
+    "seed": 65659,
+    "sim": "halvorsen_attractor",
     "scheme": "sunset"
   },
   {
@@ -742,8 +742,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 31854,
-    "sim": "weaving_pens",
+    "seed": 92094,
+    "sim": "clifford_morph",
     "scheme": "cool_warm"
   },
   {
@@ -759,9 +759,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 44865,
-    "sim": "double_pendulum",
-    "scheme": "neon"
+    "seed": 13918,
+    "sim": "lorenz_swarm",
+    "scheme": "sunset"
   },
   {
     "onscreen": "Every moment ripples through time.",
@@ -776,8 +776,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 7461,
-    "sim": "aizawa_attractor",
+    "seed": 54460,
+    "sim": "galaxy_spiral",
     "scheme": "ice"
   },
   {
@@ -793,8 +793,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 68320,
-    "sim": "flow_field",
+    "seed": 62181,
+    "sim": "stream_sphere",
     "scheme": "neon"
   },
   {
@@ -810,8 +810,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 30380,
-    "sim": "halvorsen_attractor",
+    "seed": 24881,
+    "sim": "aizawa_attractor",
     "scheme": "aurora"
   },
   {
@@ -827,8 +827,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 46285,
-    "sim": "spirograph",
-    "scheme": "sunset"
+    "seed": 47844,
+    "sim": "flow_field",
+    "scheme": "neon"
   }
 ]

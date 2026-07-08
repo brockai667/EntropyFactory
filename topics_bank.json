@@ -623,7 +623,7 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 16094,
+    "seed": 52528,
     "sim": "aizawa_attractor",
     "scheme": "ember"
   },
@@ -640,9 +640,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 49494,
-    "sim": "spirograph",
-    "scheme": "aurora"
+    "seed": 52699,
+    "sim": "stream_sphere",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Symmetry hides in chaotic design.",
@@ -657,8 +657,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 96157,
-    "sim": "flow_field",
+    "seed": 14968,
+    "sim": "halvorsen_attractor",
     "scheme": "ember"
   },
   {
@@ -674,9 +674,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 14586,
+    "seed": 79944,
     "sim": "harmonograph",
-    "scheme": "neon"
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Beneath chaos lies hidden magic.",
@@ -691,9 +691,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 57747,
-    "sim": "rossler_attractor",
-    "scheme": "aurora"
+    "seed": 28291,
+    "sim": "galaxy_spiral",
+    "scheme": "ember"
   },
   {
     "onscreen": "Every choice crafts a new reality.",
@@ -708,9 +708,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 32531,
-    "sim": "double_pendulum",
-    "scheme": "neon"
+    "seed": 76373,
+    "sim": "spirograph",
+    "scheme": "aurora"
   },
   {
     "onscreen": "Patterns emerge from chaotic whispers.",
@@ -725,8 +725,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 65659,
-    "sim": "halvorsen_attractor",
+    "seed": 84645,
+    "sim": "aizawa_attractor",
     "scheme": "sunset"
   },
   {
@@ -742,9 +742,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 92094,
-    "sim": "clifford_morph",
-    "scheme": "cool_warm"
+    "seed": 53313,
+    "sim": "stream_sphere",
+    "scheme": "aurora"
   },
   {
     "onscreen": "Symmetry emerges from chaotic roots.",
@@ -759,9 +759,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 13918,
-    "sim": "lorenz_swarm",
-    "scheme": "sunset"
+    "seed": 84305,
+    "sim": "halvorsen_attractor",
+    "scheme": "neon"
   },
   {
     "onscreen": "Every moment ripples through time.",
@@ -776,9 +776,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 54460,
-    "sim": "galaxy_spiral",
-    "scheme": "ice"
+    "seed": 4,
+    "sim": "flow_field",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Patterns woven from randomness.",
@@ -793,9 +793,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 62181,
-    "sim": "stream_sphere",
-    "scheme": "neon"
+    "seed": 77719,
+    "sim": "wander_ribbons",
+    "scheme": "ember"
   },
   {
     "onscreen": "Order hides in the dance of chaos.",
@@ -810,8 +810,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 24881,
-    "sim": "aizawa_attractor",
+    "seed": 9924,
+    "sim": "clifford_morph",
     "scheme": "aurora"
   },
   {
@@ -827,8 +827,127 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 47844,
+    "seed": 27354,
+    "sim": "weaving_pens",
+    "scheme": "cool_warm"
+  },
+  {
+    "onscreen": "What if patterns are hidden in noise?",
+    "title": "What If Patterns Are Hidden In Noise?",
+    "description": "Dive into the mesmerizing interplay of chaos and order. Like + comment if you want part 2. 🔭",
+    "hashtags": [
+      "#science",
+      "#chaos",
+      "#patterns",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 2309,
+    "sim": "galaxy_spiral",
+    "scheme": "ice"
+  },
+  {
+    "onscreen": "Order can emerge from pure randomness.",
+    "title": "Order Can Emerge From Pure Randomness",
+    "description": "Witness how spontaneous patterns arise from chaotic origins. Like + comment if you want part 2. ✨",
+    "hashtags": [
+      "#science",
+      "#emergence",
+      "#entropy",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 31208,
+    "sim": "double_pendulum",
+    "scheme": "ember"
+  },
+  {
+    "onscreen": "Fractals remind us of infinite complexity.",
+    "title": "Fractals Remind Us Of Infinite Complexity",
+    "description": "Explore how simple shapes unfold into breathtaking intricacies. Like + comment if you want part 2. 🌀",
+    "hashtags": [
+      "#science",
+      "#fractals",
+      "#infinity",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 23763,
+    "sim": "rossler_attractor",
+    "scheme": "ice"
+  },
+  {
+    "onscreen": "Self-organization creates beauty from chaos.",
+    "title": "Self-Organization Creates Beauty From Chaos",
+    "description": "Join us as we reveal the art of spontaneous order. Like + comment if you want part 2.",
+    "hashtags": [
+      "#science",
+      "#selforganization",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 35809,
+    "sim": "wander_ribbons",
+    "scheme": "cool_warm"
+  },
+  {
+    "onscreen": "Even small changes can shift the world.",
+    "title": "Even Small Changes Can Shift The World",
+    "description": "Observe the butterfly effect in action, turning small moments into grand shifts. Like + comment if you want part 2. ⚛️",
+    "hashtags": [
+      "#science",
+      "#butterflyeffect",
+      "#randomness",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 11850,
+    "sim": "stream_sphere",
+    "scheme": "sunset"
+  },
+  {
+    "onscreen": "Feedback loops create ever-changing realities.",
+    "title": "Feedback Loops Create Ever-Changing Realities",
+    "description": "Experience how twists and turns reshape everything we know. Like + comment if you want part 2. 🌌",
+    "hashtags": [
+      "#science",
+      "#feedbackloops",
+      "#dynamics",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 84301,
+    "sim": "halvorsen_attractor",
+    "scheme": "ice"
+  },
+  {
+    "onscreen": "Symmetry can reveal nature's hidden secrets.",
+    "title": "Symmetry Can Reveal Nature's Hidden Secrets",
+    "description": "Discover the elegance of balance in the universe's design. Like + comment if you want part 2. ✨",
+    "hashtags": [
+      "#science",
+      "#symmetry",
+      "#hiddenstructure",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 80603,
     "sim": "flow_field",
-    "scheme": "neon"
+    "scheme": "cool_warm"
   }
 ]

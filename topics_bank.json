@@ -674,9 +674,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 79944,
+    "seed": 11040,
     "sim": "harmonograph",
-    "scheme": "cool_warm"
+    "scheme": "ice"
   },
   {
     "onscreen": "Beneath chaos lies hidden magic.",
@@ -691,9 +691,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 28291,
-    "sim": "galaxy_spiral",
-    "scheme": "ember"
+    "seed": 89794,
+    "sim": "lorenz_swarm",
+    "scheme": "sunset"
   },
   {
     "onscreen": "Every choice crafts a new reality.",
@@ -708,9 +708,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 76373,
-    "sim": "spirograph",
-    "scheme": "aurora"
+    "seed": 23842,
+    "sim": "galaxy_spiral",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Patterns emerge from chaotic whispers.",
@@ -725,9 +725,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 84645,
-    "sim": "aizawa_attractor",
-    "scheme": "sunset"
+    "seed": 36173,
+    "sim": "spirograph",
+    "scheme": "ember"
   },
   {
     "onscreen": "Fractals reveal the secrets of infinity.",
@@ -742,9 +742,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 53313,
-    "sim": "stream_sphere",
-    "scheme": "aurora"
+    "seed": 76875,
+    "sim": "flow_field",
+    "scheme": "neon"
   },
   {
     "onscreen": "Symmetry emerges from chaotic roots.",
@@ -759,9 +759,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 84305,
-    "sim": "halvorsen_attractor",
-    "scheme": "neon"
+    "seed": 35370,
+    "sim": "stream_sphere",
+    "scheme": "ember"
   },
   {
     "onscreen": "Every moment ripples through time.",
@@ -776,8 +776,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 4,
-    "sim": "flow_field",
+    "seed": 23383,
+    "sim": "weaving_pens",
     "scheme": "cool_warm"
   },
   {
@@ -793,9 +793,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 77719,
-    "sim": "wander_ribbons",
-    "scheme": "ember"
+    "seed": 62361,
+    "sim": "lorenz_swarm",
+    "scheme": "ice"
   },
   {
     "onscreen": "Order hides in the dance of chaos.",
@@ -810,9 +810,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 9924,
-    "sim": "clifford_morph",
-    "scheme": "aurora"
+    "seed": 70990,
+    "sim": "wander_ribbons",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Each wave carries the weight of history.",
@@ -827,9 +827,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 27354,
-    "sim": "weaving_pens",
-    "scheme": "cool_warm"
+    "seed": 19916,
+    "sim": "rossler_attractor",
+    "scheme": "ice"
   },
   {
     "onscreen": "What if patterns are hidden in noise?",
@@ -844,9 +844,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 2309,
-    "sim": "galaxy_spiral",
-    "scheme": "ice"
+    "seed": 77739,
+    "sim": "spirograph",
+    "scheme": "aurora"
   },
   {
     "onscreen": "Order can emerge from pure randomness.",
@@ -861,9 +861,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 31208,
-    "sim": "double_pendulum",
-    "scheme": "ember"
+    "seed": 303,
+    "sim": "stream_sphere",
+    "scheme": "ice"
   },
   {
     "onscreen": "Fractals remind us of infinite complexity.",
@@ -878,9 +878,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 23763,
-    "sim": "rossler_attractor",
-    "scheme": "ice"
+    "seed": 84081,
+    "sim": "clifford_morph",
+    "scheme": "aurora"
   },
   {
     "onscreen": "Self-organization creates beauty from chaos.",
@@ -895,9 +895,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 35809,
-    "sim": "wander_ribbons",
-    "scheme": "cool_warm"
+    "seed": 15162,
+    "sim": "halvorsen_attractor",
+    "scheme": "ember"
   },
   {
     "onscreen": "Even small changes can shift the world.",
@@ -912,9 +912,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 11850,
-    "sim": "stream_sphere",
-    "scheme": "sunset"
+    "seed": 75686,
+    "sim": "galaxy_spiral",
+    "scheme": "aurora"
   },
   {
     "onscreen": "Feedback loops create ever-changing realities.",
@@ -929,9 +929,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 84301,
-    "sim": "halvorsen_attractor",
-    "scheme": "ice"
+    "seed": 77759,
+    "sim": "weaving_pens",
+    "scheme": "sunset"
   },
   {
     "onscreen": "Symmetry can reveal nature's hidden secrets.",
@@ -946,8 +946,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 80603,
-    "sim": "flow_field",
-    "scheme": "cool_warm"
+    "seed": 75519,
+    "sim": "lorenz_swarm",
+    "scheme": "ice"
   }
 ]

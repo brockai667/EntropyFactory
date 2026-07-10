@@ -725,8 +725,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 36173,
-    "sim": "spirograph",
+    "seed": 12538,
+    "sim": "aizawa_attractor",
     "scheme": "ember"
   },
   {
@@ -742,9 +742,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 76875,
-    "sim": "flow_field",
-    "scheme": "neon"
+    "seed": 99060,
+    "sim": "clifford_morph",
+    "scheme": "ice"
   },
   {
     "onscreen": "Symmetry emerges from chaotic roots.",
@@ -759,9 +759,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 35370,
-    "sim": "stream_sphere",
-    "scheme": "ember"
+    "seed": 28705,
+    "sim": "double_pendulum",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Every moment ripples through time.",
@@ -776,9 +776,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 23383,
-    "sim": "weaving_pens",
-    "scheme": "cool_warm"
+    "seed": 33329,
+    "sim": "rossler_attractor",
+    "scheme": "ember"
   },
   {
     "onscreen": "Patterns woven from randomness.",
@@ -793,8 +793,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 62361,
-    "sim": "lorenz_swarm",
+    "seed": 59092,
+    "sim": "flow_field",
     "scheme": "ice"
   },
   {
@@ -810,9 +810,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 70990,
-    "sim": "wander_ribbons",
-    "scheme": "cool_warm"
+    "seed": 99608,
+    "sim": "halvorsen_attractor",
+    "scheme": "ember"
   },
   {
     "onscreen": "Each wave carries the weight of history.",
@@ -827,9 +827,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 19916,
-    "sim": "rossler_attractor",
-    "scheme": "ice"
+    "seed": 91428,
+    "sim": "weaving_pens",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "What if patterns are hidden in noise?",
@@ -844,8 +844,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 77739,
-    "sim": "spirograph",
+    "seed": 61822,
+    "sim": "clifford_morph",
     "scheme": "aurora"
   },
   {
@@ -861,9 +861,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 303,
-    "sim": "stream_sphere",
-    "scheme": "ice"
+    "seed": 64555,
+    "sim": "wander_ribbons",
+    "scheme": "neon"
   },
   {
     "onscreen": "Fractals remind us of infinite complexity.",
@@ -878,9 +878,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 84081,
-    "sim": "clifford_morph",
-    "scheme": "aurora"
+    "seed": 57775,
+    "sim": "stream_sphere",
+    "scheme": "ember"
   },
   {
     "onscreen": "Self-organization creates beauty from chaos.",
@@ -895,9 +895,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 15162,
-    "sim": "halvorsen_attractor",
-    "scheme": "ember"
+    "seed": 46486,
+    "sim": "spirograph",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Even small changes can shift the world.",
@@ -912,9 +912,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 75686,
-    "sim": "galaxy_spiral",
-    "scheme": "aurora"
+    "seed": 35631,
+    "sim": "flow_field",
+    "scheme": "ice"
   },
   {
     "onscreen": "Feedback loops create ever-changing realities.",
@@ -929,9 +929,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 77759,
-    "sim": "weaving_pens",
-    "scheme": "sunset"
+    "seed": 20857,
+    "sim": "lorenz_swarm",
+    "scheme": "ember"
   },
   {
     "onscreen": "Symmetry can reveal nature's hidden secrets.",
@@ -946,8 +946,110 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 75519,
-    "sim": "lorenz_swarm",
+    "seed": 85067,
+    "sim": "weaving_pens",
+    "scheme": "neon"
+  },
+  {
+    "onscreen": "Randomness is a dance, not a mistake.",
+    "title": "Randomness Is A Dance, Not A Mistake",
+    "description": "Witness how unpredictable movements create mesmerizing visuals. Like + comment if you want part 2. 🌀",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 92914,
+    "sim": "rossler_attractor",
+    "scheme": "cool_warm"
+  },
+  {
+    "onscreen": "Can chaos birth new forms of life?",
+    "title": "Can Chaos Birth New Forms Of Life?",
+    "description": "Explore the intersection of chaos and creation in stunning simulations. Like + comment if you want part 2. ✨",
+    "hashtags": [
+      "#science",
+      "#biology",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 87554,
+    "sim": "galaxy_spiral",
+    "scheme": "sunset"
+  },
+  {
+    "onscreen": "Every drop creates a ripple effect.",
+    "title": "Every Drop Creates A Ripple Effect",
+    "description": "See how small actions lead to unforeseen consequences in mesmerizing waves. Like + comment if you want part 2. 🔭",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 23750,
+    "sim": "spirograph",
+    "scheme": "cool_warm"
+  },
+  {
+    "onscreen": "Patterns are whispers from the cosmos.",
+    "title": "Patterns Are Whispers From The Cosmos",
+    "description": "Dive into the hidden structures that speak through simulation's light. Like + comment if you want part 2. ⚛️",
+    "hashtags": [
+      "#science",
+      "#cosmos",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 8476,
+    "sim": "flow_field",
     "scheme": "ice"
+  },
+  {
+    "onscreen": "In randomness, evolution finds its path.",
+    "title": "In Randomness, Evolution Finds Its Path",
+    "description": "Witness the emergence of complexity in the most chaotic environments. Like + comment if you want part 2. 🌌",
+    "hashtags": [
+      "#science",
+      "#evolution",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 97386,
+    "sim": "halvorsen_attractor",
+    "scheme": "cool_warm"
+  },
+  {
+    "onscreen": "What if chaos holds the answer?",
+    "title": "What If Chaos Holds The Answer?",
+    "description": "Unravel the secrets hidden in chaotic patterns revealed through simulation. Like + comment if you want part 2. 🌊",
+    "hashtags": [
+      "#science",
+      "#philosophy",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 29320,
+    "sim": "weaving_pens",
+    "scheme": "neon"
   }
 ]

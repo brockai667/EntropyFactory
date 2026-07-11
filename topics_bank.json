@@ -776,8 +776,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 33329,
-    "sim": "rossler_attractor",
+    "seed": 73791,
+    "sim": "halvorsen_attractor",
     "scheme": "ember"
   },
   {
@@ -793,9 +793,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 59092,
-    "sim": "flow_field",
-    "scheme": "ice"
+    "seed": 35549,
+    "sim": "weaving_pens",
+    "scheme": "aurora"
   },
   {
     "onscreen": "Order hides in the dance of chaos.",
@@ -810,9 +810,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 99608,
-    "sim": "halvorsen_attractor",
-    "scheme": "ember"
+    "seed": 73025,
+    "sim": "galaxy_spiral",
+    "scheme": "sunset"
   },
   {
     "onscreen": "Each wave carries the weight of history.",
@@ -827,9 +827,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 91428,
-    "sim": "weaving_pens",
-    "scheme": "cool_warm"
+    "seed": 21135,
+    "sim": "lorenz_swarm",
+    "scheme": "ice"
   },
   {
     "onscreen": "What if patterns are hidden in noise?",
@@ -844,8 +844,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 61822,
-    "sim": "clifford_morph",
+    "seed": 32624,
+    "sim": "flow_field",
     "scheme": "aurora"
   },
   {
@@ -861,8 +861,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 64555,
-    "sim": "wander_ribbons",
+    "seed": 31124,
+    "sim": "aizawa_attractor",
     "scheme": "neon"
   },
   {
@@ -878,8 +878,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 57775,
-    "sim": "stream_sphere",
+    "seed": 56997,
+    "sim": "clifford_morph",
     "scheme": "ember"
   },
   {
@@ -895,9 +895,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 46486,
-    "sim": "spirograph",
-    "scheme": "cool_warm"
+    "seed": 66142,
+    "sim": "wander_ribbons",
+    "scheme": "neon"
   },
   {
     "onscreen": "Even small changes can shift the world.",
@@ -912,9 +912,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 35631,
-    "sim": "flow_field",
-    "scheme": "ice"
+    "seed": 14325,
+    "sim": "rossler_attractor",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Feedback loops create ever-changing realities.",
@@ -929,9 +929,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 20857,
-    "sim": "lorenz_swarm",
-    "scheme": "ember"
+    "seed": 46234,
+    "sim": "spirograph",
+    "scheme": "sunset"
   },
   {
     "onscreen": "Symmetry can reveal nature's hidden secrets.",
@@ -946,9 +946,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 85067,
-    "sim": "weaving_pens",
-    "scheme": "neon"
+    "seed": 14141,
+    "sim": "double_pendulum",
+    "scheme": "ember"
   },
   {
     "onscreen": "Randomness is a dance, not a mistake.",
@@ -963,9 +963,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 92914,
-    "sim": "rossler_attractor",
-    "scheme": "cool_warm"
+    "seed": 32914,
+    "sim": "lorenz_swarm",
+    "scheme": "neon"
   },
   {
     "onscreen": "Can chaos birth new forms of life?",
@@ -980,9 +980,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 87554,
-    "sim": "galaxy_spiral",
-    "scheme": "sunset"
+    "seed": 54271,
+    "sim": "clifford_morph",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Every drop creates a ripple effect.",
@@ -997,9 +997,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 23750,
-    "sim": "spirograph",
-    "scheme": "cool_warm"
+    "seed": 26788,
+    "sim": "stream_sphere",
+    "scheme": "ice"
   },
   {
     "onscreen": "Patterns are whispers from the cosmos.",
@@ -1014,9 +1014,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 8476,
-    "sim": "flow_field",
-    "scheme": "ice"
+    "seed": 23368,
+    "sim": "weaving_pens",
+    "scheme": "sunset"
   },
   {
     "onscreen": "In randomness, evolution finds its path.",
@@ -1031,9 +1031,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 97386,
-    "sim": "halvorsen_attractor",
-    "scheme": "cool_warm"
+    "seed": 17609,
+    "sim": "rossler_attractor",
+    "scheme": "aurora"
   },
   {
     "onscreen": "What if chaos holds the answer?",
@@ -1048,8 +1048,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 29320,
-    "sim": "weaving_pens",
-    "scheme": "neon"
+    "seed": 59247,
+    "sim": "double_pendulum",
+    "scheme": "cool_warm"
   }
 ]

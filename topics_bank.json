@@ -878,9 +878,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 17925,
-    "sim": "spirograph",
-    "scheme": "cool_warm"
+    "seed": 36913,
+    "sim": "halvorsen_attractor",
+    "scheme": "ice"
   },
   {
     "onscreen": "Self-organization creates beauty from chaos.",
@@ -895,9 +895,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 90922,
-    "sim": "rossler_attractor",
-    "scheme": "aurora"
+    "seed": 60576,
+    "sim": "wander_ribbons",
+    "scheme": "neon"
   },
   {
     "onscreen": "Even small changes can shift the world.",
@@ -912,9 +912,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 33841,
-    "sim": "weaving_pens",
-    "scheme": "sunset"
+    "seed": 91964,
+    "sim": "flow_field",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Feedback loops create ever-changing realities.",
@@ -929,9 +929,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 67744,
-    "sim": "stream_sphere",
-    "scheme": "cool_warm"
+    "seed": 99027,
+    "sim": "double_pendulum",
+    "scheme": "neon"
   },
   {
     "onscreen": "Symmetry can reveal nature's hidden secrets.",
@@ -946,8 +946,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 3733,
-    "sim": "halvorsen_attractor",
+    "seed": 21021,
+    "sim": "aizawa_attractor",
     "scheme": "sunset"
   },
   {
@@ -963,9 +963,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 91724,
-    "sim": "galaxy_spiral",
-    "scheme": "cool_warm"
+    "seed": 60556,
+    "sim": "spirograph",
+    "scheme": "neon"
   },
   {
     "onscreen": "Can chaos birth new forms of life?",
@@ -980,9 +980,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 11917,
-    "sim": "harmonograph",
-    "scheme": "ice"
+    "seed": 9247,
+    "sim": "galaxy_spiral",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Every drop creates a ripple effect.",
@@ -997,9 +997,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 15767,
-    "sim": "rossler_attractor",
-    "scheme": "neon"
+    "seed": 25317,
+    "sim": "harmonograph",
+    "scheme": "sunset"
   },
   {
     "onscreen": "Patterns are whispers from the cosmos.",
@@ -1014,9 +1014,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 70688,
-    "sim": "double_pendulum",
-    "scheme": "cool_warm"
+    "seed": 69399,
+    "sim": "lorenz_swarm",
+    "scheme": "ember"
   },
   {
     "onscreen": "In randomness, evolution finds its path.",
@@ -1031,9 +1031,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 19647,
-    "sim": "aizawa_attractor",
-    "scheme": "sunset"
+    "seed": 4391,
+    "sim": "wander_ribbons",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "What if chaos holds the answer?",
@@ -1048,9 +1048,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 69040,
-    "sim": "flow_field",
-    "scheme": "ember"
+    "seed": 19884,
+    "sim": "clifford_morph",
+    "scheme": "neon"
   },
   {
     "onscreen": "Chaos is the cradle of complexity.",
@@ -1065,9 +1065,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 55446,
-    "sim": "lorenz_swarm",
-    "scheme": "ice"
+    "seed": 50950,
+    "sim": "spirograph",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Emergence thrives in the tiniest details.",
@@ -1082,8 +1082,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 7163,
-    "sim": "clifford_morph",
+    "seed": 96422,
+    "sim": "double_pendulum",
     "scheme": "ember"
   },
   {
@@ -1099,9 +1099,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 81972,
-    "sim": "spirograph",
-    "scheme": "aurora"
+    "seed": 94885,
+    "sim": "harmonograph",
+    "scheme": "neon"
   },
   {
     "onscreen": "Randomness plays a rhythm of its own.",
@@ -1116,9 +1116,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 3619,
-    "sim": "galaxy_spiral",
-    "scheme": "ice"
+    "seed": 31697,
+    "sim": "rossler_attractor",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Patterns emerge where chaos dines.",
@@ -1133,8 +1133,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 1425,
-    "sim": "stream_sphere",
-    "scheme": "sunset"
+    "seed": 67515,
+    "sim": "flow_field",
+    "scheme": "ice"
   }
 ]

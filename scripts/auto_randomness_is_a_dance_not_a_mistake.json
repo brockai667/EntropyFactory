@@ -1,0 +1,17 @@
+{
+  "onscreen": "Randomness is a dance, not a mistake.",
+  "title": "Randomness Is A Dance, Not A Mistake",
+  "description": "Witness how unpredictable movements create mesmerizing visuals. Like + comment if you want part 2. 🌀",
+  "hashtags": [
+    "#science",
+    "#physics",
+    "#chaos",
+    "#simulation",
+    "#oddlysatisfying",
+    "#shorts",
+    "#fyp"
+  ],
+  "seed": 64643,
+  "sim": "rossler_attractor",
+  "scheme": "ice"
+}

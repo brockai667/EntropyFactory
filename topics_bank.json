@@ -980,9 +980,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 48863,
-    "sim": "clifford_morph",
-    "scheme": "ember"
+    "seed": 40449,
+    "sim": "double_pendulum",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Every drop creates a ripple effect.",
@@ -997,9 +997,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 47645,
-    "sim": "halvorsen_attractor",
-    "scheme": "cool_warm"
+    "seed": 26957,
+    "sim": "wander_ribbons",
+    "scheme": "ember"
   },
   {
     "onscreen": "Patterns are whispers from the cosmos.",
@@ -1014,9 +1014,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 66844,
-    "sim": "double_pendulum",
-    "scheme": "ember"
+    "seed": 10939,
+    "sim": "galaxy_spiral",
+    "scheme": "aurora"
   },
   {
     "onscreen": "In randomness, evolution finds its path.",
@@ -1031,7 +1031,7 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 1861,
+    "seed": 57539,
     "sim": "lorenz_swarm",
     "scheme": "neon"
   },
@@ -1048,9 +1048,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 15422,
-    "sim": "galaxy_spiral",
-    "scheme": "ember"
+    "seed": 38482,
+    "sim": "harmonograph",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Chaos is the cradle of complexity.",
@@ -1065,9 +1065,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 54530,
-    "sim": "rossler_attractor",
-    "scheme": "neon"
+    "seed": 99614,
+    "sim": "flow_field",
+    "scheme": "sunset"
   },
   {
     "onscreen": "Emergence thrives in the tiniest details.",
@@ -1082,9 +1082,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 27178,
-    "sim": "wander_ribbons",
-    "scheme": "ember"
+    "seed": 32739,
+    "sim": "stream_sphere",
+    "scheme": "aurora"
   },
   {
     "onscreen": "Endless forms emerge from simple rules.",
@@ -1099,9 +1099,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 8487,
-    "sim": "stream_sphere",
-    "scheme": "cool_warm"
+    "seed": 73839,
+    "sim": "weaving_pens",
+    "scheme": "ice"
   },
   {
     "onscreen": "Randomness plays a rhythm of its own.",
@@ -1116,9 +1116,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 1453,
+    "seed": 65846,
     "sim": "halvorsen_attractor",
-    "scheme": "ember"
+    "scheme": "aurora"
   },
   {
     "onscreen": "Patterns emerge where chaos dines.",
@@ -1133,9 +1133,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 61826,
+    "seed": 49895,
     "sim": "spirograph",
-    "scheme": "sunset"
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Order's shadow lurks in chaos.",
@@ -1150,9 +1150,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 75282,
-    "sim": "lorenz_swarm",
-    "scheme": "neon"
+    "seed": 80877,
+    "sim": "galaxy_spiral",
+    "scheme": "ember"
   },
   {
     "onscreen": "Every wave tells a different story.",
@@ -1167,9 +1167,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 23071,
-    "sim": "double_pendulum",
-    "scheme": "ice"
+    "seed": 58465,
+    "sim": "aizawa_attractor",
+    "scheme": "neon"
   },
   {
     "onscreen": "Symmetry emerges from the unexpected.",
@@ -1184,9 +1184,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 28343,
-    "sim": "aizawa_attractor",
-    "scheme": "sunset"
+    "seed": 31689,
+    "sim": "harmonograph",
+    "scheme": "ember"
   },
   {
     "onscreen": "Chaos sings a song of creation.",
@@ -1201,9 +1201,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 51424,
-    "sim": "wander_ribbons",
-    "scheme": "cool_warm"
+    "seed": 21992,
+    "sim": "stream_sphere",
+    "scheme": "neon"
   },
   {
     "onscreen": "Infinite forms from a single spark.",
@@ -1218,9 +1218,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 35141,
-    "sim": "galaxy_spiral",
-    "scheme": "sunset"
+    "seed": 89109,
+    "sim": "weaving_pens",
+    "scheme": "ice"
   },
   {
     "onscreen": "Patterns form when you look closer.",
@@ -1235,9 +1235,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 94344,
-    "sim": "spirograph",
-    "scheme": "neon"
+    "seed": 42670,
+    "sim": "double_pendulum",
+    "scheme": "ember"
   },
   {
     "onscreen": "Feedback creates worlds of complexity.",
@@ -1252,8 +1252,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 71071,
-    "sim": "flow_field",
-    "scheme": "ember"
+    "seed": 18652,
+    "sim": "galaxy_spiral",
+    "scheme": "aurora"
   }
 ]

@@ -1031,8 +1031,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 57539,
-    "sim": "lorenz_swarm",
+    "seed": 36463,
+    "sim": "stream_sphere",
     "scheme": "neon"
   },
   {
@@ -1048,9 +1048,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 38482,
-    "sim": "harmonograph",
-    "scheme": "cool_warm"
+    "seed": 28484,
+    "sim": "halvorsen_attractor",
+    "scheme": "ice"
   },
   {
     "onscreen": "Chaos is the cradle of complexity.",
@@ -1065,9 +1065,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 99614,
+    "seed": 48404,
     "sim": "flow_field",
-    "scheme": "sunset"
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Emergence thrives in the tiniest details.",
@@ -1082,9 +1082,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 32739,
-    "sim": "stream_sphere",
-    "scheme": "aurora"
+    "seed": 75632,
+    "sim": "spirograph",
+    "scheme": "sunset"
   },
   {
     "onscreen": "Endless forms emerge from simple rules.",
@@ -1099,8 +1099,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 73839,
-    "sim": "weaving_pens",
+    "seed": 52467,
+    "sim": "lorenz_swarm",
     "scheme": "ice"
   },
   {
@@ -1116,8 +1116,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 65846,
-    "sim": "halvorsen_attractor",
+    "seed": 81588,
+    "sim": "wander_ribbons",
     "scheme": "aurora"
   },
   {
@@ -1133,9 +1133,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 49895,
-    "sim": "spirograph",
-    "scheme": "cool_warm"
+    "seed": 89949,
+    "sim": "double_pendulum",
+    "scheme": "sunset"
   },
   {
     "onscreen": "Order's shadow lurks in chaos.",
@@ -1150,9 +1150,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 80877,
-    "sim": "galaxy_spiral",
-    "scheme": "ember"
+    "seed": 196,
+    "sim": "weaving_pens",
+    "scheme": "ice"
   },
   {
     "onscreen": "Every wave tells a different story.",
@@ -1167,9 +1167,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 58465,
-    "sim": "aizawa_attractor",
-    "scheme": "neon"
+    "seed": 81126,
+    "sim": "halvorsen_attractor",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Symmetry emerges from the unexpected.",
@@ -1184,9 +1184,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 31689,
-    "sim": "harmonograph",
-    "scheme": "ember"
+    "seed": 96639,
+    "sim": "spirograph",
+    "scheme": "neon"
   },
   {
     "onscreen": "Chaos sings a song of creation.",
@@ -1201,9 +1201,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 21992,
-    "sim": "stream_sphere",
-    "scheme": "neon"
+    "seed": 91349,
+    "sim": "flow_field",
+    "scheme": "ember"
   },
   {
     "onscreen": "Infinite forms from a single spark.",
@@ -1218,9 +1218,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 89109,
-    "sim": "weaving_pens",
-    "scheme": "ice"
+    "seed": 97943,
+    "sim": "wander_ribbons",
+    "scheme": "aurora"
   },
   {
     "onscreen": "Patterns form when you look closer.",
@@ -1235,9 +1235,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 42670,
+    "seed": 5492,
     "sim": "double_pendulum",
-    "scheme": "ember"
+    "scheme": "neon"
   },
   {
     "onscreen": "Feedback creates worlds of complexity.",
@@ -1252,8 +1252,93 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 18652,
-    "sim": "galaxy_spiral",
-    "scheme": "aurora"
+    "seed": 94873,
+    "sim": "clifford_morph",
+    "scheme": "cool_warm"
+  },
+  {
+    "onscreen": "Fractals hide secrets of the universe.",
+    "title": "Fractals Hide Secrets Of The Universe",
+    "description": "Unfold intricate patterns that echo through time. Like + comment if you want part 2. 🔭",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 43834,
+    "sim": "halvorsen_attractor",
+    "scheme": "neon"
+  },
+  {
+    "onscreen": "What if randomness is nature's pattern?",
+    "title": "What If Randomness Is Nature's Pattern?",
+    "description": "Explore the rhythm that exists in disorder. Like + comment if you want part 2.",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 23083,
+    "sim": "spirograph",
+    "scheme": "ember"
+  },
+  {
+    "onscreen": "Emergence finds beauty in chaos.",
+    "title": "Emergence Finds Beauty In Chaos",
+    "description": "Witness how complexity arises effortlessly from simple interactions. Like + comment if you want part 2. 🌀",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 18672,
+    "sim": "rossler_attractor",
+    "scheme": "ice"
+  },
+  {
+    "onscreen": "Order dances within chaotic rhythms.",
+    "title": "Order Dances Within Chaotic Rhythms",
+    "description": "Experience the elegance that emerges from unpredictability. Like + comment if you want part 2.",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 87499,
+    "sim": "harmonograph",
+    "scheme": "neon"
+  },
+  {
+    "onscreen": "Tides of chaos shape unseen futures.",
+    "title": "Tides Of Chaos Shape Unseen Futures",
+    "description": "Feel the wave of possibilities flow through chaos. Like + comment if you want part 2. ⚛️",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 19475,
+    "sim": "double_pendulum",
+    "scheme": "cool_warm"
   }
 ]

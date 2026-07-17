@@ -1082,9 +1082,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 75632,
+    "seed": 78904,
     "sim": "spirograph",
-    "scheme": "sunset"
+    "scheme": "ember"
   },
   {
     "onscreen": "Endless forms emerge from simple rules.",
@@ -1099,9 +1099,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 52467,
-    "sim": "lorenz_swarm",
-    "scheme": "ice"
+    "seed": 94544,
+    "sim": "clifford_morph",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Randomness plays a rhythm of its own.",
@@ -1116,9 +1116,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 81588,
+    "seed": 61933,
     "sim": "wander_ribbons",
-    "scheme": "aurora"
+    "scheme": "neon"
   },
   {
     "onscreen": "Patterns emerge where chaos dines.",
@@ -1133,8 +1133,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 89949,
-    "sim": "double_pendulum",
+    "seed": 43824,
+    "sim": "stream_sphere",
     "scheme": "sunset"
   },
   {
@@ -1150,9 +1150,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 196,
-    "sim": "weaving_pens",
-    "scheme": "ice"
+    "seed": 77309,
+    "sim": "harmonograph",
+    "scheme": "ember"
   },
   {
     "onscreen": "Every wave tells a different story.",
@@ -1167,9 +1167,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 81126,
+    "seed": 51171,
     "sim": "halvorsen_attractor",
-    "scheme": "cool_warm"
+    "scheme": "neon"
   },
   {
     "onscreen": "Symmetry emerges from the unexpected.",
@@ -1184,9 +1184,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 96639,
-    "sim": "spirograph",
-    "scheme": "neon"
+    "seed": 58108,
+    "sim": "galaxy_spiral",
+    "scheme": "sunset"
   },
   {
     "onscreen": "Chaos sings a song of creation.",
@@ -1201,9 +1201,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 91349,
-    "sim": "flow_field",
-    "scheme": "ember"
+    "seed": 5317,
+    "sim": "weaving_pens",
+    "scheme": "ice"
   },
   {
     "onscreen": "Infinite forms from a single spark.",
@@ -1218,8 +1218,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 97943,
-    "sim": "wander_ribbons",
+    "seed": 54710,
+    "sim": "aizawa_attractor",
     "scheme": "aurora"
   },
   {
@@ -1235,8 +1235,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 5492,
-    "sim": "double_pendulum",
+    "seed": 2745,
+    "sim": "stream_sphere",
     "scheme": "neon"
   },
   {
@@ -1252,9 +1252,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 94873,
-    "sim": "clifford_morph",
-    "scheme": "cool_warm"
+    "seed": 57256,
+    "sim": "rossler_attractor",
+    "scheme": "ember"
   },
   {
     "onscreen": "Fractals hide secrets of the universe.",
@@ -1269,9 +1269,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 43834,
-    "sim": "halvorsen_attractor",
-    "scheme": "neon"
+    "seed": 10248,
+    "sim": "flow_field",
+    "scheme": "ice"
   },
   {
     "onscreen": "What if randomness is nature's pattern?",
@@ -1286,9 +1286,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 23083,
-    "sim": "spirograph",
-    "scheme": "ember"
+    "seed": 93599,
+    "sim": "lorenz_swarm",
+    "scheme": "sunset"
   },
   {
     "onscreen": "Emergence finds beauty in chaos.",
@@ -1303,9 +1303,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 18672,
-    "sim": "rossler_attractor",
-    "scheme": "ice"
+    "seed": 36836,
+    "sim": "harmonograph",
+    "scheme": "ember"
   },
   {
     "onscreen": "Order dances within chaotic rhythms.",
@@ -1320,9 +1320,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 87499,
-    "sim": "harmonograph",
-    "scheme": "neon"
+    "seed": 10529,
+    "sim": "halvorsen_attractor",
+    "scheme": "sunset"
   },
   {
     "onscreen": "Tides of chaos shape unseen futures.",
@@ -1337,8 +1337,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 19475,
-    "sim": "double_pendulum",
-    "scheme": "cool_warm"
+    "seed": 17647,
+    "sim": "galaxy_spiral",
+    "scheme": "aurora"
   }
 ]

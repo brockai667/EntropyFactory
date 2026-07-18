@@ -1133,9 +1133,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 43824,
+    "seed": 27155,
     "sim": "stream_sphere",
-    "scheme": "sunset"
+    "scheme": "ember"
   },
   {
     "onscreen": "Order's shadow lurks in chaos.",
@@ -1150,9 +1150,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 77309,
-    "sim": "harmonograph",
-    "scheme": "ember"
+    "seed": 14573,
+    "sim": "aizawa_attractor",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Every wave tells a different story.",
@@ -1167,9 +1167,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 51171,
-    "sim": "halvorsen_attractor",
-    "scheme": "neon"
+    "seed": 14621,
+    "sim": "harmonograph",
+    "scheme": "ice"
   },
   {
     "onscreen": "Symmetry emerges from the unexpected.",
@@ -1184,9 +1184,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 58108,
-    "sim": "galaxy_spiral",
-    "scheme": "sunset"
+    "seed": 14384,
+    "sim": "rossler_attractor",
+    "scheme": "aurora"
   },
   {
     "onscreen": "Chaos sings a song of creation.",
@@ -1201,9 +1201,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 5317,
-    "sim": "weaving_pens",
-    "scheme": "ice"
+    "seed": 70063,
+    "sim": "double_pendulum",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Infinite forms from a single spark.",
@@ -1218,9 +1218,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 54710,
-    "sim": "aizawa_attractor",
-    "scheme": "aurora"
+    "seed": 69070,
+    "sim": "clifford_morph",
+    "scheme": "neon"
   },
   {
     "onscreen": "Patterns form when you look closer.",
@@ -1235,9 +1235,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 2745,
-    "sim": "stream_sphere",
-    "scheme": "neon"
+    "seed": 30703,
+    "sim": "spirograph",
+    "scheme": "ice"
   },
   {
     "onscreen": "Feedback creates worlds of complexity.",
@@ -1252,9 +1252,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 57256,
-    "sim": "rossler_attractor",
-    "scheme": "ember"
+    "seed": 49058,
+    "sim": "galaxy_spiral",
+    "scheme": "aurora"
   },
   {
     "onscreen": "Fractals hide secrets of the universe.",
@@ -1269,9 +1269,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 10248,
-    "sim": "flow_field",
-    "scheme": "ice"
+    "seed": 6464,
+    "sim": "lorenz_swarm",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "What if randomness is nature's pattern?",
@@ -1286,9 +1286,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 93599,
-    "sim": "lorenz_swarm",
-    "scheme": "sunset"
+    "seed": 75334,
+    "sim": "harmonograph",
+    "scheme": "ember"
   },
   {
     "onscreen": "Emergence finds beauty in chaos.",
@@ -1303,9 +1303,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 36836,
-    "sim": "harmonograph",
-    "scheme": "ember"
+    "seed": 740,
+    "sim": "flow_field",
+    "scheme": "sunset"
   },
   {
     "onscreen": "Order dances within chaotic rhythms.",
@@ -1320,9 +1320,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 10529,
-    "sim": "halvorsen_attractor",
-    "scheme": "sunset"
+    "seed": 14652,
+    "sim": "rossler_attractor",
+    "scheme": "ice"
   },
   {
     "onscreen": "Tides of chaos shape unseen futures.",
@@ -1337,8 +1337,110 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 17647,
-    "sim": "galaxy_spiral",
+    "seed": 84994,
+    "sim": "clifford_morph",
+    "scheme": "neon"
+  },
+  {
+    "onscreen": "Patterns appear when chaos settles.",
+    "title": "Patterns Appear When Chaos Settles",
+    "description": "Witness the calm emerge from disorder. Like + comment if you want part 2. ✨",
+    "hashtags": [
+      "#science",
+      "#patterns",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 70464,
+    "sim": "stream_sphere",
+    "scheme": "cool_warm"
+  },
+  {
+    "onscreen": "What shapes the dance of chaos?",
+    "title": "What Shapes The Dance Of Chaos?",
+    "description": "Explore the unseen forces behind swirling patterns. Like + comment if you want part 2. 🔭",
+    "hashtags": [
+      "#science",
+      "#chaos",
+      "#dance",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 79938,
+    "sim": "wander_ribbons",
+    "scheme": "ember"
+  },
+  {
+    "onscreen": "Immense beauty from tiny imperfections.",
+    "title": "Immense Beauty From Tiny Imperfections",
+    "description": "Marvel at how flaws can create stunning visuals. Like + comment if you want part 2. 🌀",
+    "hashtags": [
+      "#science",
+      "#beauty",
+      "#imperfections",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 56708,
+    "sim": "aizawa_attractor",
+    "scheme": "sunset"
+  },
+  {
+    "onscreen": "Every small spark can ignite change.",
+    "title": "Every Small Spark Can Ignite Change",
+    "description": "Watch how tiny disturbances lead to massive transformations. Like + comment if you want part 2. ⚛️",
+    "hashtags": [
+      "#science",
+      "#change",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 97766,
+    "sim": "weaving_pens",
     "scheme": "aurora"
+  },
+  {
+    "onscreen": "Hidden rules guide chaotic waves.",
+    "title": "Hidden Rules Guide Chaotic Waves",
+    "description": "Uncover the unseen patterns directing each swell. Like + comment if you want part 2. 🌊",
+    "hashtags": [
+      "#science",
+      "#waves",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 29194,
+    "sim": "lorenz_swarm",
+    "scheme": "ice"
+  },
+  {
+    "onscreen": "Fractals: infinity trapped in patterns.",
+    "title": "Fractals: Infinity Trapped In Patterns",
+    "description": "Dive into the mesmerizing world of repeating forms. Like + comment if you want part 2. 🔭",
+    "hashtags": [
+      "#science",
+      "#fractals",
+      "#infinity",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 611,
+    "sim": "galaxy_spiral",
+    "scheme": "neon"
   }
 ]

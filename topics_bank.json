@@ -1184,9 +1184,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 14384,
-    "sim": "rossler_attractor",
-    "scheme": "aurora"
+    "seed": 19660,
+    "sim": "flow_field",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Chaos sings a song of creation.",
@@ -1201,9 +1201,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 70063,
-    "sim": "double_pendulum",
-    "scheme": "cool_warm"
+    "seed": 83065,
+    "sim": "weaving_pens",
+    "scheme": "sunset"
   },
   {
     "onscreen": "Infinite forms from a single spark.",
@@ -1218,9 +1218,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 69070,
-    "sim": "clifford_morph",
-    "scheme": "neon"
+    "seed": 66346,
+    "sim": "double_pendulum",
+    "scheme": "ice"
   },
   {
     "onscreen": "Patterns form when you look closer.",
@@ -1235,9 +1235,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 30703,
-    "sim": "spirograph",
-    "scheme": "ice"
+    "seed": 44287,
+    "sim": "halvorsen_attractor",
+    "scheme": "ember"
   },
   {
     "onscreen": "Feedback creates worlds of complexity.",
@@ -1252,9 +1252,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 49058,
-    "sim": "galaxy_spiral",
-    "scheme": "aurora"
+    "seed": 7351,
+    "sim": "spirograph",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Fractals hide secrets of the universe.",
@@ -1269,9 +1269,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 6464,
-    "sim": "lorenz_swarm",
-    "scheme": "cool_warm"
+    "seed": 61382,
+    "sim": "aizawa_attractor",
+    "scheme": "ember"
   },
   {
     "onscreen": "What if randomness is nature's pattern?",
@@ -1286,9 +1286,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 75334,
-    "sim": "harmonograph",
-    "scheme": "ember"
+    "seed": 46221,
+    "sim": "flow_field",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Emergence finds beauty in chaos.",
@@ -1303,9 +1303,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 740,
-    "sim": "flow_field",
-    "scheme": "sunset"
+    "seed": 61511,
+    "sim": "wander_ribbons",
+    "scheme": "ember"
   },
   {
     "onscreen": "Order dances within chaotic rhythms.",
@@ -1320,8 +1320,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 14652,
-    "sim": "rossler_attractor",
+    "seed": 80332,
+    "sim": "lorenz_swarm",
     "scheme": "ice"
   },
   {
@@ -1337,9 +1337,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 84994,
-    "sim": "clifford_morph",
-    "scheme": "neon"
+    "seed": 81759,
+    "sim": "weaving_pens",
+    "scheme": "ember"
   },
   {
     "onscreen": "Patterns appear when chaos settles.",
@@ -1354,9 +1354,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 70464,
-    "sim": "stream_sphere",
-    "scheme": "cool_warm"
+    "seed": 72109,
+    "sim": "double_pendulum",
+    "scheme": "aurora"
   },
   {
     "onscreen": "What shapes the dance of chaos?",
@@ -1371,8 +1371,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 79938,
-    "sim": "wander_ribbons",
+    "seed": 84661,
+    "sim": "galaxy_spiral",
     "scheme": "ember"
   },
   {
@@ -1388,9 +1388,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 56708,
-    "sim": "aizawa_attractor",
-    "scheme": "sunset"
+    "seed": 9361,
+    "sim": "stream_sphere",
+    "scheme": "neon"
   },
   {
     "onscreen": "Every small spark can ignite change.",
@@ -1405,9 +1405,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 97766,
-    "sim": "weaving_pens",
-    "scheme": "aurora"
+    "seed": 6291,
+    "sim": "aizawa_attractor",
+    "scheme": "ice"
   },
   {
     "onscreen": "Hidden rules guide chaotic waves.",
@@ -1422,9 +1422,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 29194,
-    "sim": "lorenz_swarm",
-    "scheme": "ice"
+    "seed": 52192,
+    "sim": "wander_ribbons",
+    "scheme": "neon"
   },
   {
     "onscreen": "Fractals: infinity trapped in patterns.",
@@ -1439,8 +1439,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 611,
-    "sim": "galaxy_spiral",
-    "scheme": "neon"
+    "seed": 25051,
+    "sim": "rossler_attractor",
+    "scheme": "ice"
   }
 ]

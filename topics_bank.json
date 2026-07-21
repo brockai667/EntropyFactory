@@ -1286,9 +1286,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 74821,
-    "sim": "rossler_attractor",
-    "scheme": "neon"
+    "seed": 7557,
+    "sim": "stream_sphere",
+    "scheme": "sunset"
   },
   {
     "onscreen": "Emergence finds beauty in chaos.",
@@ -1303,9 +1303,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 36589,
-    "sim": "spirograph",
-    "scheme": "ice"
+    "seed": 6099,
+    "sim": "lorenz_swarm",
+    "scheme": "neon"
   },
   {
     "onscreen": "Order dances within chaotic rhythms.",
@@ -1320,9 +1320,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 78235,
+    "seed": 84668,
     "sim": "galaxy_spiral",
-    "scheme": "ember"
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Tides of chaos shape unseen futures.",
@@ -1337,9 +1337,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 74859,
-    "sim": "lorenz_swarm",
-    "scheme": "cool_warm"
+    "seed": 23577,
+    "sim": "harmonograph",
+    "scheme": "neon"
   },
   {
     "onscreen": "Patterns appear when chaos settles.",
@@ -1354,9 +1354,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 25289,
-    "sim": "harmonograph",
-    "scheme": "aurora"
+    "seed": 48742,
+    "sim": "double_pendulum",
+    "scheme": "ice"
   },
   {
     "onscreen": "What shapes the dance of chaos?",
@@ -1371,9 +1371,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 27995,
+    "seed": 11825,
     "sim": "flow_field",
-    "scheme": "cool_warm"
+    "scheme": "aurora"
   },
   {
     "onscreen": "Immense beauty from tiny imperfections.",
@@ -1388,8 +1388,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 23841,
-    "sim": "wander_ribbons",
+    "seed": 90912,
+    "sim": "halvorsen_attractor",
     "scheme": "ice"
   },
   {
@@ -1405,9 +1405,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 97379,
-    "sim": "clifford_morph",
-    "scheme": "neon"
+    "seed": 99934,
+    "sim": "weaving_pens",
+    "scheme": "aurora"
   },
   {
     "onscreen": "Hidden rules guide chaotic waves.",
@@ -1422,9 +1422,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 87587,
+    "seed": 11976,
     "sim": "aizawa_attractor",
-    "scheme": "aurora"
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Fractals: infinity trapped in patterns.",
@@ -1439,9 +1439,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 39088,
-    "sim": "galaxy_spiral",
-    "scheme": "cool_warm"
+    "seed": 24499,
+    "sim": "clifford_morph",
+    "scheme": "aurora"
   },
   {
     "onscreen": "Chaos molds the sculptor's hand.",
@@ -1456,9 +1456,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 76055,
-    "sim": "weaving_pens",
-    "scheme": "neon"
+    "seed": 10788,
+    "sim": "wander_ribbons",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Harmony arises from discordant notes.",
@@ -1473,9 +1473,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 54893,
+    "seed": 84332,
     "sim": "lorenz_swarm",
-    "scheme": "cool_warm"
+    "scheme": "sunset"
   },
   {
     "onscreen": "Emergence is magic in plain sight.",
@@ -1490,9 +1490,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 62659,
-    "sim": "flow_field",
-    "scheme": "neon"
+    "seed": 87448,
+    "sim": "galaxy_spiral",
+    "scheme": "ice"
   },
   {
     "onscreen": "Waves of chaos thrum with potential.",
@@ -1507,9 +1507,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 85929,
-    "sim": "halvorsen_attractor",
-    "scheme": "aurora"
+    "seed": 33533,
+    "sim": "rossler_attractor",
+    "scheme": "neon"
   },
   {
     "onscreen": "Fractals breathe life into the void.",
@@ -1524,9 +1524,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 14052,
-    "sim": "clifford_morph",
-    "scheme": "ember"
+    "seed": 92877,
+    "sim": "harmonograph",
+    "scheme": "aurora"
   },
   {
     "onscreen": "Unexpected order emerges from randomness.",
@@ -1541,8 +1541,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 88737,
-    "sim": "stream_sphere",
-    "scheme": "aurora"
+    "seed": 97655,
+    "sim": "flow_field",
+    "scheme": "neon"
   }
 ]

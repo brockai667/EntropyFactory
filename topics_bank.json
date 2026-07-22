@@ -1337,9 +1337,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 23577,
-    "sim": "harmonograph",
-    "scheme": "neon"
+    "seed": 58305,
+    "sim": "rossler_attractor",
+    "scheme": "sunset"
   },
   {
     "onscreen": "Patterns appear when chaos settles.",
@@ -1354,9 +1354,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 48742,
-    "sim": "double_pendulum",
-    "scheme": "ice"
+    "seed": 64430,
+    "sim": "spirograph",
+    "scheme": "neon"
   },
   {
     "onscreen": "What shapes the dance of chaos?",
@@ -1371,9 +1371,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 11825,
-    "sim": "flow_field",
-    "scheme": "aurora"
+    "seed": 72056,
+    "sim": "aizawa_attractor",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Immense beauty from tiny imperfections.",
@@ -1388,9 +1388,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 90912,
-    "sim": "halvorsen_attractor",
-    "scheme": "ice"
+    "seed": 669,
+    "sim": "stream_sphere",
+    "scheme": "neon"
   },
   {
     "onscreen": "Every small spark can ignite change.",
@@ -1405,9 +1405,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 99934,
-    "sim": "weaving_pens",
-    "scheme": "aurora"
+    "seed": 55999,
+    "sim": "lorenz_swarm",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Hidden rules guide chaotic waves.",
@@ -1422,9 +1422,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 11976,
-    "sim": "aizawa_attractor",
-    "scheme": "cool_warm"
+    "seed": 9216,
+    "sim": "double_pendulum",
+    "scheme": "ice"
   },
   {
     "onscreen": "Fractals: infinity trapped in patterns.",
@@ -1439,8 +1439,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 24499,
-    "sim": "clifford_morph",
+    "seed": 31847,
+    "sim": "wander_ribbons",
     "scheme": "aurora"
   },
   {
@@ -1456,9 +1456,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 10788,
-    "sim": "wander_ribbons",
-    "scheme": "cool_warm"
+    "seed": 90081,
+    "sim": "flow_field",
+    "scheme": "sunset"
   },
   {
     "onscreen": "Harmony arises from discordant notes.",
@@ -1473,9 +1473,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 84332,
-    "sim": "lorenz_swarm",
-    "scheme": "sunset"
+    "seed": 80540,
+    "sim": "aizawa_attractor",
+    "scheme": "aurora"
   },
   {
     "onscreen": "Emergence is magic in plain sight.",
@@ -1490,9 +1490,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 87448,
-    "sim": "galaxy_spiral",
-    "scheme": "ice"
+    "seed": 99531,
+    "sim": "stream_sphere",
+    "scheme": "sunset"
   },
   {
     "onscreen": "Waves of chaos thrum with potential.",
@@ -1507,7 +1507,7 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 33533,
+    "seed": 78508,
     "sim": "rossler_attractor",
     "scheme": "neon"
   },
@@ -1524,9 +1524,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 92877,
-    "sim": "harmonograph",
-    "scheme": "aurora"
+    "seed": 51434,
+    "sim": "weaving_pens",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Unexpected order emerges from randomness.",
@@ -1541,8 +1541,110 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 97655,
-    "sim": "flow_field",
+    "seed": 55001,
+    "sim": "halvorsen_attractor",
+    "scheme": "ice"
+  },
+  {
+    "onscreen": "Patterns emerge from the unlikeliest places.",
+    "title": "Patterns Emerge From The Unlikeliest Places",
+    "description": "Watch as chaos transforms into captivating symmetry. Like + comment if you want part 2. ✨",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 2659,
+    "sim": "spirograph",
+    "scheme": "ember"
+  },
+  {
+    "onscreen": "What if randomness has a secret rhyme?",
+    "title": "What If Randomness Has A Secret Rhyme?",
+    "description": "Dive into the unexpected harmony hidden within chaos. Like + comment if you want part 2. 🔭",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 224,
+    "sim": "galaxy_spiral",
     "scheme": "neon"
+  },
+  {
+    "onscreen": "Small changes ripple through time.",
+    "title": "Small Changes Ripple Through Time",
+    "description": "Witness how minor shifts can alter entire futures. Like + comment if you want part 2. 🌀",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 25375,
+    "sim": "harmonograph",
+    "scheme": "ice"
+  },
+  {
+    "onscreen": "Beauty thrives in unexpected chaos.",
+    "title": "Beauty Thrives In Unexpected Chaos",
+    "description": "Experience the surprising allure of disarray transforming into art. Like + comment if you want part 2.",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 96235,
+    "sim": "stream_sphere",
+    "scheme": "ember"
+  },
+  {
+    "onscreen": "Order whispers through chaotic movements.",
+    "title": "Order Whispers Through Chaotic Movements",
+    "description": "Unravel the hidden symmetry dancing within disorder. Like + comment if you want part 2. ✨",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 69318,
+    "sim": "rossler_attractor",
+    "scheme": "ice"
+  },
+  {
+    "onscreen": "In chaos, there's a spark of creation.",
+    "title": "In Chaos, There's A Spark Of Creation",
+    "description": "Watch how disorder breathes life into new possibilities. Like + comment if you want part 2. 🌀",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 22409,
+    "sim": "flow_field",
+    "scheme": "ember"
   }
 ]

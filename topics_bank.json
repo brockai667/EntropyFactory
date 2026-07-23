@@ -1388,9 +1388,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 669,
-    "sim": "stream_sphere",
-    "scheme": "neon"
+    "seed": 16727,
+    "sim": "wander_ribbons",
+    "scheme": "ember"
   },
   {
     "onscreen": "Every small spark can ignite change.",
@@ -1405,9 +1405,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 55999,
-    "sim": "lorenz_swarm",
-    "scheme": "cool_warm"
+    "seed": 39557,
+    "sim": "double_pendulum",
+    "scheme": "ice"
   },
   {
     "onscreen": "Hidden rules guide chaotic waves.",
@@ -1422,9 +1422,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 9216,
-    "sim": "double_pendulum",
-    "scheme": "ice"
+    "seed": 81086,
+    "sim": "flow_field",
+    "scheme": "ember"
   },
   {
     "onscreen": "Fractals: infinity trapped in patterns.",
@@ -1439,8 +1439,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 31847,
-    "sim": "wander_ribbons",
+    "seed": 83751,
+    "sim": "halvorsen_attractor",
     "scheme": "aurora"
   },
   {
@@ -1456,9 +1456,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 90081,
-    "sim": "flow_field",
-    "scheme": "sunset"
+    "seed": 14550,
+    "sim": "clifford_morph",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Harmony arises from discordant notes.",
@@ -1473,8 +1473,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 80540,
-    "sim": "aizawa_attractor",
+    "seed": 66125,
+    "sim": "spirograph",
     "scheme": "aurora"
   },
   {
@@ -1490,8 +1490,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 99531,
-    "sim": "stream_sphere",
+    "seed": 44329,
+    "sim": "rossler_attractor",
     "scheme": "sunset"
   },
   {
@@ -1507,9 +1507,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 78508,
-    "sim": "rossler_attractor",
-    "scheme": "neon"
+    "seed": 73585,
+    "sim": "galaxy_spiral",
+    "scheme": "aurora"
   },
   {
     "onscreen": "Fractals breathe life into the void.",
@@ -1524,9 +1524,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 51434,
-    "sim": "weaving_pens",
-    "scheme": "cool_warm"
+    "seed": 26906,
+    "sim": "stream_sphere",
+    "scheme": "ice"
   },
   {
     "onscreen": "Unexpected order emerges from randomness.",
@@ -1541,9 +1541,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 55001,
-    "sim": "halvorsen_attractor",
-    "scheme": "ice"
+    "seed": 16307,
+    "sim": "lorenz_swarm",
+    "scheme": "sunset"
   },
   {
     "onscreen": "Patterns emerge from the unlikeliest places.",
@@ -1558,9 +1558,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 2659,
-    "sim": "spirograph",
-    "scheme": "ember"
+    "seed": 47507,
+    "sim": "weaving_pens",
+    "scheme": "neon"
   },
   {
     "onscreen": "What if randomness has a secret rhyme?",
@@ -1575,9 +1575,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 224,
-    "sim": "galaxy_spiral",
-    "scheme": "neon"
+    "seed": 85514,
+    "sim": "clifford_morph",
+    "scheme": "ember"
   },
   {
     "onscreen": "Small changes ripple through time.",
@@ -1592,9 +1592,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 25375,
-    "sim": "harmonograph",
-    "scheme": "ice"
+    "seed": 5127,
+    "sim": "rossler_attractor",
+    "scheme": "sunset"
   },
   {
     "onscreen": "Beauty thrives in unexpected chaos.",
@@ -1609,9 +1609,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 96235,
-    "sim": "stream_sphere",
-    "scheme": "ember"
+    "seed": 6126,
+    "sim": "harmonograph",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Order whispers through chaotic movements.",
@@ -1626,9 +1626,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 69318,
-    "sim": "rossler_attractor",
-    "scheme": "ice"
+    "seed": 64352,
+    "sim": "stream_sphere",
+    "scheme": "ember"
   },
   {
     "onscreen": "In chaos, there's a spark of creation.",
@@ -1643,8 +1643,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 22409,
-    "sim": "flow_field",
-    "scheme": "ember"
+    "seed": 32578,
+    "sim": "wander_ribbons",
+    "scheme": "ice"
   }
 ]

@@ -1439,8 +1439,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 83751,
-    "sim": "halvorsen_attractor",
+    "seed": 97885,
+    "sim": "harmonograph",
     "scheme": "aurora"
   },
   {
@@ -1456,9 +1456,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 14550,
-    "sim": "clifford_morph",
-    "scheme": "cool_warm"
+    "seed": 46707,
+    "sim": "halvorsen_attractor",
+    "scheme": "ember"
   },
   {
     "onscreen": "Harmony arises from discordant notes.",
@@ -1473,8 +1473,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 66125,
-    "sim": "spirograph",
+    "seed": 40716,
+    "sim": "galaxy_spiral",
     "scheme": "aurora"
   },
   {
@@ -1490,9 +1490,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 44329,
-    "sim": "rossler_attractor",
-    "scheme": "sunset"
+    "seed": 7030,
+    "sim": "lorenz_swarm",
+    "scheme": "ice"
   },
   {
     "onscreen": "Waves of chaos thrum with potential.",
@@ -1507,9 +1507,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 73585,
-    "sim": "galaxy_spiral",
-    "scheme": "aurora"
+    "seed": 47214,
+    "sim": "clifford_morph",
+    "scheme": "ember"
   },
   {
     "onscreen": "Fractals breathe life into the void.",
@@ -1524,9 +1524,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 26906,
-    "sim": "stream_sphere",
-    "scheme": "ice"
+    "seed": 68441,
+    "sim": "spirograph",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Unexpected order emerges from randomness.",
@@ -1541,9 +1541,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 16307,
-    "sim": "lorenz_swarm",
-    "scheme": "sunset"
+    "seed": 61783,
+    "sim": "double_pendulum",
+    "scheme": "ember"
   },
   {
     "onscreen": "Patterns emerge from the unlikeliest places.",
@@ -1558,9 +1558,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 47507,
-    "sim": "weaving_pens",
-    "scheme": "neon"
+    "seed": 5820,
+    "sim": "harmonograph",
+    "scheme": "ice"
   },
   {
     "onscreen": "What if randomness has a secret rhyme?",
@@ -1575,8 +1575,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 85514,
-    "sim": "clifford_morph",
+    "seed": 38555,
+    "sim": "galaxy_spiral",
     "scheme": "ember"
   },
   {
@@ -1592,9 +1592,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 5127,
-    "sim": "rossler_attractor",
-    "scheme": "sunset"
+    "seed": 22712,
+    "sim": "aizawa_attractor",
+    "scheme": "neon"
   },
   {
     "onscreen": "Beauty thrives in unexpected chaos.",
@@ -1609,8 +1609,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 6126,
-    "sim": "harmonograph",
+    "seed": 73449,
+    "sim": "weaving_pens",
     "scheme": "cool_warm"
   },
   {
@@ -1626,9 +1626,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 64352,
-    "sim": "stream_sphere",
-    "scheme": "ember"
+    "seed": 43823,
+    "sim": "clifford_morph",
+    "scheme": "ice"
   },
   {
     "onscreen": "In chaos, there's a spark of creation.",
@@ -1643,8 +1643,91 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 32578,
-    "sim": "wander_ribbons",
+    "seed": 52327,
+    "sim": "spirograph",
+    "scheme": "aurora"
+  },
+  {
+    "onscreen": "Within chaos, dreams take shape.",
+    "title": "Within Chaos, Dreams Take Shape",
+    "description": "Watch as wild patterns unfold from chaos. Like + comment if you want part 2. ✨",
+    "hashtags": [
+      "#science",
+      "#chaos",
+      "#emergence",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 82511,
+    "sim": "halvorsen_attractor",
     "scheme": "ice"
+  },
+  {
+    "onscreen": "Hidden beauty lies in the disorder.",
+    "title": "Hidden Beauty Lies in the Disorder",
+    "description": "Explore the mesmerizing patterns beneath apparent chaos. Like + comment if you want part 2. 🌀",
+    "hashtags": [
+      "#physics",
+      "#beauty",
+      "#randomness",
+      "#simulation",
+      "#art",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 91670,
+    "sim": "stream_sphere",
+    "scheme": "neon"
+  },
+  {
+    "onscreen": "Life thrives on the edge of chaos.",
+    "title": "Life Thrives on the Edge of Chaos",
+    "description": "Experience the dynamic interplay of order and chaos. Like + comment if you want part 2. 🔭",
+    "hashtags": [
+      "#life",
+      "#chaos",
+      "#simulation",
+      "#order",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 92016,
+    "sim": "harmonograph",
+    "scheme": "aurora"
+  },
+  {
+    "onscreen": "Random sparks ignite the universe.",
+    "title": "Random Sparks Ignite the Universe",
+    "description": "See how random events can lead to cosmic creations. Like + comment if you want part 2. ✨",
+    "hashtags": [
+      "#randomness",
+      "#cosmos",
+      "#simulation",
+      "#creativity",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 86883,
+    "sim": "flow_field",
+    "scheme": "cool_warm"
+  },
+  {
+    "onscreen": "Symmetry whispers in a chaotic world.",
+    "title": "Symmetry Whispers in a Chaotic World",
+    "description": "Discover hidden symmetry amidst swirling chaos. Like + comment if you want part 2. 🌀",
+    "hashtags": [
+      "#symmetry",
+      "#chaos",
+      "#art",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 98068,
+    "sim": "lorenz_swarm",
+    "scheme": "ember"
   }
 ]

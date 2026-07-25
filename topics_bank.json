@@ -1490,8 +1490,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 7030,
-    "sim": "lorenz_swarm",
+    "seed": 35251,
+    "sim": "aizawa_attractor",
     "scheme": "ice"
   },
   {
@@ -1507,9 +1507,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 47214,
-    "sim": "clifford_morph",
-    "scheme": "ember"
+    "seed": 4515,
+    "sim": "spirograph",
+    "scheme": "aurora"
   },
   {
     "onscreen": "Fractals breathe life into the void.",
@@ -1524,9 +1524,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 68441,
-    "sim": "spirograph",
-    "scheme": "cool_warm"
+    "seed": 43621,
+    "sim": "double_pendulum",
+    "scheme": "neon"
   },
   {
     "onscreen": "Unexpected order emerges from randomness.",
@@ -1541,9 +1541,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 61783,
-    "sim": "double_pendulum",
-    "scheme": "ember"
+    "seed": 35500,
+    "sim": "weaving_pens",
+    "scheme": "sunset"
   },
   {
     "onscreen": "Patterns emerge from the unlikeliest places.",
@@ -1558,9 +1558,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 5820,
-    "sim": "harmonograph",
-    "scheme": "ice"
+    "seed": 58277,
+    "sim": "flow_field",
+    "scheme": "aurora"
   },
   {
     "onscreen": "What if randomness has a secret rhyme?",
@@ -1575,9 +1575,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 38555,
-    "sim": "galaxy_spiral",
-    "scheme": "ember"
+    "seed": 45254,
+    "sim": "lorenz_swarm",
+    "scheme": "ice"
   },
   {
     "onscreen": "Small changes ripple through time.",
@@ -1592,9 +1592,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 22712,
-    "sim": "aizawa_attractor",
-    "scheme": "neon"
+    "seed": 37886,
+    "sim": "wander_ribbons",
+    "scheme": "sunset"
   },
   {
     "onscreen": "Beauty thrives in unexpected chaos.",
@@ -1609,9 +1609,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 73449,
-    "sim": "weaving_pens",
-    "scheme": "cool_warm"
+    "seed": 47075,
+    "sim": "stream_sphere",
+    "scheme": "ice"
   },
   {
     "onscreen": "Order whispers through chaotic movements.",
@@ -1626,9 +1626,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 43823,
-    "sim": "clifford_morph",
-    "scheme": "ice"
+    "seed": 42769,
+    "sim": "harmonograph",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "In chaos, there's a spark of creation.",
@@ -1643,8 +1643,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 52327,
-    "sim": "spirograph",
+    "seed": 60819,
+    "sim": "double_pendulum",
     "scheme": "aurora"
   },
   {
@@ -1660,9 +1660,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 82511,
-    "sim": "halvorsen_attractor",
-    "scheme": "ice"
+    "seed": 40434,
+    "sim": "flow_field",
+    "scheme": "neon"
   },
   {
     "onscreen": "Hidden beauty lies in the disorder.",
@@ -1677,9 +1677,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 91670,
-    "sim": "stream_sphere",
-    "scheme": "neon"
+    "seed": 50381,
+    "sim": "rossler_attractor",
+    "scheme": "ember"
   },
   {
     "onscreen": "Life thrives on the edge of chaos.",
@@ -1693,9 +1693,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 92016,
-    "sim": "harmonograph",
-    "scheme": "aurora"
+    "seed": 90815,
+    "sim": "galaxy_spiral",
+    "scheme": "sunset"
   },
   {
     "onscreen": "Random sparks ignite the universe.",
@@ -1709,9 +1709,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 86883,
-    "sim": "flow_field",
-    "scheme": "cool_warm"
+    "seed": 87263,
+    "sim": "wander_ribbons",
+    "scheme": "ember"
   },
   {
     "onscreen": "Symmetry whispers in a chaotic world.",
@@ -1726,8 +1726,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 98068,
-    "sim": "lorenz_swarm",
-    "scheme": "ember"
+    "seed": 77016,
+    "sim": "aizawa_attractor",
+    "scheme": "sunset"
   }
 ]

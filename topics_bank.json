@@ -1541,8 +1541,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 35500,
-    "sim": "weaving_pens",
+    "seed": 29035,
+    "sim": "harmonograph",
     "scheme": "sunset"
   },
   {
@@ -1558,9 +1558,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 58277,
-    "sim": "flow_field",
-    "scheme": "aurora"
+    "seed": 56919,
+    "sim": "stream_sphere",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "What if randomness has a secret rhyme?",
@@ -1575,9 +1575,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 45254,
-    "sim": "lorenz_swarm",
-    "scheme": "ice"
+    "seed": 4243,
+    "sim": "weaving_pens",
+    "scheme": "ember"
   },
   {
     "onscreen": "Small changes ripple through time.",
@@ -1592,8 +1592,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 37886,
-    "sim": "wander_ribbons",
+    "seed": 61083,
+    "sim": "galaxy_spiral",
     "scheme": "sunset"
   },
   {
@@ -1609,9 +1609,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 47075,
-    "sim": "stream_sphere",
-    "scheme": "ice"
+    "seed": 85724,
+    "sim": "halvorsen_attractor",
+    "scheme": "ember"
   },
   {
     "onscreen": "Order whispers through chaotic movements.",
@@ -1626,9 +1626,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 42769,
-    "sim": "harmonograph",
-    "scheme": "cool_warm"
+    "seed": 96930,
+    "sim": "wander_ribbons",
+    "scheme": "sunset"
   },
   {
     "onscreen": "In chaos, there's a spark of creation.",
@@ -1643,9 +1643,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 60819,
-    "sim": "double_pendulum",
-    "scheme": "aurora"
+    "seed": 20150,
+    "sim": "aizawa_attractor",
+    "scheme": "ember"
   },
   {
     "onscreen": "Within chaos, dreams take shape.",
@@ -1660,8 +1660,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 40434,
-    "sim": "flow_field",
+    "seed": 93332,
+    "sim": "harmonograph",
     "scheme": "neon"
   },
   {
@@ -1677,8 +1677,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 50381,
-    "sim": "rossler_attractor",
+    "seed": 34882,
+    "sim": "clifford_morph",
     "scheme": "ember"
   },
   {
@@ -1693,9 +1693,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 90815,
-    "sim": "galaxy_spiral",
-    "scheme": "sunset"
+    "seed": 1334,
+    "sim": "weaving_pens",
+    "scheme": "aurora"
   },
   {
     "onscreen": "Random sparks ignite the universe.",
@@ -1709,9 +1709,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 87263,
-    "sim": "wander_ribbons",
-    "scheme": "ember"
+    "seed": 32500,
+    "sim": "lorenz_swarm",
+    "scheme": "ice"
   },
   {
     "onscreen": "Symmetry whispers in a chaotic world.",
@@ -1726,8 +1726,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 77016,
-    "sim": "aizawa_attractor",
+    "seed": 87047,
+    "sim": "spirograph",
     "scheme": "sunset"
   }
 ]

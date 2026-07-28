@@ -1643,9 +1643,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 33235,
-    "sim": "harmonograph",
-    "scheme": "ice"
+    "seed": 53287,
+    "sim": "flow_field",
+    "scheme": "ember"
   },
   {
     "onscreen": "Within chaos, dreams take shape.",
@@ -1660,9 +1660,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 14694,
-    "sim": "rossler_attractor",
-    "scheme": "sunset"
+    "seed": 66341,
+    "sim": "double_pendulum",
+    "scheme": "neon"
   },
   {
     "onscreen": "Hidden beauty lies in the disorder.",
@@ -1677,9 +1677,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 61076,
-    "sim": "weaving_pens",
-    "scheme": "aurora"
+    "seed": 38344,
+    "sim": "spirograph",
+    "scheme": "ember"
   },
   {
     "onscreen": "Life thrives on the edge of chaos.",
@@ -1693,9 +1693,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 88120,
-    "sim": "aizawa_attractor",
-    "scheme": "cool_warm"
+    "seed": 47029,
+    "sim": "stream_sphere",
+    "scheme": "sunset"
   },
   {
     "onscreen": "Random sparks ignite the universe.",
@@ -1709,9 +1709,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 59779,
-    "sim": "galaxy_spiral",
-    "scheme": "neon"
+    "seed": 714,
+    "sim": "weaving_pens",
+    "scheme": "ice"
   },
   {
     "onscreen": "Symmetry whispers in a chaotic world.",
@@ -1726,9 +1726,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 64162,
-    "sim": "lorenz_swarm",
-    "scheme": "ember"
+    "seed": 99637,
+    "sim": "clifford_morph",
+    "scheme": "aurora"
   },
   {
     "onscreen": "Simplicity births the most complex wonders.",
@@ -1743,9 +1743,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 46596,
-    "sim": "spirograph",
-    "scheme": "aurora"
+    "seed": 33877,
+    "sim": "harmonograph",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Infinite possibilities from simple origins.",
@@ -1760,8 +1760,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 60295,
-    "sim": "double_pendulum",
+    "seed": 98804,
+    "sim": "lorenz_swarm",
     "scheme": "sunset"
   },
   {
@@ -1777,9 +1777,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 25706,
-    "sim": "halvorsen_attractor",
-    "scheme": "aurora"
+    "seed": 67248,
+    "sim": "spirograph",
+    "scheme": "ice"
   },
   {
     "onscreen": "Feedback transforms the ordinary into extraordinary.",
@@ -1794,8 +1794,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 53489,
-    "sim": "flow_field",
+    "seed": 35133,
+    "sim": "halvorsen_attractor",
     "scheme": "neon"
   },
   {
@@ -1811,9 +1811,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 49816,
+    "seed": 38857,
     "sim": "wander_ribbons",
-    "scheme": "sunset"
+    "scheme": "aurora"
   },
   {
     "onscreen": "Symmetry emerges where chaos collides.",
@@ -1828,9 +1828,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 26761,
-    "sim": "clifford_morph",
-    "scheme": "ice"
+    "seed": 53838,
+    "sim": "double_pendulum",
+    "scheme": "ember"
   },
   {
     "onscreen": "Randomness conceals breathtaking connections.",
@@ -1845,8 +1845,93 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 52225,
+    "seed": 54435,
+    "sim": "galaxy_spiral",
+    "scheme": "cool_warm"
+  },
+  {
+    "onscreen": "What if randomness orchestrates perfection?",
+    "title": "What If Randomness Orchestrates Perfection?",
+    "description": "Explore how seemingly random movements give rise to stunning symmetry. Like + comment if you want part 2. ✨",
+    "hashtags": [
+      "#science",
+      "#randomness",
+      "#simulation",
+      "#symmetry",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 46481,
     "sim": "stream_sphere",
+    "scheme": "ice"
+  },
+  {
+    "onscreen": "In diversity lies the path to symmetry.",
+    "title": "In Diversity Lies The Path To Symmetry",
+    "description": "Discover how varied elements converge into harmonious forms. Like + comment if you want part 2.",
+    "hashtags": [
+      "#science",
+      "#diversity",
+      "#simulation",
+      "#symmetry",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 93944,
+    "sim": "flow_field",
+    "scheme": "cool_warm"
+  },
+  {
+    "onscreen": "A spark can ignite entire galaxies.",
+    "title": "A Spark Can Ignite Entire Galaxies",
+    "description": "Witness how minuscule sparks lead to cosmic wonders. Like + comment if you want part 2. ⚛️",
+    "hashtags": [
+      "#science",
+      "#cosmos",
+      "#simulation",
+      "#sparks",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 23593,
+    "sim": "weaving_pens",
+    "scheme": "ice"
+  },
+  {
+    "onscreen": "Fractals: complexity from the simplest rules.",
+    "title": "Fractals: Complexity From The Simplest Rules",
+    "description": "Marvel at the intricate designs born from basic instructions. Like + comment if you want part 2.",
+    "hashtags": [
+      "#science",
+      "#fractals",
+      "#simulation",
+      "#complexity",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 94087,
+    "sim": "rossler_attractor",
     "scheme": "neon"
+  },
+  {
+    "onscreen": "Every ripple tells a story of change.",
+    "title": "Every Ripple Tells A Story Of Change",
+    "description": "Follow the traces of transformation through mesmerizing flows. Like + comment if you want part 2. 🌊",
+    "hashtags": [
+      "#science",
+      "#waves",
+      "#simulation",
+      "#change",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 84442,
+    "sim": "clifford_morph",
+    "scheme": "cool_warm"
   }
 ]

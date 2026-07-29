@@ -1,0 +1,17 @@
+{
+  "onscreen": "Symmetry whispers in a chaotic world.",
+  "title": "Symmetry Whispers in a Chaotic World",
+  "description": "Discover hidden symmetry amidst swirling chaos. Like + comment if you want part 2. 🌀",
+  "hashtags": [
+    "#symmetry",
+    "#chaos",
+    "#art",
+    "#simulation",
+    "#oddlysatisfying",
+    "#shorts",
+    "#fyp"
+  ],
+  "seed": 18585,
+  "sim": "rossler_attractor",
+  "scheme": "ember"
+}

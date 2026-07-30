@@ -1743,9 +1743,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 8995,
-    "sim": "wander_ribbons",
-    "scheme": "aurora"
+    "seed": 69350,
+    "sim": "harmonograph",
+    "scheme": "sunset"
   },
   {
     "onscreen": "Infinite possibilities from simple origins.",
@@ -1760,9 +1760,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 14178,
-    "sim": "lorenz_swarm",
-    "scheme": "neon"
+    "seed": 96346,
+    "sim": "clifford_morph",
+    "scheme": "aurora"
   },
   {
     "onscreen": "In randomness, art is born.",
@@ -1777,9 +1777,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 54701,
-    "sim": "clifford_morph",
-    "scheme": "ember"
+    "seed": 87702,
+    "sim": "halvorsen_attractor",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Feedback transforms the ordinary into extraordinary.",
@@ -1794,9 +1794,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 93070,
-    "sim": "double_pendulum",
-    "scheme": "ice"
+    "seed": 97262,
+    "sim": "flow_field",
+    "scheme": "ember"
   },
   {
     "onscreen": "Life flourishes in chaotic balance.",
@@ -1811,9 +1811,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 90634,
-    "sim": "harmonograph",
-    "scheme": "aurora"
+    "seed": 74649,
+    "sim": "weaving_pens",
+    "scheme": "neon"
   },
   {
     "onscreen": "Symmetry emerges where chaos collides.",
@@ -1828,9 +1828,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 56113,
-    "sim": "galaxy_spiral",
-    "scheme": "ice"
+    "seed": 12696,
+    "sim": "rossler_attractor",
+    "scheme": "aurora"
   },
   {
     "onscreen": "Randomness conceals breathtaking connections.",
@@ -1845,9 +1845,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 2726,
-    "sim": "halvorsen_attractor",
-    "scheme": "ember"
+    "seed": 59230,
+    "sim": "stream_sphere",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "What if randomness orchestrates perfection?",
@@ -1862,9 +1862,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 89883,
-    "sim": "spirograph",
-    "scheme": "aurora"
+    "seed": 60813,
+    "sim": "lorenz_swarm",
+    "scheme": "ember"
   },
   {
     "onscreen": "In diversity lies the path to symmetry.",
@@ -1879,9 +1879,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 4273,
-    "sim": "stream_sphere",
-    "scheme": "ember"
+    "seed": 62321,
+    "sim": "harmonograph",
+    "scheme": "neon"
   },
   {
     "onscreen": "A spark can ignite entire galaxies.",
@@ -1896,8 +1896,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 82905,
-    "sim": "rossler_attractor",
+    "seed": 44993,
+    "sim": "galaxy_spiral",
     "scheme": "ice"
   },
   {
@@ -1913,8 +1913,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 1027,
-    "sim": "weaving_pens",
+    "seed": 48347,
+    "sim": "wander_ribbons",
     "scheme": "neon"
   },
   {
@@ -1930,8 +1930,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 56156,
-    "sim": "galaxy_spiral",
-    "scheme": "aurora"
+    "seed": 77868,
+    "sim": "rossler_attractor",
+    "scheme": "ice"
   }
 ]

@@ -1794,9 +1794,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 97262,
-    "sim": "flow_field",
-    "scheme": "ember"
+    "seed": 99791,
+    "sim": "stream_sphere",
+    "scheme": "neon"
   },
   {
     "onscreen": "Life flourishes in chaotic balance.",
@@ -1811,9 +1811,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 74649,
-    "sim": "weaving_pens",
-    "scheme": "neon"
+    "seed": 97317,
+    "sim": "flow_field",
+    "scheme": "ice"
   },
   {
     "onscreen": "Symmetry emerges where chaos collides.",
@@ -1828,9 +1828,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 12696,
-    "sim": "rossler_attractor",
-    "scheme": "aurora"
+    "seed": 38113,
+    "sim": "wander_ribbons",
+    "scheme": "sunset"
   },
   {
     "onscreen": "Randomness conceals breathtaking connections.",
@@ -1845,9 +1845,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 59230,
-    "sim": "stream_sphere",
-    "scheme": "cool_warm"
+    "seed": 42921,
+    "sim": "galaxy_spiral",
+    "scheme": "neon"
   },
   {
     "onscreen": "What if randomness orchestrates perfection?",
@@ -1862,9 +1862,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 60813,
-    "sim": "lorenz_swarm",
-    "scheme": "ember"
+    "seed": 41085,
+    "sim": "double_pendulum",
+    "scheme": "aurora"
   },
   {
     "onscreen": "In diversity lies the path to symmetry.",
@@ -1879,9 +1879,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 62321,
-    "sim": "harmonograph",
-    "scheme": "neon"
+    "seed": 84394,
+    "sim": "lorenz_swarm",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "A spark can ignite entire galaxies.",
@@ -1896,9 +1896,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 44993,
-    "sim": "galaxy_spiral",
-    "scheme": "ice"
+    "seed": 45968,
+    "sim": "weaving_pens",
+    "scheme": "ember"
   },
   {
     "onscreen": "Fractals: complexity from the simplest rules.",
@@ -1913,9 +1913,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 48347,
-    "sim": "wander_ribbons",
-    "scheme": "neon"
+    "seed": 51639,
+    "sim": "flow_field",
+    "scheme": "ice"
   },
   {
     "onscreen": "Every ripple tells a story of change.",
@@ -1930,8 +1930,192 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 77868,
-    "sim": "rossler_attractor",
+    "seed": 32706,
+    "sim": "wander_ribbons",
+    "scheme": "cool_warm"
+  },
+  {
+    "onscreen": "Chaos has a memory",
+    "title": "Chaos Has A Memory",
+    "description": "Watch as a mesmerizing simulation shows how chaotic systems can recall their past, Like + comment if you want part 2. 🌀",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#chaos",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 84112,
+    "sim": "galaxy_spiral",
+    "scheme": "aurora"
+  },
+  {
+    "onscreen": "Fractals repeat",
+    "title": "Fractals Repeat",
+    "description": "Explore the infinite patterns that emerge when fractals repeat themselves in a breathtaking simulation, Like + comment if you want part 2.",
+    "hashtags": [
+      "#fractals",
+      "#geometry",
+      "#patterns",
+      "#science",
+      "#simulation",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 37226,
+    "sim": "halvorsen_attractor",
     "scheme": "ice"
+  },
+  {
+    "onscreen": "Entropy is life",
+    "title": "Entropy Is Life",
+    "description": "Discover how entropy fuels the emergence of complex life forms in a stunning simulation, Like + comment if you want part 2. ⚛️",
+    "hashtags": [
+      "#entropy",
+      "#life",
+      "#emergence",
+      "#complexity",
+      "#science",
+      "#simulation",
+      "#fyp"
+    ],
+    "seed": 6302,
+    "sim": "spirograph",
+    "scheme": "cool_warm"
+  },
+  {
+    "onscreen": "Waves are information",
+    "title": "Waves Are Information",
+    "description": "Dive into the fascinating world of wave dynamics and how they encode information in a captivating simulation, Like + comment if you want part 2.",
+    "hashtags": [
+      "#waves",
+      "#information",
+      "#physics",
+      "#science",
+      "#simulation",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 65040,
+    "sim": "clifford_morph",
+    "scheme": "aurora"
+  },
+  {
+    "onscreen": "Simple rules",
+    "title": "Simple Rules, Complex Worlds",
+    "description": "Witness the emergence of intricate patterns from simple rules in a mesmerizing simulation, Like + comment if you want part 2. ✨",
+    "hashtags": [
+      "#simpleRules",
+      "#complexity",
+      "#emergence",
+      "#science",
+      "#simulation",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 92519,
+    "sim": "lorenz_swarm",
+    "scheme": "ember"
+  },
+  {
+    "onscreen": "Infinite corridor",
+    "title": "Infinite Corridor",
+    "description": "Step into the infinite corridor of reflections and discover the mind-bending world of fractal geometry in a stunning simulation, Like + comment if you want part 2.",
+    "hashtags": [
+      "#fractals",
+      "#geometry",
+      "#infinite",
+      "#science",
+      "#simulation",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 16564,
+    "sim": "stream_sphere",
+    "scheme": "sunset"
+  },
+  {
+    "onscreen": "Hidden codes",
+    "title": "Hidden Codes",
+    "description": "Uncover the hidden codes that govern the behavior of complex systems in a fascinating simulation, Like + comment if you want part 2. 🔭",
+    "hashtags": [
+      "#hiddenCodes",
+      "#complexity",
+      "#science",
+      "#simulation",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 28336,
+    "sim": "wander_ribbons",
+    "scheme": "ember"
+  },
+  {
+    "onscreen": "Butterfly effect",
+    "title": "Butterfly Effect",
+    "description": "Explore the profound impact of small changes on complex systems in a captivating simulation, Like + comment if you want part 2.",
+    "hashtags": [
+      "#butterflyEffect",
+      "#chaos",
+      "#complexity",
+      "#science",
+      "#simulation",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 16307,
+    "sim": "galaxy_spiral",
+    "scheme": "neon"
+  },
+  {
+    "onscreen": "Symmetry broken",
+    "title": "Symmetry Broken",
+    "description": "Witness the emergence of complex patterns when symmetry is broken in a mesmerizing simulation, Like + comment if you want part 2. 🌀",
+    "hashtags": [
+      "#symmetry",
+      "#brokenSymmetry",
+      "#complexity",
+      "#science",
+      "#simulation",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 60988,
+    "sim": "double_pendulum",
+    "scheme": "ember"
+  },
+  {
+    "onscreen": "Patterns unfold",
+    "title": "Patterns Unfold",
+    "description": "Watch as intricate patterns unfold from simple rules in a stunning simulation, Like + comment if you want part 2.",
+    "hashtags": [
+      "#patterns",
+      "#unfolding",
+      "#science",
+      "#simulation",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 61189,
+    "sim": "flow_field",
+    "scheme": "neon"
+  },
+  {
+    "onscreen": "Emergence happens",
+    "title": "Emergence Happens",
+    "description": "Discover the magic of emergence as complex systems give rise to unexpected phenomena in a captivating simulation, Like + comment if you want part 2. ⚛️",
+    "hashtags": [
+      "#emergence",
+      "#complexity",
+      "#science",
+      "#simulation",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 43798,
+    "sim": "lorenz_swarm",
+    "scheme": "cool_warm"
   }
 ]

@@ -74,7 +74,7 @@ def build_prompt(n, existing):
 def call_model(text):
     r = requests.post(BASE.rstrip("/") + "/chat/completions",
                       headers={"Authorization": f"Bearer {TOKEN}", "Content-Type": "application/json"},
-                      json={"model": MODEL, "temperature": 1.0,
+                      json={"model": MODEL, "temperature": 1.0, "max_tokens": 2000,
                             "messages": [{"role": "system", "content": SYSTEM},
                                          {"role": "user", "content": text}]}, timeout=180)
     if r.status_code >= 400:

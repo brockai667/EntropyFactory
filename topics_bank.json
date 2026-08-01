@@ -1845,9 +1845,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 42921,
-    "sim": "galaxy_spiral",
-    "scheme": "neon"
+    "seed": 50733,
+    "sim": "lorenz_swarm",
+    "scheme": "aurora"
   },
   {
     "onscreen": "What if randomness orchestrates perfection?",
@@ -1862,9 +1862,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 41085,
+    "seed": 18728,
     "sim": "double_pendulum",
-    "scheme": "aurora"
+    "scheme": "neon"
   },
   {
     "onscreen": "In diversity lies the path to symmetry.",
@@ -1879,9 +1879,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 84394,
-    "sim": "lorenz_swarm",
-    "scheme": "cool_warm"
+    "seed": 78759,
+    "sim": "clifford_morph",
+    "scheme": "sunset"
   },
   {
     "onscreen": "A spark can ignite entire galaxies.",
@@ -1896,8 +1896,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 45968,
-    "sim": "weaving_pens",
+    "seed": 65127,
+    "sim": "halvorsen_attractor",
     "scheme": "ember"
   },
   {
@@ -1913,9 +1913,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 51639,
-    "sim": "flow_field",
-    "scheme": "ice"
+    "seed": 75138,
+    "sim": "spirograph",
+    "scheme": "aurora"
   },
   {
     "onscreen": "Every ripple tells a story of change.",
@@ -1930,9 +1930,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 32706,
-    "sim": "wander_ribbons",
-    "scheme": "cool_warm"
+    "seed": 25467,
+    "sim": "galaxy_spiral",
+    "scheme": "ice"
   },
   {
     "onscreen": "Chaos has a memory",
@@ -1947,9 +1947,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 84112,
-    "sim": "galaxy_spiral",
-    "scheme": "aurora"
+    "seed": 40009,
+    "sim": "rossler_attractor",
+    "scheme": "ember"
   },
   {
     "onscreen": "Fractals repeat",
@@ -1964,8 +1964,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 37226,
-    "sim": "halvorsen_attractor",
+    "seed": 7356,
+    "sim": "wander_ribbons",
     "scheme": "ice"
   },
   {
@@ -1981,8 +1981,8 @@
       "#simulation",
       "#fyp"
     ],
-    "seed": 6302,
-    "sim": "spirograph",
+    "seed": 88181,
+    "sim": "double_pendulum",
     "scheme": "cool_warm"
   },
   {
@@ -1998,7 +1998,7 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 65040,
+    "seed": 13158,
     "sim": "clifford_morph",
     "scheme": "aurora"
   },
@@ -2015,8 +2015,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 92519,
-    "sim": "lorenz_swarm",
+    "seed": 61562,
+    "sim": "stream_sphere",
     "scheme": "ember"
   },
   {
@@ -2032,9 +2032,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 16564,
-    "sim": "stream_sphere",
-    "scheme": "sunset"
+    "seed": 82113,
+    "sim": "galaxy_spiral",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Hidden codes",
@@ -2048,9 +2048,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 28336,
-    "sim": "wander_ribbons",
-    "scheme": "ember"
+    "seed": 22430,
+    "sim": "rossler_attractor",
+    "scheme": "neon"
   },
   {
     "onscreen": "Butterfly effect",
@@ -2065,9 +2065,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 16307,
-    "sim": "galaxy_spiral",
-    "scheme": "neon"
+    "seed": 82393,
+    "sim": "wander_ribbons",
+    "scheme": "aurora"
   },
   {
     "onscreen": "Symmetry broken",
@@ -2082,9 +2082,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 60988,
+    "seed": 56095,
     "sim": "double_pendulum",
-    "scheme": "ember"
+    "scheme": "neon"
   },
   {
     "onscreen": "Patterns unfold",
@@ -2098,9 +2098,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 61189,
-    "sim": "flow_field",
-    "scheme": "neon"
+    "seed": 25150,
+    "sim": "harmonograph",
+    "scheme": "ice"
   },
   {
     "onscreen": "Emergence happens",
@@ -2114,8 +2114,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 43798,
-    "sim": "lorenz_swarm",
-    "scheme": "cool_warm"
+    "seed": 24043,
+    "sim": "flow_field",
+    "scheme": "sunset"
   }
 ]

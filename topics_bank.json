@@ -1896,9 +1896,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 65127,
-    "sim": "halvorsen_attractor",
-    "scheme": "ember"
+    "seed": 73050,
+    "sim": "harmonograph",
+    "scheme": "neon"
   },
   {
     "onscreen": "Fractals: complexity from the simplest rules.",
@@ -1913,9 +1913,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 75138,
-    "sim": "spirograph",
-    "scheme": "aurora"
+    "seed": 55801,
+    "sim": "stream_sphere",
+    "scheme": "ember"
   },
   {
     "onscreen": "Every ripple tells a story of change.",
@@ -1930,9 +1930,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 25467,
-    "sim": "galaxy_spiral",
-    "scheme": "ice"
+    "seed": 11822,
+    "sim": "weaving_pens",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Chaos has a memory",
@@ -1947,9 +1947,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 40009,
+    "seed": 57303,
     "sim": "rossler_attractor",
-    "scheme": "ember"
+    "scheme": "sunset"
   },
   {
     "onscreen": "Fractals repeat",
@@ -1964,8 +1964,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 7356,
-    "sim": "wander_ribbons",
+    "seed": 6282,
+    "sim": "double_pendulum",
     "scheme": "ice"
   },
   {
@@ -1981,9 +1981,9 @@
       "#simulation",
       "#fyp"
     ],
-    "seed": 88181,
-    "sim": "double_pendulum",
-    "scheme": "cool_warm"
+    "seed": 10076,
+    "sim": "flow_field",
+    "scheme": "sunset"
   },
   {
     "onscreen": "Waves are information",
@@ -1998,8 +1998,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 13158,
-    "sim": "clifford_morph",
+    "seed": 88713,
+    "sim": "spirograph",
     "scheme": "aurora"
   },
   {
@@ -2015,9 +2015,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 61562,
-    "sim": "stream_sphere",
-    "scheme": "ember"
+    "seed": 68495,
+    "sim": "clifford_morph",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Infinite corridor",
@@ -2032,9 +2032,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 82113,
-    "sim": "galaxy_spiral",
-    "scheme": "cool_warm"
+    "seed": 31834,
+    "sim": "halvorsen_attractor",
+    "scheme": "aurora"
   },
   {
     "onscreen": "Hidden codes",
@@ -2048,9 +2048,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 22430,
-    "sim": "rossler_attractor",
-    "scheme": "neon"
+    "seed": 82233,
+    "sim": "stream_sphere",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Butterfly effect",
@@ -2065,9 +2065,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 82393,
-    "sim": "wander_ribbons",
-    "scheme": "aurora"
+    "seed": 21768,
+    "sim": "harmonograph",
+    "scheme": "sunset"
   },
   {
     "onscreen": "Symmetry broken",
@@ -2082,9 +2082,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 56095,
-    "sim": "double_pendulum",
-    "scheme": "neon"
+    "seed": 99586,
+    "sim": "flow_field",
+    "scheme": "ice"
   },
   {
     "onscreen": "Patterns unfold",
@@ -2098,9 +2098,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 25150,
-    "sim": "harmonograph",
-    "scheme": "ice"
+    "seed": 61231,
+    "sim": "spirograph",
+    "scheme": "sunset"
   },
   {
     "onscreen": "Emergence happens",
@@ -2114,8 +2114,104 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 24043,
-    "sim": "flow_field",
-    "scheme": "sunset"
+    "seed": 12439,
+    "sim": "double_pendulum",
+    "scheme": "cool_warm"
+  },
+  {
+    "onscreen": "Infinity is a mirror",
+    "title": "Infinity Is A Mirror",
+    "description": "Watch as a mesmerizing reflection of fractals reveals the secrets of the cosmos, Like + comment if you want part 2. 🌀",
+    "hashtags": [
+      "#science",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp",
+      "#fractals"
+    ],
+    "seed": 31711,
+    "sim": "rossler_attractor",
+    "scheme": "neon"
+  },
+  {
+    "onscreen": "Where does symmetry come from?",
+    "title": "Where Does Symmetry Come From?",
+    "description": "Explore the emergence of symmetry in a chaotic world through a stunning simulation, Like + comment if you want part 2.",
+    "hashtags": [
+      "#science",
+      "#physics",
+      "#symmetry",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts"
+    ],
+    "seed": 27748,
+    "sim": "clifford_morph",
+    "scheme": "ember"
+  },
+  {
+    "onscreen": "Chaos is a ladder",
+    "title": "Chaos Is A Ladder",
+    "description": "Climb the ladder of complexity and discover how simple rules can lead to intricate patterns, Like + comment if you want part 2. ⚛️",
+    "hashtags": [
+      "#science",
+      "#simulation",
+      "#chaos",
+      "#complexity",
+      "#oddlysatisfying",
+      "#fyp"
+    ],
+    "seed": 77726,
+    "sim": "wander_ribbons",
+    "scheme": "neon"
+  },
+  {
+    "onscreen": "Patterns never repeat",
+    "title": "Patterns Never Repeat",
+    "description": "Witness the endless variations of fractals and discover the hidden structures that govern their behavior, Like + comment if you want part 2.",
+    "hashtags": [
+      "#science",
+      "#math",
+      "#fractals",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts"
+    ],
+    "seed": 62189,
+    "sim": "aizawa_attractor",
+    "scheme": "ice"
+  },
+  {
+    "onscreen": "Randomness is a code",
+    "title": "Randomness Is A Code",
+    "description": "Uncover the secrets hidden within random patterns and discover the surprising order that lies beneath, Like + comment if you want part 2. ✨",
+    "hashtags": [
+      "#science",
+      "#simulation",
+      "#randomness",
+      "#code",
+      "#oddlysatisfying",
+      "#fyp"
+    ],
+    "seed": 13271,
+    "sim": "stream_sphere",
+    "scheme": "ember"
+  },
+  {
+    "onscreen": "Self-organization emerges",
+    "title": "Self-Organization Emerges",
+    "description": "Observe the spontaneous formation of complex systems and discover the rules that govern their behavior, Like + comment if you want part 2. 🔭",
+    "hashtags": [
+      "#science",
+      "#simulation",
+      "#selforganization",
+      "#complexity",
+      "#oddlysatisfying",
+      "#shorts"
+    ],
+    "seed": 22672,
+    "sim": "weaving_pens",
+    "scheme": "cool_warm"
   }
 ]

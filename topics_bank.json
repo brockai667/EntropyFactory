@@ -1947,9 +1947,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 57303,
-    "sim": "rossler_attractor",
-    "scheme": "sunset"
+    "seed": 8794,
+    "sim": "flow_field",
+    "scheme": "ember"
   },
   {
     "onscreen": "Fractals repeat",
@@ -1964,8 +1964,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 6282,
-    "sim": "double_pendulum",
+    "seed": 69160,
+    "sim": "halvorsen_attractor",
     "scheme": "ice"
   },
   {
@@ -1981,9 +1981,9 @@
       "#simulation",
       "#fyp"
     ],
-    "seed": 10076,
-    "sim": "flow_field",
-    "scheme": "sunset"
+    "seed": 51788,
+    "sim": "spirograph",
+    "scheme": "neon"
   },
   {
     "onscreen": "Waves are information",
@@ -1998,9 +1998,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 88713,
-    "sim": "spirograph",
-    "scheme": "aurora"
+    "seed": 32505,
+    "sim": "double_pendulum",
+    "scheme": "ember"
   },
   {
     "onscreen": "Simple rules",
@@ -2015,9 +2015,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 68495,
+    "seed": 90221,
     "sim": "clifford_morph",
-    "scheme": "cool_warm"
+    "scheme": "aurora"
   },
   {
     "onscreen": "Infinite corridor",
@@ -2032,9 +2032,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 31834,
-    "sim": "halvorsen_attractor",
-    "scheme": "aurora"
+    "seed": 4083,
+    "sim": "rossler_attractor",
+    "scheme": "neon"
   },
   {
     "onscreen": "Hidden codes",
@@ -2048,9 +2048,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 82233,
-    "sim": "stream_sphere",
-    "scheme": "cool_warm"
+    "seed": 30001,
+    "sim": "flow_field",
+    "scheme": "aurora"
   },
   {
     "onscreen": "Butterfly effect",
@@ -2065,9 +2065,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 21768,
-    "sim": "harmonograph",
-    "scheme": "sunset"
+    "seed": 582,
+    "sim": "wander_ribbons",
+    "scheme": "neon"
   },
   {
     "onscreen": "Symmetry broken",
@@ -2082,9 +2082,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 99586,
-    "sim": "flow_field",
-    "scheme": "ice"
+    "seed": 90056,
+    "sim": "aizawa_attractor",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Patterns unfold",
@@ -2098,8 +2098,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 61231,
-    "sim": "spirograph",
+    "seed": 10292,
+    "sim": "galaxy_spiral",
     "scheme": "sunset"
   },
   {
@@ -2114,8 +2114,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 12439,
-    "sim": "double_pendulum",
+    "seed": 89979,
+    "sim": "spirograph",
     "scheme": "cool_warm"
   },
   {
@@ -2130,9 +2130,9 @@
       "#fyp",
       "#fractals"
     ],
-    "seed": 31711,
-    "sim": "rossler_attractor",
-    "scheme": "neon"
+    "seed": 63674,
+    "sim": "lorenz_swarm",
+    "scheme": "aurora"
   },
   {
     "onscreen": "Where does symmetry come from?",
@@ -2146,9 +2146,9 @@
       "#oddlysatisfying",
       "#shorts"
     ],
-    "seed": 27748,
+    "seed": 61080,
     "sim": "clifford_morph",
-    "scheme": "ember"
+    "scheme": "neon"
   },
   {
     "onscreen": "Chaos is a ladder",
@@ -2162,9 +2162,9 @@
       "#oddlysatisfying",
       "#fyp"
     ],
-    "seed": 77726,
-    "sim": "wander_ribbons",
-    "scheme": "neon"
+    "seed": 12282,
+    "sim": "halvorsen_attractor",
+    "scheme": "sunset"
   },
   {
     "onscreen": "Patterns never repeat",
@@ -2178,9 +2178,9 @@
       "#oddlysatisfying",
       "#shorts"
     ],
-    "seed": 62189,
-    "sim": "aizawa_attractor",
-    "scheme": "ice"
+    "seed": 88203,
+    "sim": "wander_ribbons",
+    "scheme": "neon"
   },
   {
     "onscreen": "Randomness is a code",
@@ -2194,9 +2194,9 @@
       "#oddlysatisfying",
       "#fyp"
     ],
-    "seed": 13271,
-    "sim": "stream_sphere",
-    "scheme": "ember"
+    "seed": 19870,
+    "sim": "flow_field",
+    "scheme": "sunset"
   },
   {
     "onscreen": "Self-organization emerges",
@@ -2210,8 +2210,8 @@
       "#oddlysatisfying",
       "#shorts"
     ],
-    "seed": 22672,
-    "sim": "weaving_pens",
+    "seed": 87470,
+    "sim": "harmonograph",
     "scheme": "cool_warm"
   }
 ]

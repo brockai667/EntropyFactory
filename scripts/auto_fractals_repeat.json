@@ -1,0 +1,17 @@
+{
+  "onscreen": "Fractals repeat",
+  "title": "Fractals Repeat",
+  "description": "Explore the infinite patterns that emerge when fractals repeat themselves in a breathtaking simulation, Like + comment if you want part 2.",
+  "hashtags": [
+    "#fractals",
+    "#geometry",
+    "#patterns",
+    "#science",
+    "#simulation",
+    "#shorts",
+    "#fyp"
+  ],
+  "seed": 69160,
+  "sim": "halvorsen_attractor",
+  "scheme": "ice"
+}

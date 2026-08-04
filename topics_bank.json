@@ -1998,9 +1998,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 32505,
+    "seed": 53901,
     "sim": "double_pendulum",
-    "scheme": "ember"
+    "scheme": "ice"
   },
   {
     "onscreen": "Simple rules",
@@ -2015,8 +2015,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 90221,
-    "sim": "clifford_morph",
+    "seed": 47991,
+    "sim": "rossler_attractor",
     "scheme": "aurora"
   },
   {
@@ -2032,9 +2032,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 4083,
-    "sim": "rossler_attractor",
-    "scheme": "neon"
+    "seed": 73913,
+    "sim": "weaving_pens",
+    "scheme": "ember"
   },
   {
     "onscreen": "Hidden codes",
@@ -2048,9 +2048,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 30001,
-    "sim": "flow_field",
-    "scheme": "aurora"
+    "seed": 225,
+    "sim": "aizawa_attractor",
+    "scheme": "neon"
   },
   {
     "onscreen": "Butterfly effect",
@@ -2065,9 +2065,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 582,
-    "sim": "wander_ribbons",
-    "scheme": "neon"
+    "seed": 78048,
+    "sim": "harmonograph",
+    "scheme": "aurora"
   },
   {
     "onscreen": "Symmetry broken",
@@ -2082,9 +2082,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 90056,
-    "sim": "aizawa_attractor",
-    "scheme": "cool_warm"
+    "seed": 59971,
+    "sim": "stream_sphere",
+    "scheme": "neon"
   },
   {
     "onscreen": "Patterns unfold",
@@ -2098,9 +2098,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 10292,
-    "sim": "galaxy_spiral",
-    "scheme": "sunset"
+    "seed": 74821,
+    "sim": "halvorsen_attractor",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Emergence happens",
@@ -2114,9 +2114,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 89979,
-    "sim": "spirograph",
-    "scheme": "cool_warm"
+    "seed": 40929,
+    "sim": "wander_ribbons",
+    "scheme": "neon"
   },
   {
     "onscreen": "Infinity is a mirror",
@@ -2130,9 +2130,9 @@
       "#fyp",
       "#fractals"
     ],
-    "seed": 63674,
+    "seed": 90191,
     "sim": "lorenz_swarm",
-    "scheme": "aurora"
+    "scheme": "ember"
   },
   {
     "onscreen": "Where does symmetry come from?",
@@ -2146,9 +2146,9 @@
       "#oddlysatisfying",
       "#shorts"
     ],
-    "seed": 61080,
+    "seed": 83783,
     "sim": "clifford_morph",
-    "scheme": "neon"
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Chaos is a ladder",
@@ -2162,9 +2162,9 @@
       "#oddlysatisfying",
       "#fyp"
     ],
-    "seed": 12282,
-    "sim": "halvorsen_attractor",
-    "scheme": "sunset"
+    "seed": 365,
+    "sim": "double_pendulum",
+    "scheme": "ice"
   },
   {
     "onscreen": "Patterns never repeat",
@@ -2178,9 +2178,9 @@
       "#oddlysatisfying",
       "#shorts"
     ],
-    "seed": 88203,
-    "sim": "wander_ribbons",
-    "scheme": "neon"
+    "seed": 93017,
+    "sim": "rossler_attractor",
+    "scheme": "sunset"
   },
   {
     "onscreen": "Randomness is a code",
@@ -2194,9 +2194,9 @@
       "#oddlysatisfying",
       "#fyp"
     ],
-    "seed": 19870,
-    "sim": "flow_field",
-    "scheme": "sunset"
+    "seed": 75609,
+    "sim": "harmonograph",
+    "scheme": "aurora"
   },
   {
     "onscreen": "Self-organization emerges",
@@ -2210,8 +2210,77 @@
       "#oddlysatisfying",
       "#shorts"
     ],
-    "seed": 87470,
-    "sim": "harmonograph",
-    "scheme": "cool_warm"
+    "seed": 92177,
+    "sim": "flow_field",
+    "scheme": "ember"
+  },
+  {
+    "onscreen": "Is randomness predictable?",
+    "title": "Is Randomness Predictable?",
+    "description": "Dive into a world where chance and predictability collide, like + comment if you want part 2.",
+    "hashtags": [
+      "#science",
+      "#randomness",
+      "#prediction",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 80437,
+    "sim": "halvorsen_attractor",
+    "scheme": "aurora"
+  },
+  {
+    "onscreen": "Fractals in nature",
+    "title": "Fractals In Nature",
+    "description": "Explore the breathtaking beauty of fractals in the natural world, like + comment if you want part 2. ✨",
+    "hashtags": [
+      "#nature",
+      "#fractals",
+      "#science",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 68010,
+    "sim": "stream_sphere",
+    "scheme": "neon"
+  },
+  {
+    "onscreen": "Waves of probability",
+    "title": "Waves Of Probability",
+    "description": "Discover how probability waves shape our understanding of reality, like + comment if you want part 2. ⚛️",
+    "hashtags": [
+      "#probability",
+      "#waves",
+      "#science",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 47055,
+    "sim": "lorenz_swarm",
+    "scheme": "aurora"
+  },
+  {
+    "onscreen": "Infinity in a loop",
+    "title": "Infinity In A Loop",
+    "description": "Get lost in the mesmerizing world of infinite loops and self-similarity, like + comment if you want part 2. 🔭",
+    "hashtags": [
+      "#infinity",
+      "#loops",
+      "#selfsimilarity",
+      "#science",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 29901,
+    "sim": "weaving_pens",
+    "scheme": "ember"
   }
 ]

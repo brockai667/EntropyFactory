@@ -1,0 +1,17 @@
+{
+  "onscreen": "Waves are information",
+  "title": "Waves Are Information",
+  "description": "Dive into the fascinating world of wave dynamics and how they encode information in a captivating simulation, Like + comment if you want part 2.",
+  "hashtags": [
+    "#waves",
+    "#information",
+    "#physics",
+    "#science",
+    "#simulation",
+    "#shorts",
+    "#fyp"
+  ],
+  "seed": 53901,
+  "sim": "double_pendulum",
+  "scheme": "ice"
+}

@@ -2048,9 +2048,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 225,
-    "sim": "aizawa_attractor",
-    "scheme": "neon"
+    "seed": 4218,
+    "sim": "stream_sphere",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Butterfly effect",
@@ -2065,9 +2065,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 78048,
-    "sim": "harmonograph",
-    "scheme": "aurora"
+    "seed": 65620,
+    "sim": "wander_ribbons",
+    "scheme": "sunset"
   },
   {
     "onscreen": "Symmetry broken",
@@ -2082,9 +2082,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 59971,
-    "sim": "stream_sphere",
-    "scheme": "neon"
+    "seed": 46774,
+    "sim": "halvorsen_attractor",
+    "scheme": "ice"
   },
   {
     "onscreen": "Patterns unfold",
@@ -2098,9 +2098,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 74821,
-    "sim": "halvorsen_attractor",
-    "scheme": "cool_warm"
+    "seed": 54924,
+    "sim": "clifford_morph",
+    "scheme": "neon"
   },
   {
     "onscreen": "Emergence happens",
@@ -2114,9 +2114,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 40929,
-    "sim": "wander_ribbons",
-    "scheme": "neon"
+    "seed": 59684,
+    "sim": "rossler_attractor",
+    "scheme": "ice"
   },
   {
     "onscreen": "Infinity is a mirror",
@@ -2130,9 +2130,9 @@
       "#fyp",
       "#fractals"
     ],
-    "seed": 90191,
-    "sim": "lorenz_swarm",
-    "scheme": "ember"
+    "seed": 35179,
+    "sim": "double_pendulum",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Where does symmetry come from?",
@@ -2146,9 +2146,9 @@
       "#oddlysatisfying",
       "#shorts"
     ],
-    "seed": 83783,
-    "sim": "clifford_morph",
-    "scheme": "cool_warm"
+    "seed": 90119,
+    "sim": "weaving_pens",
+    "scheme": "aurora"
   },
   {
     "onscreen": "Chaos is a ladder",
@@ -2162,9 +2162,9 @@
       "#oddlysatisfying",
       "#fyp"
     ],
-    "seed": 365,
-    "sim": "double_pendulum",
-    "scheme": "ice"
+    "seed": 95286,
+    "sim": "galaxy_spiral",
+    "scheme": "neon"
   },
   {
     "onscreen": "Patterns never repeat",
@@ -2178,9 +2178,9 @@
       "#oddlysatisfying",
       "#shorts"
     ],
-    "seed": 93017,
-    "sim": "rossler_attractor",
-    "scheme": "sunset"
+    "seed": 70985,
+    "sim": "harmonograph",
+    "scheme": "ice"
   },
   {
     "onscreen": "Randomness is a code",
@@ -2194,9 +2194,9 @@
       "#oddlysatisfying",
       "#fyp"
     ],
-    "seed": 75609,
-    "sim": "harmonograph",
-    "scheme": "aurora"
+    "seed": 91128,
+    "sim": "flow_field",
+    "scheme": "ember"
   },
   {
     "onscreen": "Self-organization emerges",
@@ -2210,9 +2210,9 @@
       "#oddlysatisfying",
       "#shorts"
     ],
-    "seed": 92177,
-    "sim": "flow_field",
-    "scheme": "ember"
+    "seed": 34048,
+    "sim": "aizawa_attractor",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Is randomness predictable?",
@@ -2227,9 +2227,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 80437,
-    "sim": "halvorsen_attractor",
-    "scheme": "aurora"
+    "seed": 64964,
+    "sim": "spirograph",
+    "scheme": "sunset"
   },
   {
     "onscreen": "Fractals in nature",
@@ -2244,9 +2244,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 68010,
-    "sim": "stream_sphere",
-    "scheme": "neon"
+    "seed": 34751,
+    "sim": "lorenz_swarm",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Waves of probability",
@@ -2261,8 +2261,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 47055,
-    "sim": "lorenz_swarm",
+    "seed": 80920,
+    "sim": "galaxy_spiral",
     "scheme": "aurora"
   },
   {
@@ -2279,8 +2279,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 29901,
+    "seed": 50878,
     "sim": "weaving_pens",
-    "scheme": "ember"
+    "scheme": "cool_warm"
   }
 ]

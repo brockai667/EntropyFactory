@@ -1,0 +1,16 @@
+{
+  "onscreen": "Patterns never repeat",
+  "title": "Patterns Never Repeat",
+  "description": "Witness the endless variations of fractals and discover the hidden structures that govern their behavior, Like + comment if you want part 2.",
+  "hashtags": [
+    "#science",
+    "#math",
+    "#fractals",
+    "#simulation",
+    "#oddlysatisfying",
+    "#shorts"
+  ],
+  "seed": 16462,
+  "sim": "halvorsen_attractor",
+  "scheme": "neon"
+}

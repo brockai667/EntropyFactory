@@ -2146,9 +2146,9 @@
       "#oddlysatisfying",
       "#shorts"
     ],
-    "seed": 57715,
-    "sim": "lorenz_swarm",
-    "scheme": "cool_warm"
+    "seed": 12326,
+    "sim": "rossler_attractor",
+    "scheme": "sunset"
   },
   {
     "onscreen": "Chaos is a ladder",
@@ -2162,9 +2162,9 @@
       "#oddlysatisfying",
       "#fyp"
     ],
-    "seed": 73811,
-    "sim": "stream_sphere",
-    "scheme": "sunset"
+    "seed": 78408,
+    "sim": "clifford_morph",
+    "scheme": "aurora"
   },
   {
     "onscreen": "Patterns never repeat",
@@ -2178,9 +2178,9 @@
       "#oddlysatisfying",
       "#shorts"
     ],
-    "seed": 30327,
-    "sim": "aizawa_attractor",
-    "scheme": "ice"
+    "seed": 16462,
+    "sim": "halvorsen_attractor",
+    "scheme": "neon"
   },
   {
     "onscreen": "Randomness is a code",
@@ -2194,9 +2194,9 @@
       "#oddlysatisfying",
       "#fyp"
     ],
-    "seed": 80757,
-    "sim": "clifford_morph",
-    "scheme": "aurora"
+    "seed": 50618,
+    "sim": "wander_ribbons",
+    "scheme": "sunset"
   },
   {
     "onscreen": "Self-organization emerges",
@@ -2210,9 +2210,9 @@
       "#oddlysatisfying",
       "#shorts"
     ],
-    "seed": 67030,
-    "sim": "wander_ribbons",
-    "scheme": "sunset"
+    "seed": 86609,
+    "sim": "aizawa_attractor",
+    "scheme": "ember"
   },
   {
     "onscreen": "Is randomness predictable?",
@@ -2227,9 +2227,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 54204,
-    "sim": "halvorsen_attractor",
-    "scheme": "aurora"
+    "seed": 12176,
+    "sim": "double_pendulum",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Fractals in nature",
@@ -2244,9 +2244,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 47189,
-    "sim": "weaving_pens",
-    "scheme": "cool_warm"
+    "seed": 95234,
+    "sim": "lorenz_swarm",
+    "scheme": "neon"
   },
   {
     "onscreen": "Waves of probability",
@@ -2261,9 +2261,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 1092,
-    "sim": "rossler_attractor",
-    "scheme": "ember"
+    "seed": 55845,
+    "sim": "flow_field",
+    "scheme": "sunset"
   },
   {
     "onscreen": "Infinity in a loop",
@@ -2279,9 +2279,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 84244,
+    "seed": 33383,
     "sim": "harmonograph",
-    "scheme": "aurora"
+    "scheme": "ember"
   },
   {
     "onscreen": "Rules create complexity",
@@ -2296,9 +2296,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 62062,
-    "sim": "lorenz_swarm",
-    "scheme": "cool_warm"
+    "seed": 75518,
+    "sim": "halvorsen_attractor",
+    "scheme": "neon"
   },
   {
     "onscreen": "Fractals have no end",
@@ -2313,9 +2313,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 27355,
-    "sim": "flow_field",
-    "scheme": "ember"
+    "seed": 71689,
+    "sim": "spirograph",
+    "scheme": "aurora"
   },
   {
     "onscreen": "Probability is a wave",
@@ -2330,9 +2330,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 78216,
-    "sim": "stream_sphere",
-    "scheme": "ice"
+    "seed": 16110,
+    "sim": "clifford_morph",
+    "scheme": "ember"
   },
   {
     "onscreen": "Chaos has a border",
@@ -2347,9 +2347,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 5361,
-    "sim": "aizawa_attractor",
-    "scheme": "sunset"
+    "seed": 60511,
+    "sim": "rossler_attractor",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Emergence is a dance",
@@ -2364,8 +2364,25 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 29763,
-    "sim": "wander_ribbons",
+    "seed": 8595,
+    "sim": "double_pendulum",
     "scheme": "ember"
+  },
+  {
+    "onscreen": "Patterns emerge slowly",
+    "title": "Patterns Emerge Slowly",
+    "description": " Witness the gradual formation of intricate patterns from chaotic beginnings, Like + comment if you want part 2. 🔭",
+    "hashtags": [
+      "#science",
+      "#patterns",
+      "#emergence",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 34998,
+    "sim": "flow_field",
+    "scheme": "ice"
   }
 ]

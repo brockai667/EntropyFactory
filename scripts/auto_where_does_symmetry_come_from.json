@@ -1,0 +1,16 @@
+{
+  "onscreen": "Where does symmetry come from?",
+  "title": "Where Does Symmetry Come From?",
+  "description": "Explore the emergence of symmetry in a chaotic world through a stunning simulation, Like + comment if you want part 2.",
+  "hashtags": [
+    "#science",
+    "#physics",
+    "#symmetry",
+    "#simulation",
+    "#oddlysatisfying",
+    "#shorts"
+  ],
+  "seed": 12326,
+  "sim": "rossler_attractor",
+  "scheme": "sunset"
+}

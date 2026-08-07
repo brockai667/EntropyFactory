@@ -2098,9 +2098,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 54924,
-    "sim": "clifford_morph",
-    "scheme": "neon"
+    "seed": 9165,
+    "sim": "harmonograph",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Emergence happens",
@@ -2114,9 +2114,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 59684,
-    "sim": "rossler_attractor",
-    "scheme": "ice"
+    "seed": 33470,
+    "sim": "galaxy_spiral",
+    "scheme": "ember"
   },
   {
     "onscreen": "Infinity is a mirror",
@@ -2130,9 +2130,9 @@
       "#fyp",
       "#fractals"
     ],
-    "seed": 35179,
-    "sim": "double_pendulum",
-    "scheme": "cool_warm"
+    "seed": 32032,
+    "sim": "spirograph",
+    "scheme": "neon"
   },
   {
     "onscreen": "Where does symmetry come from?",
@@ -2146,9 +2146,9 @@
       "#oddlysatisfying",
       "#shorts"
     ],
-    "seed": 90119,
-    "sim": "weaving_pens",
-    "scheme": "aurora"
+    "seed": 57715,
+    "sim": "lorenz_swarm",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Chaos is a ladder",
@@ -2162,9 +2162,9 @@
       "#oddlysatisfying",
       "#fyp"
     ],
-    "seed": 95286,
-    "sim": "galaxy_spiral",
-    "scheme": "neon"
+    "seed": 73811,
+    "sim": "stream_sphere",
+    "scheme": "sunset"
   },
   {
     "onscreen": "Patterns never repeat",
@@ -2178,8 +2178,8 @@
       "#oddlysatisfying",
       "#shorts"
     ],
-    "seed": 70985,
-    "sim": "harmonograph",
+    "seed": 30327,
+    "sim": "aizawa_attractor",
     "scheme": "ice"
   },
   {
@@ -2194,9 +2194,9 @@
       "#oddlysatisfying",
       "#fyp"
     ],
-    "seed": 91128,
-    "sim": "flow_field",
-    "scheme": "ember"
+    "seed": 80757,
+    "sim": "clifford_morph",
+    "scheme": "aurora"
   },
   {
     "onscreen": "Self-organization emerges",
@@ -2210,9 +2210,9 @@
       "#oddlysatisfying",
       "#shorts"
     ],
-    "seed": 34048,
-    "sim": "aizawa_attractor",
-    "scheme": "cool_warm"
+    "seed": 67030,
+    "sim": "wander_ribbons",
+    "scheme": "sunset"
   },
   {
     "onscreen": "Is randomness predictable?",
@@ -2227,9 +2227,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 64964,
-    "sim": "spirograph",
-    "scheme": "sunset"
+    "seed": 54204,
+    "sim": "halvorsen_attractor",
+    "scheme": "aurora"
   },
   {
     "onscreen": "Fractals in nature",
@@ -2244,8 +2244,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 34751,
-    "sim": "lorenz_swarm",
+    "seed": 47189,
+    "sim": "weaving_pens",
     "scheme": "cool_warm"
   },
   {
@@ -2261,9 +2261,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 80920,
-    "sim": "galaxy_spiral",
-    "scheme": "aurora"
+    "seed": 1092,
+    "sim": "rossler_attractor",
+    "scheme": "ember"
   },
   {
     "onscreen": "Infinity in a loop",
@@ -2279,8 +2279,93 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 50878,
-    "sim": "weaving_pens",
+    "seed": 84244,
+    "sim": "harmonograph",
+    "scheme": "aurora"
+  },
+  {
+    "onscreen": "Rules create complexity",
+    "title": "Rules Create Complexity",
+    "description": "A simple algorithm gives rise to intricate patterns, like + comment if you want part 2. 🌀",
+    "hashtags": [
+      "#science",
+      "#simulation",
+      "#complexity",
+      "#patterns",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 62062,
+    "sim": "lorenz_swarm",
     "scheme": "cool_warm"
+  },
+  {
+    "onscreen": "Fractals have no end",
+    "title": "Fractals Have No End",
+    "description": "Dive into the infinite world of fractals and discover the secrets of self-similarity, like + comment if you want part 2.",
+    "hashtags": [
+      "#fractals",
+      "#infinity",
+      "#math",
+      "#science",
+      "#simulation",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 27355,
+    "sim": "flow_field",
+    "scheme": "ember"
+  },
+  {
+    "onscreen": "Probability is a wave",
+    "title": "Probability Is a Wave",
+    "description": "Explore the fascinating world of probability waves and how they shape our understanding of reality, like + comment if you want part 2. ⚛️",
+    "hashtags": [
+      "#probability",
+      "#waves",
+      "#science",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 78216,
+    "sim": "stream_sphere",
+    "scheme": "ice"
+  },
+  {
+    "onscreen": "Chaos has a border",
+    "title": "Chaos Has a Border",
+    "description": "Discover the intriguing boundary between chaos and order, and how it gives rise to complex patterns, like + comment if you want part 2. ✨",
+    "hashtags": [
+      "#chaos",
+      "#order",
+      "#complexity",
+      "#science",
+      "#simulation",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 5361,
+    "sim": "aizawa_attractor",
+    "scheme": "sunset"
+  },
+  {
+    "onscreen": "Emergence is a dance",
+    "title": "Emergence Is a Dance",
+    "description": "Witness the breathtaking phenomenon of emergence, where simple rules give rise to complex and beautiful patterns, like + comment if you want part 2. 🌀",
+    "hashtags": [
+      "#emergence",
+      "#complexity",
+      "#science",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 29763,
+    "sim": "wander_ribbons",
+    "scheme": "ember"
   }
 ]

@@ -1,0 +1,16 @@
+{
+  "onscreen": "Self-organization emerges",
+  "title": "Self-Organization Emerges",
+  "description": "Observe the spontaneous formation of complex systems and discover the rules that govern their behavior, Like + comment if you want part 2. 🔭",
+  "hashtags": [
+    "#science",
+    "#simulation",
+    "#selforganization",
+    "#complexity",
+    "#oddlysatisfying",
+    "#shorts"
+  ],
+  "seed": 16232,
+  "sim": "double_pendulum",
+  "scheme": "ember"
+}

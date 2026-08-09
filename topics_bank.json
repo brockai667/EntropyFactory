@@ -2244,9 +2244,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 61205,
-    "sim": "weaving_pens",
-    "scheme": "neon"
+    "seed": 17809,
+    "sim": "spirograph",
+    "scheme": "ember"
   },
   {
     "onscreen": "Waves of probability",
@@ -2261,9 +2261,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 26824,
-    "sim": "galaxy_spiral",
-    "scheme": "ice"
+    "seed": 82869,
+    "sim": "aizawa_attractor",
+    "scheme": "aurora"
   },
   {
     "onscreen": "Infinity in a loop",
@@ -2279,9 +2279,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 77031,
-    "sim": "rossler_attractor",
-    "scheme": "sunset"
+    "seed": 80889,
+    "sim": "galaxy_spiral",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Rules create complexity",
@@ -2296,8 +2296,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 68149,
-    "sim": "stream_sphere",
+    "seed": 94158,
+    "sim": "rossler_attractor",
     "scheme": "aurora"
   },
   {
@@ -2313,9 +2313,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 32218,
-    "sim": "spirograph",
-    "scheme": "sunset"
+    "seed": 48026,
+    "sim": "wander_ribbons",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Probability is a wave",
@@ -2330,9 +2330,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 73394,
-    "sim": "flow_field",
-    "scheme": "ice"
+    "seed": 11263,
+    "sim": "halvorsen_attractor",
+    "scheme": "neon"
   },
   {
     "onscreen": "Chaos has a border",
@@ -2347,8 +2347,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 13009,
-    "sim": "wander_ribbons",
+    "seed": 83213,
+    "sim": "spirograph",
     "scheme": "cool_warm"
   },
   {
@@ -2364,8 +2364,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 4248,
-    "sim": "galaxy_spiral",
+    "seed": 93850,
+    "sim": "aizawa_attractor",
     "scheme": "ember"
   },
   {
@@ -2381,9 +2381,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 619,
-    "sim": "aizawa_attractor",
-    "scheme": "neon"
+    "seed": 93221,
+    "sim": "galaxy_spiral",
+    "scheme": "ice"
   },
   {
     "onscreen": "Infinity reflects",
@@ -2398,9 +2398,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 9478,
-    "sim": "harmonograph",
-    "scheme": "ember"
+    "seed": 44143,
+    "sim": "stream_sphere",
+    "scheme": "sunset"
   },
   {
     "onscreen": "Patterns converge",
@@ -2415,9 +2415,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 5298,
-    "sim": "halvorsen_attractor",
-    "scheme": "aurora"
+    "seed": 92725,
+    "sim": "flow_field",
+    "scheme": "ember"
   },
   {
     "onscreen": "Waves entangle",
@@ -2432,8 +2432,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 76614,
-    "sim": "spirograph",
+    "seed": 77282,
+    "sim": "harmonograph",
     "scheme": "sunset"
   },
   {
@@ -2449,9 +2449,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 72900,
-    "sim": "clifford_morph",
-    "scheme": "aurora"
+    "seed": 52881,
+    "sim": "double_pendulum",
+    "scheme": "neon"
   },
   {
     "onscreen": "Chaos has rhythm",
@@ -2466,9 +2466,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 2448,
-    "sim": "wander_ribbons",
-    "scheme": "neon"
+    "seed": 4450,
+    "sim": "spirograph",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Feedback loops",
@@ -2483,8 +2483,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 83840,
-    "sim": "aizawa_attractor",
+    "seed": 38864,
+    "sim": "clifford_morph",
     "scheme": "ember"
   }
 ]

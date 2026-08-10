@@ -2296,9 +2296,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 94158,
-    "sim": "rossler_attractor",
-    "scheme": "aurora"
+    "seed": 19783,
+    "sim": "harmonograph",
+    "scheme": "neon"
   },
   {
     "onscreen": "Fractals have no end",
@@ -2313,9 +2313,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 48026,
-    "sim": "wander_ribbons",
-    "scheme": "cool_warm"
+    "seed": 82235,
+    "sim": "lorenz_swarm",
+    "scheme": "ice"
   },
   {
     "onscreen": "Probability is a wave",
@@ -2330,9 +2330,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 11263,
-    "sim": "halvorsen_attractor",
-    "scheme": "neon"
+    "seed": 14055,
+    "sim": "wander_ribbons",
+    "scheme": "aurora"
   },
   {
     "onscreen": "Chaos has a border",
@@ -2347,9 +2347,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 83213,
-    "sim": "spirograph",
-    "scheme": "cool_warm"
+    "seed": 35017,
+    "sim": "clifford_morph",
+    "scheme": "ember"
   },
   {
     "onscreen": "Emergence is a dance",
@@ -2364,9 +2364,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 93850,
+    "seed": 43506,
     "sim": "aizawa_attractor",
-    "scheme": "ember"
+    "scheme": "sunset"
   },
   {
     "onscreen": "Patterns emerge slowly",
@@ -2381,9 +2381,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 93221,
-    "sim": "galaxy_spiral",
-    "scheme": "ice"
+    "seed": 52101,
+    "sim": "double_pendulum",
+    "scheme": "ember"
   },
   {
     "onscreen": "Infinity reflects",
@@ -2398,9 +2398,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 44143,
-    "sim": "stream_sphere",
-    "scheme": "sunset"
+    "seed": 19038,
+    "sim": "halvorsen_attractor",
+    "scheme": "ice"
   },
   {
     "onscreen": "Patterns converge",
@@ -2415,9 +2415,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 92725,
-    "sim": "flow_field",
-    "scheme": "ember"
+    "seed": 88718,
+    "sim": "stream_sphere",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Waves entangle",
@@ -2432,9 +2432,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 77282,
-    "sim": "harmonograph",
-    "scheme": "sunset"
+    "seed": 48309,
+    "sim": "spirograph",
+    "scheme": "aurora"
   },
   {
     "onscreen": "Code underlies",
@@ -2449,9 +2449,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 52881,
-    "sim": "double_pendulum",
-    "scheme": "neon"
+    "seed": 35008,
+    "sim": "flow_field",
+    "scheme": "sunset"
   },
   {
     "onscreen": "Chaos has rhythm",
@@ -2466,9 +2466,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 4450,
-    "sim": "spirograph",
-    "scheme": "cool_warm"
+    "seed": 43106,
+    "sim": "aizawa_attractor",
+    "scheme": "ember"
   },
   {
     "onscreen": "Feedback loops",
@@ -2483,8 +2483,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 38864,
-    "sim": "clifford_morph",
-    "scheme": "ember"
+    "seed": 28213,
+    "sim": "wander_ribbons",
+    "scheme": "ice"
   }
 ]

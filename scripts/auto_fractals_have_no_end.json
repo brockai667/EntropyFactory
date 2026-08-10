@@ -1,0 +1,17 @@
+{
+  "onscreen": "Fractals have no end",
+  "title": "Fractals Have No End",
+  "description": "Dive into the infinite world of fractals and discover the secrets of self-similarity, like + comment if you want part 2.",
+  "hashtags": [
+    "#fractals",
+    "#infinity",
+    "#math",
+    "#science",
+    "#simulation",
+    "#shorts",
+    "#fyp"
+  ],
+  "seed": 82235,
+  "sim": "lorenz_swarm",
+  "scheme": "ice"
+}

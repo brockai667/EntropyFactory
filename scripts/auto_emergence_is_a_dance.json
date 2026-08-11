@@ -1,0 +1,17 @@
+{
+  "onscreen": "Emergence is a dance",
+  "title": "Emergence Is a Dance",
+  "description": "Witness the breathtaking phenomenon of emergence, where simple rules give rise to complex and beautiful patterns, like + comment if you want part 2. 🌀",
+  "hashtags": [
+    "#emergence",
+    "#complexity",
+    "#science",
+    "#simulation",
+    "#oddlysatisfying",
+    "#shorts",
+    "#fyp"
+  ],
+  "seed": 40500,
+  "sim": "rossler_attractor",
+  "scheme": "sunset"
+}

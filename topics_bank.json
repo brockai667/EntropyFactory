@@ -2347,9 +2347,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 35017,
+    "seed": 60720,
     "sim": "clifford_morph",
-    "scheme": "ember"
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Emergence is a dance",
@@ -2364,8 +2364,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 43506,
-    "sim": "aizawa_attractor",
+    "seed": 40500,
+    "sim": "rossler_attractor",
     "scheme": "sunset"
   },
   {
@@ -2381,9 +2381,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 52101,
-    "sim": "double_pendulum",
-    "scheme": "ember"
+    "seed": 42588,
+    "sim": "galaxy_spiral",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Infinity reflects",
@@ -2398,9 +2398,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 19038,
-    "sim": "halvorsen_attractor",
-    "scheme": "ice"
+    "seed": 32724,
+    "sim": "stream_sphere",
+    "scheme": "aurora"
   },
   {
     "onscreen": "Patterns converge",
@@ -2415,9 +2415,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 88718,
-    "sim": "stream_sphere",
-    "scheme": "cool_warm"
+    "seed": 28673,
+    "sim": "weaving_pens",
+    "scheme": "neon"
   },
   {
     "onscreen": "Waves entangle",
@@ -2432,9 +2432,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 48309,
-    "sim": "spirograph",
-    "scheme": "aurora"
+    "seed": 6061,
+    "sim": "flow_field",
+    "scheme": "cool_warm"
   },
   {
     "onscreen": "Code underlies",
@@ -2449,9 +2449,9 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 35008,
-    "sim": "flow_field",
-    "scheme": "sunset"
+    "seed": 19334,
+    "sim": "halvorsen_attractor",
+    "scheme": "aurora"
   },
   {
     "onscreen": "Chaos has rhythm",
@@ -2466,8 +2466,8 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 43106,
-    "sim": "aizawa_attractor",
+    "seed": 59409,
+    "sim": "harmonograph",
     "scheme": "ember"
   },
   {
@@ -2483,8 +2483,144 @@
       "#shorts",
       "#fyp"
     ],
-    "seed": 28213,
-    "sim": "wander_ribbons",
+    "seed": 33047,
+    "sim": "aizawa_attractor",
+    "scheme": "aurora"
+  },
+  {
+    "onscreen": "Probability is key.",
+    "title": "Probability Is Key",
+    "description": "Watch how chance events shape the universe, like + comment if you want part 2. 🌀",
+    "hashtags": [
+      "#science",
+      "#probability",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp",
+      "#math"
+    ],
+    "seed": 85087,
+    "sim": "stream_sphere",
+    "scheme": "ember"
+  },
+  {
+    "onscreen": "Complexity emerges",
+    "title": "Complexity Emerges",
+    "description": "Simple rules give rise to intricate patterns, like + comment if you want to see more. ⚛️",
+    "hashtags": [
+      "#complexity",
+      "#emergence",
+      "#science",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 39933,
+    "sim": "rossler_attractor",
+    "scheme": "neon"
+  },
+  {
+    "onscreen": "Infinite reflections",
+    "title": "Infinite Reflections",
+    "description": "Dive into the endless corridors of fractals, like + comment if you're mesmerized. ✨",
+    "hashtags": [
+      "#fractals",
+      "#infinity",
+      "#math",
+      "#science",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts"
+    ],
+    "seed": 56877,
+    "sim": "spirograph",
+    "scheme": "aurora"
+  },
+  {
+    "onscreen": "Waves entwine",
+    "title": "Waves Entwine",
+    "description": "Witness the harmony of intersecting waves, like + comment for more. 🔭",
+    "hashtags": [
+      "#waves",
+      "#physics",
+      "#science",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 37022,
+    "sim": "double_pendulum",
+    "scheme": "neon"
+  },
+  {
+    "onscreen": "Nature's rhythm",
+    "title": "Nature's Rhythm",
+    "description": "Feel the pulse of the natural world, like + comment if you're inspired. ⚛️",
+    "hashtags": [
+      "#nature",
+      "#rhythm",
+      "#science",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 68288,
+    "sim": "flow_field",
     "scheme": "ice"
+  },
+  {
+    "onscreen": "Symmetry abounds",
+    "title": "Symmetry Abounds",
+    "description": "Discover the beauty of symmetry in unexpected places, like + comment if you want to see more. ✨",
+    "hashtags": [
+      "#symmetry",
+      "#beauty",
+      "#science",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 55640,
+    "sim": "lorenz_swarm",
+    "scheme": "cool_warm"
+  },
+  {
+    "onscreen": "Randomness rules",
+    "title": "Randomness Rules",
+    "description": "Explore the surprising world of random events, like + comment if you're intrigued. 🔭",
+    "hashtags": [
+      "#randomness",
+      "#science",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp",
+      "#math"
+    ],
+    "seed": 45099,
+    "sim": "clifford_morph",
+    "scheme": "ember"
+  },
+  {
+    "onscreen": "Emergence rises",
+    "title": "Emergence Rises",
+    "description": "Watch as complex systems give rise to unexpected phenomena, like + comment if you're amazed. ⚛️",
+    "hashtags": [
+      "#emergence",
+      "#complexity",
+      "#science",
+      "#simulation",
+      "#oddlysatisfying",
+      "#shorts",
+      "#fyp"
+    ],
+    "seed": 18266,
+    "sim": "stream_sphere",
+    "scheme": "cool_warm"
   }
 ]

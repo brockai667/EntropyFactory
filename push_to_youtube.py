@@ -20,7 +20,7 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 UPLOADED = os.path.join(ROOT, "uploaded.json")
 OUT = os.path.join(ROOT, "output")
 SLOT_HOURS = [8, 15, 20]
-CATEGORY = "28"   # Science & Technology
+CATEGORY = "24"   # Entertainment (EyeHeist puzzle kanal)
 
 
 def next_slots(n):

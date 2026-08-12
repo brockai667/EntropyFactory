@@ -96,9 +96,9 @@ def _hsv(h, s, v):
 
 def gen_odd_shade(rng, hard=False):
     """Klasika: mriezka farebnych dlazdic, JEDNA ma iny odtien."""
-    cols, rows = (5, 7) if not hard else (6, 8)
+    cols, rows = (6, 9) if not hard else (7, 10)
     odd = (int(rng.integers(0, cols)), int(rng.integers(0, rows)))
-    hue = float(rng.random()); dv = 0.13 if not hard else 0.085
+    hue = float(rng.random()); dv = 0.09 if not hard else 0.062
     base = _hsv(hue, 0.78, 0.92); oddc = _hsv(hue, 0.78, 0.92 - dv)
     def draw(card, dr, phase, t):
         x0, y0, x1, y1 = card
@@ -136,7 +136,7 @@ def _draw_icon(dr, fam, cx, cy, rad, odd=False):
             dr.arc((cx - ex, my - rad * 0.5, cx + ex, my), 0, 180, fill=(50, 30, 0), width=4)
     elif fam == "heart":
         r = rad * 0.55
-        ang = 12 if odd else 0
+        ang = 8 if odd else 0
         pts = []
         for i in range(60):
             th = i / 59 * 2 * math.pi
@@ -157,7 +157,7 @@ def _draw_icon(dr, fam, cx, cy, rad, odd=False):
 
 def gen_odd_icon(rng, hard=False):
     fam = _FAMS[int(rng.integers(0, len(_FAMS)))]
-    cols, rows = (6, 8) if not hard else (7, 9)
+    cols, rows = (7, 10) if not hard else (8, 11)
     odd = (int(rng.integers(0, cols)), int(rng.integers(0, rows)))
     def draw(card, dr, phase, t):
         x0, y0, x1, y1 = card
@@ -180,25 +180,28 @@ def gen_odd_icon(rng, hard=False):
 
 def gen_hidden_number(rng, hard=False):
     """Pole bodiek, cast tvori CISLO v inom odtieni — virusovy 'what number do you see'."""
-    num = str(int(rng.integers(10, 100)) if hard else int(rng.integers(2, 10)))
+    num = str(int(rng.integers(10, 100)))
     hue = float(rng.random())
-    base = _hsv(hue, 0.72, 0.90); numc = _hsv(hue, 0.72, 0.90 - (0.10 if hard else 0.14))
+    base = _hsv(hue, 0.72, 0.90); numc = _hsv(hue, 0.72, 0.90 - (0.10 if hard else 0.13))
     mask = Image.new("L", (300, 300), 0)
     md = ImageDraw.Draw(mask)
-    md.text((150, 150), num, font=_font(230 if len(num) == 1 else 168), fill=255, anchor="mm")
+    fpx = 260; mf = _font(fpx)                            # auto-fit: cislo vyplni masku
+    while md.textlength(num, font=mf) > 268 and fpx > 80:
+        fpx -= 10; mf = _font(fpx)
+    md.text((150, 150), num, font=mf, fill=255, anchor="mm")
+    n = 26
+    mgrid = np.asarray(mask.resize((n, n), Image.BILINEAR))   # plynule vzorkovanie (citatelne cifry)
     def draw(card, dr, phase, t):
         x0, y0, x1, y1 = card
         side = min(x1 - x0, y1 - y0) - 60
         gx0, gy0 = (x0 + x1) / 2 - side / 2, (y0 + y1) / 2 - side / 2
-        n = 22
         step = side / n
         for gy in range(n):
             for gx in range(n):
                 idx = gy * n + gx
                 rv = cell_rev(t, idx, per=0.0016, dur=0.2) if phase == "show" else 1.0
                 if rv <= 0: continue
-                mx, my = int(gx / n * 300 + 300 / n / 2), int(gy / n * 300 + 300 / n / 2)
-                inside = mask.getpixel((mx, my)) > 120
+                inside = mgrid[gy, gx] > 90
                 col = numc if inside else base
                 if phase == "reveal" and inside:
                     col = (255, 255, 255)                     # cislo zasvieti
@@ -244,7 +247,7 @@ def _micon(dr, name, cx, cy, r):
         dr.ellipse((cx - r * 0.35, cy - r, cx + r * 1.15, cy + r * 0.7), fill=(255, 255, 255))
 
 def gen_icon_math(rng, hard=True):
-    a = int(rng.integers(2, 7)); b = int(rng.integers(2, 7))
+    a = int(rng.integers(3, 10)); b = int(rng.integers(3, 10))
     pick = rng.choice(len(_MICONS), size=2, replace=False)
     ia, ib = _MICONS[int(pick[0])], _MICONS[int(pick[1])]
     ans = a + b * a; trap = (a + b) * a
@@ -272,10 +275,15 @@ def gen_icon_math(rng, hard=True):
             "ans": str(ans), "vo_a": f"Multiplication first! {b} times {a}, plus {a}, is {ans}. Did the trap get you?"}
 
 def gen_missing_num(rng, hard=True):
+    mul = bool(hard and rng.random() < 0.5)              # tazsia varianta: a x b = c
     grid = []
     for _ in range(3):
-        a = int(rng.integers(3, 30)); b = int(rng.integers(3, 30))
-        grid.append([a, b, a + b])
+        if mul:
+            a = int(rng.integers(3, 13)); b = int(rng.integers(3, 13))
+            grid.append([a, b, a * b])
+        else:
+            a = int(rng.integers(7, 60)); b = int(rng.integers(7, 60))
+            grid.append([a, b, a + b])
     ans = grid[2][2]
     def draw(card, dr, phase, t):
         x0, y0, x1, y1 = card
@@ -300,8 +308,10 @@ def gen_missing_num(rng, hard=True):
                         ctext(dr, cx, cy, "?", f, BAD)
                 else:
                     ctext(dr, cx, cy, val, f, INKD)
+    vo_a = (f"Each row multiplies: {grid[2][0]} times {grid[2][1]} is {ans}." if mul
+            else f"Each row adds up: {grid[2][0]} plus {grid[2][1]} is {ans}.")
     return {"draw": draw, "q": "What replaces the ?", "vo_q": "Every row hides the same rule. What replaces the question mark?",
-            "ans": str(ans), "vo_a": f"Each row adds up: {grid[2][0]} plus {grid[2][1]} is {ans}."}
+            "ans": str(ans), "vo_a": vo_a}
 
 EASY = [gen_odd_shade, gen_odd_icon, gen_hidden_number]
 HARD = [gen_count_squares, gen_icon_math, gen_missing_num]

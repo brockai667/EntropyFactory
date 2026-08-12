@@ -2,7 +2,7 @@ name: EyeHeist Daily
 
 on:
   schedule:
-    - cron: "13 1 * * *"    # 01:13 UTC (~03:13 Bratislava, v noci) — 3 puzzle videa/den, sloty 8/15/20
+    - cron: "13 1 * * *"    # 01:13 UTC (v noci) — 1 puzzle video/den
   workflow_dispatch: {}
 
 permissions:
@@ -32,15 +32,15 @@ jobs:
       - name: Prepare config
         run: cp config.example.json config.json
 
-      - name: Render 3 puzzle videa (EyeHeist)
-        run: python puzzle_daily.py 3
+      - name: Render 1 puzzle video (EyeHeist)
+        run: python puzzle_daily.py 1
 
       - name: Upload na YouTube (Shorts, naplanovane 8/15/20)
         env:
           YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
           YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
           YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
-        run: python push_to_youtube.py 3
+        run: python push_to_youtube.py 1
 
       - name: Persist state
         run: |

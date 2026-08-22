@@ -10,6 +10,10 @@ Potrebuje (config.json alebo ENV): youtube_client_id, youtube_client_secret, you
 import datetime
 import json
 import os
+import re
+import shutil
+import subprocess
+import tempfile
 import sys
 
 import requests
@@ -75,6 +79,85 @@ def read_meta(txt):
     return title, body, tags
 
 
+def _ffmpeg():
+    """Cesta k ffmpeg: PATH (GitHub runner) alebo lokalny imageio-ffmpeg."""
+    c = shutil.which("ffmpeg")
+    if c:
+        return c
+    try:
+        import imageio_ffmpeg
+        return imageio_ffmpeg.get_ffmpeg_exe()
+    except Exception:
+        return None
+
+
+def pick_clean_frame(mp4, out_jpg, scan_frac=0.25):
+    """Vyberie frame BEZ vypaleneho titulku z prvej casti videa (dalej byva riesenie
+    = spoiler). Skoruje podiel skoro-bielych pixelov v titulkovom pase, kandidata potom
+    vytiahne v plnom rozliseni PRESNYM seekom a cistotu este raz overi. Vrati True/False."""
+    ff = _ffmpeg()
+    if not ff:
+        return False
+    try:
+        from PIL import Image
+    except Exception:
+        return False
+    tmp = tempfile.mkdtemp(prefix="thumb_")
+    try:
+        pr = subprocess.run([ff, "-i", mp4], capture_output=True, text=True, timeout=120)
+        m = re.search(r"Duration: (\d+):(\d+):(\d+\.\d+)", pr.stderr or "")
+        dur = (int(m.group(1)) * 3600 + int(m.group(2)) * 60 + float(m.group(3))) if m else 0.0
+        scan = max(5.0, dur * scan_frac) if dur else 8.0
+        subprocess.run([ff, "-y", "-t", "%.2f" % scan, "-i", mp4, "-vf", "fps=2,scale=270:-1",
+                        "-q:v", "4", os.path.join(tmp, "f_%04d.jpg")], capture_output=True, timeout=300)
+
+        def caption_ratio(img):
+            g = img.convert("L")
+            w, h = g.size
+            px = g.crop((0, int(h * 0.72), w, int(h * 0.92))).tobytes()
+            return sum(1 for v in px if v > 235) / float(len(px))
+
+        cands = []
+        for f in sorted(os.listdir(tmp)):
+            if not f.endswith(".jpg"):
+                continue
+            idx = int(f[2:6])
+            if idx < 4:                      # prve ~2 s preskoc (nabeh)
+                continue
+            cands.append((caption_ratio(Image.open(os.path.join(tmp, f))), idx))
+        cands.sort()
+        for score, idx in cands[:6]:
+            ts = idx / 2.0
+            r = subprocess.run([ff, "-y", "-i", mp4, "-ss", "%.2f" % ts, "-frames:v", "1",
+                                "-q:v", "2", out_jpg], capture_output=True, timeout=180)
+            if r.returncode != 0 or not os.path.exists(out_jpg) or os.path.getsize(out_jpg) < 5000:
+                continue
+            if caption_ratio(Image.open(out_jpg)) <= 0.0015:
+                print("    thumbnail: cisty frame @%.1fs" % ts)
+                return True
+        if os.path.exists(out_jpg):
+            os.remove(out_jpg)
+        return False
+    except Exception as e:
+        print("    thumbnail: vyber framu zlyhal (nekriticke): " + str(e)[:120])
+        return False
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+
+
+def set_thumbnail(tok, video_id, jpg):
+    """thumbnails.set (scope youtube.upload staci). 403 = kanal nema zapnute custom thumbnails."""
+    r = requests.post(
+        "https://www.googleapis.com/upload/youtube/v3/thumbnails/set?videoId=" + video_id,
+        headers={"Authorization": "Bearer " + tok, "Content-Type": "image/jpeg"},
+        data=open(jpg, "rb").read(), timeout=120)
+    if r.status_code == 403:
+        print("    thumbnail 403: zapni custom thumbnails na kanali (overenie telefonom)")
+        return False
+    r.raise_for_status()
+    return True
+
+
 def upload(tok, mp4, title, desc, tags, publish_at):
     if "#Shorts" not in title and "#shorts" not in title and len(title) < 92:
         title = title + " #Shorts"
@@ -130,6 +213,12 @@ def main():
             uploaded.append(vid)
             save_uploaded(uploaded)
             print(f"    OK: youtube.com/watch?v={yid}")
+            try:                       # custom thumbnail (nekriticke - upload uz presiel)
+                jpg = mp4[:-4] + ".jpg"
+                if (os.path.exists(jpg) or pick_clean_frame(mp4, jpg)) and yid:
+                    set_thumbnail(tok, yid, jpg)
+            except Exception as e:
+                print(f"    thumbnail zlyhal (nekriticke): {str(e)[:140]}")
         except Exception as e:
             print(f"    CHYBA: {str(e)[:300]}")
     print("HOTOVO.")
